@@ -494,7 +494,13 @@ export const PracticeChatModal_v2: React.FC<Props> = ({
       }
     };
 
-    setMessages(prev => [...prev, userMessage]);
+    // Capture current history and add user message
+    let historySnapshot: PracticeChatMessage[] = [];
+    setMessages(prev => {
+      historySnapshot = prev; // Capture the current state
+      return [...prev, userMessage];
+    });
+
     setUserInput('');
     setIsLoading(true);
     setError(null);
@@ -506,8 +512,9 @@ export const PracticeChatModal_v2: React.FC<Props> = ({
     }));
 
     try {
+      // Pass history without the user message (it will be added by the service)
       const aiResponse = await sendPracticeChatMessage(
-        messagesRef.current,
+        historySnapshot,
         text.trim(),
         allPhrases,
         profile
