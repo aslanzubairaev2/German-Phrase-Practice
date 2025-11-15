@@ -1,27 +1,27 @@
 {
   "header": {
-    "title": "",
-    "subtitle": "",
+    "title": "Lingogo",
+    "subtitle": "Système de répétition espacée",
     "actions": {
-      "openList": "",
-      "openPractice": "",
-      "openSettings": "",
-      "signOut": "",
-      "signingOut": ""
+      "openList": "Ouvrir la liste",
+      "openPractice": "Aller à la pratique",
+      "openSettings": "Ouvrir les paramètres",
+      "signOut": "Se déconnecter",
+      "signingOut": "Déconnexion en cours..."
     },
     "errors": {
-      "signOutFailed": ""
+      "signOutFailed": "Impossible de terminer la déconnexion"
     }
   },
   "common": {
     "field": {
-      "email": ""
+      "email": "E-mail"
     },
     "placeholder": {
-      "email": ""
+      "email": "vous@exemple.com"
     },
     "labels": {
-      "error": ""
+      "error": "Erreur"
     },
     "actions": {
       "delete": "Supprimer"
@@ -29,1013 +29,1025 @@
   },
   "auth": {
     "errors": {
-      "ensureUserData": "",
-      "sessionExpired": "",
-      "supabaseSignOut": "",
-      "restoreSession": "",
-      "subscribeAuth": "",
-      "noSessionAfterSignIn": "",
-      "noSessionAfterSignUp": ""
+      "ensureUserData": "Impossible d'initialiser les données utilisateur.",
+      "sessionExpired": "Session expirée. Veuillez vous reconnecter.",
+      "supabaseSignOut": "Impossible de terminer la session Supabase après l'erreur 401.",
+      "restoreSession": "Impossible de restaurer la session d'authentification.",
+      "subscribeAuth": "Impossible de s'abonner aux événements d'authentification.",
+      "noSessionAfterSignIn": "Impossible d'obtenir la session après la connexion.",
+      "noSessionAfterSignUp": "Impossible d'obtenir la session après l'inscription."
     },
     "loading": {
-      "preparingData": ""
+      "preparingData": "Chargement de vos données..."
     },
     "login": {
       "validation": {
-        "missingCredentials": ""
+        "missingCredentials": "Veuillez saisir l'e-mail et le mot de passe."
       },
-      "title": "",
-      "subtitle": "",
+      "title": "Connexion",
+      "subtitle": "Authentifiez-vous pour continuer à apprendre des phrases.",
       "field": {
-        "passwordLabel": "",
-        "passwordPlaceholder": ""
+        "passwordLabel": "Mot de passe",
+        "passwordPlaceholder": "********"
       },
       "submit": {
         "state": {
-          "loading": ""
+          "loading": "Connexion en cours..."
         },
-        "label": ""
+        "label": "Se connecter"
       },
       "switch": {
-        "prompt": "",
-        "cta": ""
+        "prompt": "Pas de compte ?",
+        "cta": "S'inscrire"
       }
     },
     "signup": {
       "validation": {
-        "missingFields": "",
-        "passwordMismatch": ""
+        "missingFields": "Veuillez remplir tous les champs.",
+        "passwordMismatch": "Les mots de passe ne correspondent pas."
       },
-      "title": "",
-      "subtitle": "",
+      "title": "Inscription",
+      "subtitle": "Créez un compte pour synchroniser vos phrases.",
       "field": {
-        "passwordLabel": "",
-        "passwordPlaceholder": "",
-        "confirmLabel": "",
-        "confirmPlaceholder": ""
+        "passwordLabel": "Mot de passe",
+        "passwordPlaceholder": "Minimum 6 caractères",
+        "confirmLabel": "Confirmer le mot de passe",
+        "confirmPlaceholder": "Ressaisir le mot de passe"
       },
       "submit": {
         "state": {
-          "loading": ""
+          "loading": "Création du compte..."
         },
-        "label": ""
+        "label": "S'inscrire"
       },
       "switch": {
-        "prompt": "",
-        "cta": ""
+        "prompt": "Déjà un compte ?",
+        "cta": "Se connecter"
       }
     }
   },
   "account": {
     "title": "Compte",
-    "email": "E-mail"
+    "email": "Adresse e-mail"
   },
   "settings": {
     "views": {
-      "main": "",
-      "general": "",
-      "automation": "",
-      "categories": "",
-      "analytics": "Progress & analytics"
+      "main": "Paramètres",
+      "general": "Général",
+      "automation": "Automatisation (IA)",
+      "categories": "Catégories pour la pratique",
+      "analytics": "Progression et analyse"
     },
     "general": {
-      "legend": "",
+      "legend": "Paramètres généraux",
       "autoSpeak": {
-        "label": ""
+        "label": "Prononciation automatique"
       },
       "soundEffects": {
-        "label": ""
+        "label": "Effets sonores"
       }
     },
     "automation": {
-      "legend": "",
+      "legend": "Paramètres d'automatisation",
       "autoCheckShortPhrases": {
-        "label": "",
-        "description": ""
+        "label": "Vérification automatique des phrases courtes",
+        "description": "Vérification instantanée si la phrase est correctement construite."
       },
       "learnNextPhraseHabit": {
-        "label": "",
-        "description": ""
+        "label": "Habitude 'Phrase suivante'",
+        "description": "Passage automatique lors de séries rapides de bonnes réponses."
       }
     },
     "categories": {
-      "manageButton": ""
+      "manageButton": "Gérer les catégories"
     },
     "analytics": {
       "noData": "—",
       "srs": {
-        "totalCards": "Total Cards",
-        "mastered": "Mastered",
-        "learning": "Learning: {{count}}",
-        "dueToday": "Due Today",
-        "overdue": "Overdue: {{count}}",
-        "accuracy": "Accuracy",
-        "reviews": "{{count}} reviews",
-        "masteryProgress": "{{percent}}% mastered",
-        "streak": "🔥 {{days}} day streak",
-        "streak_plural": "🔥 {{days}} days streak",
-        "accuracyBreakdown": "Accuracy Breakdown",
-        "overall": "Overall",
-        "last7Days": "Last 7 days",
-        "last30Days": "Last 30 days",
-        "levelsDistribution": "SRS Levels Distribution",
-        "level": "L{{level}}",
-        "categories": "Categories",
-        "cards": "cards",
-        "avgLevel": "Avg Level",
-        "recentActivity": "Recent Activity (14 days)",
-        "difficultCards": "Difficult Cards (Leeches)",
-        "lapses": "lapses",
-        "noActivityYet": "No review activity yet",
-        "noDifficultCards": "No difficult cards yet",
-        "emptyState": "No practice data yet",
-        "emptyStateHint": "Start practicing cards to see your progress statistics here."
+        "totalCards": "Total des Cartes",
+        "mastered": "Maîtrisées",
+        "learning": "En apprentissage : {{count}}",
+        "dueToday": "À Réviser Aujourd'hui",
+        "overdue": "En retard : {{count}}",
+        "accuracy": "Précision",
+        "reviews": "{{count}} révisions",
+        "masteryProgress": "{{percent}}% maîtrisé",
+        "streak": "🔥 {{days}} jour consécutif",
+        "streak_plural": "🔥 {{days}} jours consécutifs",
+        "accuracyBreakdown": "Détail de la Précision",
+        "overall": "Global",
+        "last7Days": "7 derniers jours",
+        "last30Days": "30 derniers jours",
+        "levelsDistribution": "Répartition par Niveaux SRS",
+        "level": "Niv{{level}}",
+        "categories": "Catégories",
+        "cards": "cartes",
+        "avgLevel": "Niv. Moyen",
+        "recentActivity": "Activité Récente (14 jours)",
+        "difficultCards": "Cartes Difficiles (Leech)",
+        "lapses": "oublis",
+        "noActivityYet": "Aucune activité pour le moment",
+        "noDifficultCards": "Aucune carte difficile pour le moment",
+        "emptyState": "Aucune donnée de pratique pour le moment",
+        "emptyStateHint": "Commencez à pratiquer des cartes pour voir les statistiques de progression ici."
       }
     }
   },
   "notifications": {
     "sync": {
-      "synced": "",
-      "loaded": "",
-      "error": ""
+      "synced": "✓ Données synchronisées avec le serveur.",
+      "loaded": "✓ Données chargées avec succès depuis le serveur.",
+      "error": "Erreur de synchronisation : {{message}}"
     },
     "phrases": {
-      "existsInCategory": "",
-      "existsInOtherCategory": "",
-      "createError": "",
-      "exists": "",
-      "created": "",
-      "createCardError": "",
-      "createCardGenericError": ""
+      "existsInCategory": "La carte \"{{phrase}}\" existe déjà dans cette catégorie.",
+      "existsInOtherCategory": "La carte \"{{phrase}}\" existe déjà dans une autre catégorie.",
+      "createError": "Erreur de création de phrase : {{message}}",
+      "exists": "La carte \"{{phrase}}\" existe déjà.",
+      "created": "Carte pour \"{{phrase}}\" créée.",
+      "createCardError": "Erreur de création de carte : {{message}}",
+      "createCardGenericError": "Impossible de créer la carte."
     },
     "ai": {
-      "providerUnavailable": ""
+      "providerUnavailable": "Fournisseur IA non disponible."
     },
-    "updateError": "",
-    "saveError": "",
-    "deleteError": "",
-    "moveError": "",
-    "genericError": "",
-    "cards": {
-      "moving": "",
-      "moveSuccess": "",
-      "deleting": "",
-      "deleteSuccess": "",
-      "generateError": "",
-      "addFailed": "",
-      "rateLimit": "",
-      "addedToCategory": "",
-      "movedAndAdded": "",
-      "addedWithDuplicatesSkipped": "",
-      "deletedCount": "",
-      "movedToCategory": "",
-      "otherCategory": "",
-      "bulkAdded": "",
-      "bulkAdded_plural": "",
-      "bulkSkipped": "",
-      "bulkSkipped_plural": "",
-      "bulkAdded_one": "✓ {{count}} card added.",
-      "bulkAdded_few": "✓ {{count}} cards added.",
-      "bulkAdded_many": "✓ {{count}} cards added.",
-      "bulkAdded_other": "✓ {{count}} cards added.",
-      "bulkSkipped_one": "{{count}} already existed and was skipped.",
-      "bulkSkipped_few": "{{count}} already existed and were skipped.",
-      "bulkSkipped_many": "{{count}} already existed and were skipped.",
-      "bulkSkipped_other": "{{count}} already existed and were skipped."
-    },
+    "updateError": "Erreur de mise à jour : {{message}}",
+    "saveError": "Erreur de sauvegarde : {{message}}",
+    "deleteError": "Erreur de suppression : {{message}}",
+    "moveError": "Erreur de déplacement : {{message}}",
+    "genericError": "Erreur : {{message}}",
     "categories": {
-      "createError": "",
-      "saveError": "",
-      "deleteSuccess": ""
+      "createError": "Erreur de création de catégorie : {{message}}",
+      "saveError": "Erreur de sauvegarde de catégorie : {{message}}",
+      "deleteSuccess": "✓ Catégorie \"{{name}}\" supprimée."
+    },
+    "cards": {
+      "moving": "Déplacement de {{count}} cartes...",
+      "moveSuccess": "✓ Cartes déplacées.",
+      "deleting": "Suppression de {{count}} cartes...",
+      "deleteSuccess": "✓ Cartes supprimées.",
+      "generateError": "Impossible de générer des cartes.",
+      "addFailed": "Impossible d'ajouter \"{{phrase}}\" : {{error}}",
+      "rateLimit": "Limite de requêtes dépassée. Essayez d'ajouter moins de cartes à la fois.",
+      "addedToCategory": "✓ {{count}} cartes ajoutées à \"{{category}}\".",
+      "movedAndAdded": "✓ {{moved}} cartes déplacées et {{added}} ajoutées à \"{{category}}\".",
+      "addedWithDuplicatesSkipped": "✓ {{count}} cartes ajoutées à \"{{category}}\". Doublons ignorés.",
+      "deletedCount": "✓ {{count}} cartes supprimées.",
+      "movedToCategory": "✓ {{count}} cartes déplacées vers \"{{category}}\".",
+      "otherCategory": "autre catégorie",
+      "bulkAdded_one": "✓ {{count}} carte ajoutée.",
+      "bulkAdded_few": "✓ {{count}} cartes ajoutées.",
+      "bulkAdded_many": "✓ {{count}} cartes ajoutées.",
+      "bulkAdded_other": "✓ {{count}} cartes ajoutées.",
+      "bulkAdded": "✓ {{count}} cartes ajoutées.",
+      "bulkSkipped_one": "{{count}} existait déjà et a été ignorée.",
+      "bulkSkipped_few": "{{count}} existaient déjà et ont été ignorées.",
+      "bulkSkipped_many": "{{count}} existaient déjà et ont été ignorées.",
+      "bulkSkipped_other": "{{count}} existaient déjà et ont été ignorées.",
+      "bulkSkipped": "{{count}} existaient déjà et ont été ignorées."
     }
   },
   "localization": {
     "overlay": {
-      "heading": "",
-      "title": "",
-      "subtitle": "",
-      "fallbackDescription": "",
-      "currentStepHint": "",
-      "fallbackMessage": "",
+      "heading": "Localisation",
+      "title": "Préparation de l'interface en {{language}}",
+      "subtitle": "Traduction des éléments d'interface en {{language}}.",
+      "fallbackDescription": "Une erreur est survenue pendant la traduction, activation de la langue de secours.",
+      "currentStepHint": "Exécution en cours...",
+      "fallbackMessage": "En attendant que la traduction en {{language}} soit prête, nous utiliserons l'anglais.",
       "steps": {
-        "checkingStatic": "",
-        "loadingCache": "",
-        "requestingAI": "",
-        "validating": "",
-        "applying": ""
+        "checkingStatic": "Vérification des traductions intégrées",
+        "loadingCache": "Chargement du cache local",
+        "requestingAI": "Demande de traduction à l'IA",
+        "validating": "Vérification de la structure de traduction",
+        "applying": "Application des traductions"
       }
     }
   },
   "library": {
     "empty": {
-      "title": "",
-      "description": "",
-      "action": ""
+      "title": "Votre bibliothèque est vide",
+      "description": "Téléchargez un fichier EPUB pour commencer à créer votre bibliothèque de lecture.",
+      "action": "Ajouter le premier livre"
     },
     "actions": {
-      "add": "",
-      "adding": ""
+      "add": "Ajouter un livre",
+      "adding": "Ajout en cours..."
     },
     "notifications": {
-      "epubProcessingFailed": ""
+      "epubProcessingFailed": "Impossible de traiter le fichier EPUB. Assurez-vous que le fichier n'est pas corrompu."
     },
     "cards": {
-      "add": ""
+      "add": "Ajouter un nouveau livre"
     },
     "alt": {
-      "cover": ""
+      "cover": "Couverture de {{title}}"
     }
   },
   "categories": {
-    "manager": {
-      "title": "",
-      "aria": {
-        "edit": "",
-        "delete": ""
-      },
-      "add": ""
-    },
-    "form": {
-      "createTitle": "",
-      "editTitle": "",
-      "fields": {
-        "nameLabel": "",
-        "namePlaceholder": "",
-        "colorLabel": "",
-        "colorAria": ""
-      },
-      "notes": {
-        "aiHint": ""
-      },
-      "errors": {
-        "duplicate": ""
-      },
-      "submit": {
-        "create": "",
-        "save": ""
-      }
-    },
     "detail": {
       "actions": {
-        "addMore": "",
-        "addPhrase": "",
-        "aiAssistant": ""
+        "addMore": "Ajouter plus",
+        "addPhrase": "Ajouter une phrase",
+        "aiAssistant": "Assistant IA"
       },
       "empty": {
-        "title": ""
+        "title": "Aucune phrase pour le moment"
+      }
+    },
+    "manager": {
+      "title": "Gérer les catégories",
+      "aria": {
+        "edit": "Modifier {{name}}",
+        "delete": "Supprimer {{name}}"
+      },
+      "add": "Ajouter une nouvelle catégorie"
+    },
+    "form": {
+      "createTitle": "Créer une catégorie",
+      "editTitle": "Modifier la catégorie",
+      "fields": {
+        "nameLabel": "Nom de la catégorie",
+        "namePlaceholder": "Exemple : Voyage, Travail ou Conversation",
+        "colorLabel": "Couleur",
+        "colorAria": "Sélectionner la couleur {{color}}"
+      },
+      "notes": {
+        "aiHint": "Conseil : utilisez des noms compréhensibles sans « ! » et tirets pour que l'automatisation IA répartisse correctement les phrases."
+      },
+      "errors": {
+        "duplicate": "Une catégorie avec ce nom existe déjà."
+      },
+      "submit": {
+        "create": "Créer",
+        "save": "Enregistrer les modifications"
       }
     },
     "filterMenu": {
       "actions": {
-        "settings": "",
-        "aiAssistant": ""
+        "settings": "Paramètres",
+        "aiAssistant": "Assistant IA"
       }
     }
   },
   "practice": {
     "chat": {
-      "title": "",
-      "placeholder": "",
-      "listeningPlaceholder": "",
+      "title": "Pratique avec l'IA",
+      "placeholder": "Tapez un message...",
+      "listeningPlaceholder": "Écoute en cours...",
       "actions": {
         "speak": "Prononcer"
       },
       "messages": {
         "revealTranslation": "Cliquez pour afficher la traduction",
-        "secondaryPrefix": "Astuce :",
-        "errorPrefix": "Erreur : {{message}}",
+        "secondaryPrefix": "Indice :",
+        "errorPrefix": "Erreur : {{message}}",
         "unknownError": "Erreur inconnue"
       },
       "stats": {
-        "phrasesUsed": "{{count}} phrase pratiquée",
+        "phrasesUsed_zero": "{{count}} phrases révisées",
+        "phrasesUsed_one": "{{count}} phrase révisée",
+        "phrasesUsed_few": "{{count}} phrases révisées",
+        "phrasesUsed_many": "{{count}} phrases révisées",
+        "phrasesUsed_other": "{{count}} phrases révisées",
+        "phrasesUsed": "{{count}} phrases révisées",
         "phrasesUsed_plural": "{{count}} phrases pratiquées"
       }
     },
     "actions": {
-      "skip": "",
-      "know": ""
+      "skip": "Passer",
+      "know": "Je sais"
     },
     "states": {
-      "allCategories": "",
-      "add": "",
-      "manage": "",
-      "errorOccurred": "",
-      "congratulations": "",
-      "learnedAllSelected": "",
-      "excellent": "",
-      "foundationCompleted": "",
-      "noMoreCards": "",
-      "practiceOtherCategories": "",
-      "empty": "",
-      "noUnlearnedInCategory": "",
-      "practiceAllCategories": "",
-      "allForToday": "",
-      "completedAllAvailable": "",
-      "comeBackLater": "",
-      "continue": "",
-      "generateNew": "",
-      "generating": ""
+      "allCategories": "Toutes les catégories",
+      "add": "Ajouter",
+      "manage": "Gérer",
+      "errorOccurred": "Une erreur est survenue",
+      "congratulations": "Félicitations !",
+      "learnedAllSelected": "Vous avez appris toutes les phrases des catégories sélectionnées.",
+      "excellent": "Excellent !",
+      "foundationCompleted": "Cartes fondamentales dans la catégorie \"{categoryName}\" terminées.",
+      "noMoreCards": "Plus de cartes à apprendre.",
+      "practiceOtherCategories": "Pratiquer d'autres catégories",
+      "empty": "Vide",
+      "noUnlearnedInCategory": "Aucune carte non apprise dans la catégorie \"{categoryName}\".",
+      "practiceAllCategories": "Pratiquer toutes les catégories",
+      "allForToday": "C'est tout pour aujourd'hui !",
+      "completedAllAvailable": "Vous avez terminé toutes les cartes disponibles dans cette catégorie.",
+      "comeBackLater": "Revenez plus tard pour réviser ce que vous avez appris.",
+      "continue": "Continuer",
+      "generateNew": "Générer de nouvelles",
+      "generating": "Génération en cours..."
     },
     "discuss": {
       "examples": {
-        "intro": "Voici quelques exemples et conseils pour mieux comprendre cette expression :"
+        "intro": "Voici quelques exemples et conseils qui vous aideront à mieux comprendre cette phrase :"
       }
     }
   },
   "languages": {
     "names": {
-      "ru": "",
-      "de": ""
+      "ru": "Russe",
+      "de": "Allemand"
     },
     "prepositional": {
-      "ru": "",
-      "de": ""
+      "ru": "russe",
+      "de": "allemand"
     },
     "badge": {
-      "en": "",
-      "de": "",
-      "ru": "",
-      "fr": "",
-      "es": "",
-      "it": "",
-      "pt": "",
-      "pl": "",
-      "zh": "",
-      "ja": "",
-      "ar": ""
+      "en": "EN",
+      "de": "DE",
+      "ru": "RU",
+      "fr": "FR",
+      "es": "ES",
+      "it": "IT",
+      "pt": "PT",
+      "pl": "PL",
+      "zh": "中文",
+      "ja": "日本",
+      "ar": "AR"
     }
   },
   "fab": {
-    "addPhrase": "",
-    "openLibrary": "",
-    "smartImport": "",
-    "chooseLanguage": "",
-    "toggle": ""
+    "addPhrase": "Ajouter une phrase en {{language}}",
+    "openLibrary": "Ouvrir la bibliothèque",
+    "smartImport": "Importation intelligente",
+    "chooseLanguage": "Choisir la langue de la phrase",
+    "toggle": "Ajouter une phrase"
   },
   "modals": {
-    "nounDeclension": {
-      "title": "",
-      "errors": {
-        "generic": "",
-        "noData": ""
-      },
-      "headers": {
-        "case": "",
-        "singular": "",
-        "plural": ""
-      },
-      "cases": {
-        "nominativ": {
-          "name": "",
-          "question": ""
-        },
-        "akkusativ": {
-          "name": "",
-          "question": ""
-        },
-        "dativ": {
-          "name": "",
-          "question": ""
-        },
-        "genitiv": {
-          "name": "",
-          "question": ""
-        }
-      }
-    },
-    "pronouns": {
-      "title": "",
-      "headers": {
-        "speak": "",
-        "german": "",
-        "russian": ""
-      },
-      "pronouns": [
-        {
-          "german": "",
-          "russian": ""
-        },
-        {
-          "german": "",
-          "russian": ""
-        },
-        {
-          "german": "",
-          "russian": ""
-        },
-        {
-          "german": "",
-          "russian": ""
-        },
-        {
-          "german": "",
-          "russian": ""
-        },
-        {
-          "german": "",
-          "russian": ""
-        }
-      ]
-    },
-    "sentenceChain": {
-      "title": "",
-      "aria": {
-        "goBack": ""
-      },
-      "tooltips": {
-        "clickToRevert": ""
-      },
-      "errors": {
-        "generic": ""
-      },
-      "messages": {
-        "noContinuations": ""
-      },
-      "actions": {
-        "addCustom": ""
-      }
-    },
-    "smartImport": {
-      "tabs": {
-        "assistant": "",
-        "speech": "",
-        "file": ""
-      },
-      "assistant": {
-        "title": "",
-        "subtitle": "",
-        "placeholder": "",
-        "aria": {
-          "microphone": "",
-          "generate": ""
-        }
-      },
-      "speech": {
-        "title": "",
-        "subtitle": "",
-        "transcriptPlaceholder": "",
-        "aria": {
-          "paste": "",
-          "process": ""
-        },
-        "errors": {
-          "pasteFailed": ""
-        }
-      },
-      "file": {
-        "title": ""
-      },
-      "processing": {
-        "generatingCards": "",
-        "analyzingTopic": ""
-      },
-      "suggestion": {
-        "addToExisting": {
-          "title": "",
-          "body": "",
-          "yes": "",
-          "no": ""
-        },
-        "createNew": {
-          "title": "",
-          "body": "",
-          "create": "",
-          "addToGeneral": ""
-        }
-      },
-      "preview": {
-        "title": "",
-        "aria": {
-          "back": ""
-        },
-        "actions": {
-          "selectAll": "",
-          "clearAll": "",
-          "refine": "",
-          "add": "",
-          "addWithCount": ""
-        },
-        "refine": {
-          "placeholder": "",
-          "aria": {
-            "microphone": ""
-          }
-        }
-      },
-      "categoryNames": {
-        "fromSpeech": "",
-        "general": ""
-      }
-    },
     "addContinuation": {
       "placeholders": {
-        "text": ""
+        "text": "Saisir la suite..."
       },
       "aria": {
-        "microphone": "",
-        "send": "",
-        "switchToText": "",
-        "switchToVoice": ""
+        "microphone": "Saisie vocale",
+        "send": "Envoyer la suite",
+        "switchToText": "Passer à la saisie texte",
+        "switchToVoice": "Passer à la saisie vocale"
       }
     },
     "addPhrase": {
-      "loading": "",
-      "title": "",
+      "loading": "Création de la carte...",
+      "title": "Créer une nouvelle phrase",
       "body": {
         "instructions": {
-          "voice": "",
-          "text": ""
+          "voice": "Prononcez la phrase en {{language}}",
+          "text": "Saisissez la phrase en {{language}}"
         }
       },
       "placeholders": {
-        "ru": "",
-        "de": ""
+        "ru": "Exemple : « Combien ça coûte ? »",
+        "de": "Exemple : « Wie viel kostet das ? »"
       },
       "aria": {
-        "microphone": "",
+        "microphone": "Saisie vocale",
         "textField": {
-          "ru": "",
-          "de": ""
+          "ru": "Phrase en russe",
+          "de": "Phrase en allemand"
         },
-        "send": "",
-        "toggleToText": "",
-        "toggleToVoice": "",
-        "close": ""
+        "send": "Créer la phrase",
+        "toggleToText": "Passer à la saisie texte",
+        "toggleToVoice": "Passer à la saisie vocale",
+        "close": "Fermer"
       },
       "status": {
-        "listening": ""
+        "listening": "Écoute en cours..."
       },
       "errors": {
-        "generic": "",
-        "network": "",
-        "permission": "",
-        "recognition": ""
+        "generic": "Impossible de créer la phrase.",
+        "network": "Erreur réseau. Vérifiez votre connexion ou saisissez le texte manuellement.",
+        "permission": "Accès au microphone refusé. Vérifiez les paramètres et saisissez le texte manuellement.",
+        "recognition": "Une erreur de reconnaissance vocale est survenue."
       },
-      "errorLabel": "",
+      "errorLabel": "Erreur",
       "actions": {
-        "create": ""
+        "create": "Créer"
       }
     },
     "adjectiveDeclension": {
-      "title": "",
-      "phraseNative": "",
+      "title": "Adjectif : {{adjective}}",
+      "phraseNative": "Déclinaison : {{adjective}}",
       "labels": {
-        "case": "",
-        "masculine": "",
-        "feminine": "",
-        "neuter": "",
-        "plural": "",
-        "weak": "",
-        "mixed": "",
-        "strong": "",
-        "degrees": "",
-        "positive": "",
-        "comparative": "",
-        "superlative": ""
+        "case": "Cas",
+        "masculine": "Masculin",
+        "feminine": "Féminin",
+        "neuter": "Neutre",
+        "plural": "Pluriel",
+        "weak": "Déclinaison faible (avec article défini)",
+        "mixed": "Déclinaison mixte (avec article indéfini)",
+        "strong": "Déclinaison forte (sans article)",
+        "degrees": "Degrés de comparaison",
+        "positive": "Positif",
+        "comparative": "Comparatif",
+        "superlative": "Superlatif"
       },
       "sections": {
-        "grammar": "",
-        "example": ""
+        "grammar": "Référence grammaticale",
+        "example": "Exemple d'utilisation"
       },
       "states": {
-        "errorTitle": "",
-        "empty": "",
-        "errorMessage": ""
+        "errorTitle": "Erreur",
+        "empty": "Aucune donnée.",
+        "errorMessage": "Impossible de charger les détails de la déclinaison."
       },
       "cases": {
-        "nominativ": "",
-        "akkusativ": "",
-        "dativ": "",
-        "genitiv": ""
+        "nominativ": "Nominatif",
+        "akkusativ": "Accusatif",
+        "dativ": "Datif",
+        "genitiv": "Génitif"
       }
     },
     "autoFillLoading": {
-      "title": "",
-      "body": ""
+      "title": "Génération de cartes...",
+      "body": "Veuillez patienter. L'IA sélectionne des phrases pour la catégorie « {{category}} »."
     },
     "autoFillPreview": {
-      "title": "",
-      "tooltip": "",
-      "empty": "",
+      "title": "Suggestions pour \"{{category}}\"",
+      "tooltip": "Suggestions pour \"{{category}}\"",
+      "empty": "L'IA n'a suggéré aucune carte. Essayez d'affiner la requête.",
       "refine": {
-        "placeholder": "",
-        "toggle": ""
+        "placeholder": "Exemple : uniquement les noms, sans phrases",
+        "toggle": "Affiner"
       },
       "actions": {
-        "refine": "",
-        "confirm": "",
-        "confirmShort": "",
-        "confirmWithCount": ""
+        "refine": "Affiner",
+        "confirm": "Ajouter",
+        "confirmShort": "+",
+        "confirmWithCount": "Ajouter ({{count}})"
       },
       "selection": {
-        "select": "",
-        "clear": ""
+        "select": "Tout sélectionner",
+        "clear": "Tout désélectionner"
       },
       "status": {
-        "listening": ""
+        "listening": "Écoute en cours..."
       }
     },
     "chat": {
       "placeholders": {
-        "listening": "",
-        "ask": ""
+        "listening": "Écoute en cours...",
+        "ask": "Demandez quelque chose..."
       },
       "aria": {
-        "stopListening": "",
-        "startListening": ""
+        "stopListening": "Arrêter l'écoute",
+        "startListening": "Commencer l'écoute"
       },
       "errors": {
-        "generic": ""
+        "generic": "Une erreur est survenue : {{message}}"
       }
     },
     "confirmCategoryFill": {
-      "title": "",
-      "body": "",
+      "title": "Remplir la catégorie ?",
+      "body": "Voulez-vous remplir immédiatement la catégorie \"{{category}}\" avec l'IA ?",
       "actions": {
-        "cancel": "",
-        "confirm": ""
+        "cancel": "Plus tard",
+        "confirm": "Oui, remplir"
       }
     },
     "confirmDeleteCategory": {
-      "title": "",
-      "body": "",
-      "phraseCount": "",
+      "title": "Supprimer la catégorie ?",
+      "body": "Vous êtes sur le point de supprimer la catégorie :",
+      "phraseCount": "Cette catégorie contient {{count}} {{cards}}. Que faire avec elles ?",
       "cards": {
-        "one": "",
-        "few": "",
-        "many": "",
-        "other": ""
+        "one": "carte",
+        "few": "cartes",
+        "many": "cartes",
+        "other": "cartes"
       },
       "actions": {
-        "move": "",
-        "delete": "",
-        "cancel": "",
-        "confirm": ""
+        "move": "Déplacer vers",
+        "delete": "Supprimer toutes les cartes",
+        "cancel": "Annuler",
+        "confirm": "Supprimer"
       }
     },
     "confirmDelete": {
-      "title": "",
-      "body": "",
-      "mastery": "",
+      "title": "Confirmer la suppression",
+      "body": "Êtes-vous sûr de vouloir supprimer définitivement cette phrase ?",
+      "mastery": "Niveau de maîtrise :",
       "actions": {
-        "cancel": "",
-        "confirm": ""
+        "cancel": "Annuler",
+        "confirm": "Supprimer"
       }
     },
     "confirmDeletePhrases": {
-      "title": "",
-      "body": "",
+      "title": "Confirmer l'action",
+      "body": "L'assistant IA suggère de supprimer ou déplacer les {{count}} {{cards}} suivantes. Que faire avec elles ?",
       "cards": {
-        "one": "",
-        "few": "",
-        "many": "",
-        "other": ""
+        "one": "carte",
+        "few": "cartes",
+        "many": "cartes",
+        "other": "cartes"
       },
       "actions": {
-        "selectAll": "",
-        "deselectAll": "",
-        "delete": "",
-        "move": ""
+        "selectAll": "Tout sélectionner",
+        "deselectAll": "Tout désélectionner",
+        "delete": "Supprimer ({{count}})",
+        "move": "Déplacer ({{count}})"
       }
     },
     "deepDive": {
       "stages": {
-        "deconstruction": "",
-        "personalization": "",
-        "encoding": ""
+        "deconstruction": "Étape 1 : Déconstruction",
+        "personalization": "Étape 2 : Personnalisation",
+        "encoding": "Étape 3 : Encodage"
       },
       "errors": {
-        "analysis": "",
-        "noData": ""
+        "analysis": "Erreur d'analyse",
+        "noData": "Aucune donnée à analyser."
       }
     },
     "discussTranslation": {
-      "title": "",
-      "suggestion": "",
-      "accept": "",
-      "placeholder": "",
+      "title": "Discuter de la traduction",
+      "suggestion": "Suggestion de l'IA :",
+      "accept": "Accepter cette option",
+      "placeholder": "Votre commentaire...",
       "errors": {
-        "generic": ""
+        "generic": "Une erreur est survenue : {{message}}"
       }
     },
     "editPhrase": {
-      "title": "",
+      "title": "Modifier la phrase",
       "fields": {
-        "russian": "",
-        "german": "",
-        "category": ""
+        "russian": "Russe",
+        "german": "Allemand",
+        "category": "Catégorie"
       },
       "errors": {
-        "translation": ""
+        "translation": "Impossible d'obtenir la traduction."
       },
       "actions": {
-        "discuss": "",
-        "save": ""
+        "discuss": "Discuter de la traduction",
+        "save": "Enregistrer"
       }
     },
     "findDuplicates": {
-      "title": "",
-      "processing": "",
-      "found": "",
-      "description": "",
+      "title": "Rechercher les doublons",
+      "processing": "Recherche en cours...",
+      "found": "{{count}} groupes de doublons trouvés.",
+      "description": "La phrase avec le moins de progrès dans chaque groupe sera supprimée.",
       "actions": {
-        "cancel": "",
-        "clean": "",
-        "close": ""
+        "cancel": "Annuler",
+        "clean": "Nettoyer",
+        "close": "Fermer"
       },
-      "noDuplicates": "",
+      "noDuplicates": "Aucun doublon trouvé.",
       "errors": {
-        "search": ""
+        "search": "Erreur lors de la recherche de doublons : {{message}}"
       }
     },
     "improvePhrase": {
       "actions": {
-        "suggest": "",
-        "discuss": ""
+        "suggest": "Suggérer une version correcte",
+        "discuss": "Discuter avec l'IA"
       },
-      "reasoning": "",
-      "improve": "",
+      "reasoning": "Raisonnement :",
+      "improve": "Améliorer",
       "errors": {
-        "generic": ""
+        "generic": "Impossible d'obtenir l'amélioration."
       }
     },
     "learningAssistant": {
-      "success": "",
-      "placeholder": "",
+      "success": "Correct !",
+      "placeholder": "Votre réponse...",
+      "dontKnow": "Je ne sais pas",
       "errors": {
-        "generic": ""
-      },
-      "dontKnow": "I don't know"
+        "generic": "Une erreur est survenue : {{message}}"
+      }
     },
     "moveOrSkip": {
-      "title": "",
-      "body": "",
-      "newCards": "",
-      "question": "",
+      "title": "Doublons trouvés",
+      "body": "{{count}} {{cards}} trouvées qui existent déjà dans d'autres catégories.{{newCards}}",
+      "newCards": " {{count}} nouvelles seront également ajoutées.",
+      "question": "Que voulez-vous faire ?",
       "actions": {
-        "move": "",
-        "addOnlyNew": "",
-        "cancel": ""
+        "move": "Déplacer {{count}} vers \"{{category}}\"",
+        "addOnlyNew": "Ajouter uniquement {{count}} nouvelles",
+        "cancel": "Annuler"
       },
       "cards": {
-        "one": "",
-        "few": "",
-        "many": "",
-        "other": ""
+        "one": "carte",
+        "few": "cartes",
+        "many": "cartes",
+        "other": "cartes"
       }
     },
     "movieExamples": {
-      "title": "",
+      "title": "Exemples de films",
       "errors": {
-        "generic": ""
+        "generic": "Erreur"
       },
-      "noExamples": ""
+      "noExamples": "Impossible de trouver des exemples de films pour cette phrase."
+    },
+    "nounDeclension": {
+      "title": "Déclinaison : {{noun}}",
+      "errors": {
+        "generic": "Erreur",
+        "noData": "Aucune donnée."
+      },
+      "headers": {
+        "case": "Cas",
+        "singular": "Singulier",
+        "plural": "Pluriel"
+      },
+      "cases": {
+        "nominativ": {
+          "name": "Nominatif",
+          "question": "(qui ? quoi ?)"
+        },
+        "akkusativ": {
+          "name": "Accusatif",
+          "question": "(qui ? quoi ?)"
+        },
+        "dativ": {
+          "name": "Datif",
+          "question": "(à qui ? à quoi ?)"
+        },
+        "genitiv": {
+          "name": "Génitif",
+          "question": "(de qui ? de quoi ?)"
+        }
+      }
     },
     "phraseBuilder": {
-      "loading": "",
+      "loading": "Sélection des mots...",
       "errors": {
-        "generic": "",
-        "check": ""
+        "generic": "Erreur",
+        "check": "Une erreur est survenue lors de la vérification."
       },
-      "instructions": "",
+      "instructions": "Cliquez sur les mots ci-dessous pour construire la phrase",
       "aria": {
-        "clear": ""
+        "clear": "Effacer"
       },
       "actions": {
-        "check": "",
-        "close": "",
-        "continue": ""
+        "check": "Vérifier",
+        "close": "Fermer",
+        "continue": "Continuer"
       }
     },
     "phrasePreview": {
       "actions": {
-        "learn": ""
+        "learn": "Apprendre cette phrase"
       }
     },
     "practiceResult": {
-      "correct": "",
-      "incorrect": "",
-      "correctAnswer": "",
+      "correct": "Excellent !",
+      "incorrect": "Incorrect",
+      "correctAnswer": "Bonne réponse :",
       "actions": {
-        "continue": ""
+        "continue": "Continuer"
+      }
+    },
+    "pronouns": {
+      "title": "Pronoms personnels",
+      "headers": {
+        "speak": "Prononcer",
+        "german": "Allemand",
+        "russian": "Russe",
+        "learning": "Langue d'apprentissage",
+        "native": "Langue maternelle"
+      },
+      "error": "Impossible de charger les pronoms",
+      "pronouns": [
+        {
+          "german": "ich",
+          "russian": "я"
+        },
+        {
+          "german": "du",
+          "russian": "ты"
+        },
+        {
+          "german": "er / sie / es",
+          "russian": "он / она / оно"
+        },
+        {
+          "german": "wir",
+          "russian": "мы"
+        },
+        {
+          "german": "ihr",
+          "russian": "вы (неформ.)"
+        },
+        {
+          "german": "sie / Sie",
+          "russian": "они / Вы (форм.)"
+        }
+      ]
+    },
+    "sentenceChain": {
+      "title": "Constructeur de phrases",
+      "aria": {
+        "goBack": "Revenir d'une étape"
+      },
+      "tooltips": {
+        "clickToRevert": "Cliquez pour revenir à cette étape"
+      },
+      "errors": {
+        "generic": "Erreur"
+      },
+      "messages": {
+        "noContinuations": "Aucune suggestion pour continuer. Essayez de revenir en arrière."
+      },
+      "actions": {
+        "addCustom": "Ajouter votre variante"
+      }
+    },
+    "smartImport": {
+      "tabs": {
+        "assistant": "Assistant",
+        "speech": "Depuis la voix",
+        "file": "Depuis un fichier"
+      },
+      "assistant": {
+        "title": "Assistant IA",
+        "subtitle": "Entrez un sujet et l'IA générera un ensemble de cartes pour vous.",
+        "placeholder": "Exemple : 'À l'aéroport' ou 'Les doigts de la main'",
+        "aria": {
+          "microphone": "Saisie vocale",
+          "generate": "Générer"
+        }
+      },
+      "speech": {
+        "title": "Importer depuis la voix ou le texte",
+        "subtitle": "Enregistrez la voix ou collez du texte pour créer des cartes.",
+        "transcriptPlaceholder": "La transcription apparaîtra ici...",
+        "aria": {
+          "paste": "Coller depuis le presse-papiers",
+          "process": "Traiter"
+        },
+        "errors": {
+          "pasteFailed": "Impossible de coller le texte depuis le presse-papiers. Vous n'avez peut-être pas accordé l'autorisation."
+        }
+      },
+      "file": {
+        "title": "Importer depuis un fichier"
+      },
+      "processing": {
+        "generatingCards": "L'IA génère des cartes...",
+        "analyzingTopic": "Analyse du sujet en cours..."
+      },
+      "suggestion": {
+        "addToExisting": {
+          "title": "Compléter la catégorie ?",
+          "body": "Vous avez déjà la catégorie « {{category}} ». Voulez-vous y ajouter de nouvelles cartes sur le thème « {{topic}} » ?",
+          "yes": "Oui, ajouter à « {{category}} »",
+          "no": "Non, ajouter à « Général »"
+        },
+        "createNew": {
+          "title": "Créer une nouvelle catégorie ?",
+          "body": "L'IA suggère de créer une catégorie avec le nom :",
+          "create": "Créer",
+          "addToGeneral": "Ajouter à « Général »"
+        }
+      },
+      "preview": {
+        "title": "Cartes suggérées",
+        "aria": {
+          "back": "Retour"
+        },
+        "actions": {
+          "selectAll": "Tout sélectionner",
+          "clearAll": "Tout désélectionner",
+          "refine": "Affiner",
+          "add": "Ajouter",
+          "addWithCount": "Ajouter ({{count}})"
+        },
+        "refine": {
+          "placeholder": "Affinement, exemple : uniquement les verbes",
+          "aria": {
+            "microphone": "Saisie vocale"
+          }
+        }
+      },
+      "categoryNames": {
+        "fromSpeech": "Cartes de la voix",
+        "general": "Général"
+      }
+    },
+    "voiceWorkspace": {
+      "instructions": "Prononcez la phrase ou glissez-déposez des mots ici",
+      "loading": "Sélection des mots...",
+      "actions": {
+        "check": "Vérifier",
+        "learnWithAI": "Apprendre avec l'IA",
+        "showAnswer": "Afficher la réponse",
+        "clear": "Effacer",
+        "close": "Fermer",
+        "continue": "Continuer",
+        "nextPhrase": "Phrase suivante"
+      },
+      "feedback": {
+        "correct": "Excellent ! Tout est correct.",
+        "incorrect": "Malheureusement, erreur. Essayez encore.",
+        "revealAnswer": "Voici la bonne réponse. Essayez la prochaine fois !"
+      },
+      "errors": {
+        "check": "Erreur de vérification.",
+        "speech": "Une erreur de reconnaissance vocale est survenue.",
+        "speechNetwork": "Erreur réseau lors de la reconnaissance vocale.",
+        "microphoneDenied": "Accès au microphone non autorisé.",
+        "unexpected": "Une erreur inattendue est survenue.",
+        "serviceUnavailable": "Service temporairement indisponible (erreur 500).",
+        "apiKey": "Erreur de configuration de la clé API.",
+        "requestFailed": "Impossible d'exécuter la requête.",
+        "loadWords": "Impossible de charger les options de mots."
+      },
+      "automation": {
+        "nextPhrase": "Phrase suivante"
       }
     },
     "fileImport": {
       "cropper": {
-        "cancel": "",
-        "confirm": ""
+        "cancel": "Annuler",
+        "confirm": "Confirmer"
       },
       "errors": {
-        "unsupportedType": "",
-        "tooLarge": "",
-        "cropFirst": ""
+        "unsupportedType": "Type de fichier non supporté. Veuillez sélectionner une image.",
+        "tooLarge": "Fichier trop volumineux. Taille maximale 10 Mo.",
+        "cropFirst": "Veuillez d'abord télécharger et recadrer l'image."
       },
-      "instructions": "",
+      "instructions": "Téléchargez une image. L'IA reconnaîtra le texte ou décrira les objets sur la photo, les transformant en cartes.",
       "dropzone": {
-        "text": "",
-        "subtext": ""
+        "text": "Glisser-déposer ou sélectionner un fichier",
+        "subtext": "Image (max. 10 Mo)"
       },
       "camera": {
-        "button": "",
-        "subtext": ""
+        "button": "Prendre une photo",
+        "subtext": "Utiliser l'appareil photo"
       },
       "preview": {
-        "alt": ""
+        "alt": "Aperçu de l'image recadrée"
       },
       "refinement": {
-        "placeholder": "",
-        "aria": ""
+        "placeholder": "Ajouter un affinement (optionnel)...",
+        "aria": "Saisie vocale pour l'affinement"
       },
-      "submit": ""
-    },
-    "voiceWorkspace": {
-      "instructions": "",
-      "loading": "",
-      "actions": {
-        "check": "",
-        "learnWithAI": "",
-        "showAnswer": "",
-        "clear": "",
-        "close": "",
-        "continue": "",
-        "nextPhrase": ""
-      },
-      "feedback": {
-        "correct": "",
-        "incorrect": "",
-        "revealAnswer": ""
-      },
-      "errors": {
-        "check": "",
-        "speech": "",
-        "speechNetwork": "",
-        "microphoneDenied": "",
-        "unexpected": "",
-        "serviceUnavailable": "",
-        "apiKey": "",
-        "requestFailed": "",
-        "loadWords": ""
-      },
-      "automation": {
-        "nextPhrase": ""
-      }
+      "submit": "Créer des cartes"
     },
     "verbConjugation": {
-      "title": "",
-      "proxyTitle": "",
+      "title": "Conjugaison : {{infinitive}}",
+      "proxyTitle": "Conjugaison : {{infinitive}}",
       "errors": {
-        "simple": "",
-        "detailed": ""
+        "simple": "Impossible de charger la conjugaison simple.",
+        "detailed": "Impossible de charger la conjugaison détaillée."
       },
       "simple": {
-        "heading": "",
-        "button": ""
+        "heading": "Präsens (présent)",
+        "button": "Plus de détails"
       },
       "tense": {
-        "present": "",
-        "past": "",
-        "future": ""
+        "present": "Präsens (présent)",
+        "past": "Perfekt (passé)",
+        "future": "Futur I (futur)"
       },
       "forms": {
-        "statement": "",
-        "question": "",
-        "negative": ""
+        "statement": "Affirmation",
+        "question": "Question",
+        "negative": "Négation"
       }
     },
     "voicePractice": {
-      "prompt": "",
-      "listening": "",
+      "prompt": "Prononcez cette phrase :",
+      "listening": "Écoute en cours...",
       "aria": {
-        "microphone": "",
-        "close": ""
+        "microphone": "Commencer la saisie vocale",
+        "close": "Fermer"
       }
     },
     "wFragen": {
-      "title": "",
+      "title": "Mots interrogatifs",
       "columns": {
-        "play": "",
-        "german": "",
-        "translation": ""
+        "play": "Prononcer",
+        "german": "Allemand",
+        "translation": "Traduction"
       },
       "items": [
         {
-          "german": "",
-          "translation": ""
+          "german": "Was?",
+          "translation": "Quoi ?"
         },
         {
-          "german": "",
-          "translation": ""
+          "german": "Wer?",
+          "translation": "Qui ?"
         },
         {
-          "german": "",
-          "translation": ""
+          "german": "Wo?",
+          "translation": "Où ?"
         },
         {
-          "german": "",
-          "translation": ""
+          "german": "Wann?",
+          "translation": "Quand ?"
         },
         {
-          "german": "",
-          "translation": ""
+          "german": "Wie?",
+          "translation": "Comment ?"
         },
         {
-          "german": "",
-          "translation": ""
+          "german": "Warum?",
+          "translation": "Pourquoi ?"
         },
         {
-          "german": "",
-          "translation": ""
+          "german": "Woher?",
+          "translation": "D'où ?"
         },
         {
-          "german": "",
-          "translation": ""
+          "german": "Wohin?",
+          "translation": "Vers où ?"
         }
       ]
     },
     "wordAnalysis": {
-      "title": "",
+      "title": "Analyse du mot : {{word}}",
       "errors": {
-        "generic": "",
-        "unknown": ""
+        "generic": "Impossible de charger l'analyse.",
+        "unknown": "Aucune donnée à analyser."
       },
       "labels": {
-        "partOfSpeech": "",
-        "grammarReference": "",
-        "baseForm": "",
-        "nativeTranslation": "",
-        "article": "",
-        "plural": "",
-        "infinitive": "",
-        "tense": "",
+        "partOfSpeech": "Nature du mot",
+        "grammarReference": "Référence grammaticale",
+        "baseForm": "Forme de base",
+        "nativeTranslation": "Traduction",
+        "article": "Article",
+        "plural": "Pluriel",
+        "infinitive": "Infinitif",
+        "tense": "Temps",
         "person": "Personne et nombre",
-        "example": "",
-        "exampleTranslation": "",
-        "cardCreated": ""
+        "example": "Exemple d'utilisation",
+        "exampleTranslation": "Traduction :",
+        "cardCreated": "Carte créée !"
       },
       "actions": {
-        "createCard": "",
-        "openVerb": "",
-        "openNoun": "",
-        "openAdjective": ""
+        "createCard": "Créer une carte",
+        "openVerb": "Ouvrir la conjugaison",
+        "openNoun": "Ouvrir la déclinaison",
+        "openAdjective": "Ouvrir la déclinaison et les degrés"
       }
     },
     "cameraCapture": {
-      "errorTitle": "",
+      "errorTitle": "Erreur d'appareil photo",
       "errors": {
-        "permission": "",
-        "notFound": "",
-        "generic": ""
+        "permission": "Accès à l'appareil photo refusé.",
+        "notFound": "Appareil photo non trouvé.",
+        "generic": "Erreur d'accès à l'appareil photo."
       },
       "aria": {
-        "capture": ""
+        "capture": "Prendre une photo"
+      }
+    },
+    "phraseList": {
+      "search": {
+        "listening": "Écoute en cours...",
+        "placeholder": "Rechercher des phrases..."
+      },
+      "filters": {
+        "all": "Toutes"
+      },
+      "summary": {
+        "count": "{{count}} cartes"
+      },
+      "actions": {
+        "duplicates": "Doublons",
+        "aiImport": "Importation IA"
+      },
+      "sections": {
+        "new": "Nouvelles",
+        "inProgress": "En cours",
+        "mastered": "Maîtrisées"
       }
     }
   },
   "phraseList": {
     "item": {
       "badges": {
-        "new": ""
+        "new": "Nouveau"
       },
       "actions": {
-        "practice": "",
-        "edit": "",
-        "delete": ""
+        "practice": "Pratiquer",
+        "edit": "Modifier",
+        "delete": "Supprimer"
       },
-      "categoryButton": ""
+      "categoryButton": "Catégorie : {{name}}"
     },
     "search": {
-      "listening": "",
-      "placeholder": ""
+      "listening": "Écoute de la requête de recherche...",
+      "placeholder": "Rechercher des phrases..."
     },
     "sections": {
-      "new": "",
-      "inProgress": "",
-      "mastered": ""
+      "new": "Nouvelles",
+      "inProgress": "En cours",
+      "mastered": "Maîtrisées"
     },
     "filters": {
-      "all": ""
+      "all": "Toutes"
     },
     "summary": {
-      "count": ""
+      "count": "{{count}} cartes"
     },
     "actions": {
-      "duplicates": "",
-      "aiImport": ""
-    }
-  },
-  "phraseCard": {
-    "actions": {
-      "learningAssistant": "Apprendre avec l’IA",
-      "sentenceChain": "Chaîne de phrases",
-      "phraseBuilder": "Constructeur de phrases",
-      "chat": "Discuter avec l’IA",
-      "deepDive": "Analyse approfondie",
-      "movieExamples": "Exemples de films"
-    },
-    "aria": {
-      "openSettings": "Améliorer la phrase",
-      "playTranslation": "Lire la traduction",
-      "moreActions": "Plus d’actions"
+      "duplicates": "Doublons",
+      "aiImport": "Importation IA"
     }
   },
   "assistant": {
@@ -1044,16 +1056,53 @@
       "createWordCard": "Créer une carte de mot",
       "createPhraseCard": "Créer une carte de phrase",
       "generateSimilar": "Générer des similaires",
-      "goToList": "Aller à la liste",
+      "goToList": "Aller à la liste des tâches",
       "discussTranslation": "Discuter de la traduction"
     },
     "common": {
       "translationError": "Erreur de traduction",
-      "translating": "Traduction en cours",
+      "translating": "Traduction en cours...",
       "translate": "Traduire"
+    },
+    "modal": {
+      "title": "Assistant pour « {{name}} »",
+      "input": {
+        "placeholder": "Décrivez ce qu'il faut ajouter...",
+        "listening": "Écoute en cours..."
+      },
+      "quickActions": {
+        "addSimilar": "Ajouter des phrases similaires",
+        "checkConsistency": "Vérifier la cohérence",
+        "createDialogue": "Créer un dialogue"
+      },
+      "actions": {
+        "addSelected": "Ajouter les sélectionnées ({{count}})",
+        "goToList": "Aller à la liste"
+      },
+      "messages": {
+        "error": "Impossible d'exécuter la requête : {{message}}"
+      },
+      "success": {
+        "added": "{{count}} cartes ajoutées à la catégorie."
+      }
     },
     "prompts": {
       "generateSimilar": "Générer des phrases similaires pour : {phrase}"
+    }
+  },
+  "phraseCard": {
+    "actions": {
+      "learningAssistant": "Apprendre avec l'IA",
+      "sentenceChain": "Chaîne de phrases",
+      "phraseBuilder": "Constructeur de phrases",
+      "chat": "Discuter avec l'IA",
+      "deepDive": "Analyse approfondie",
+      "movieExamples": "Exemples de films"
+    },
+    "aria": {
+      "openSettings": "Améliorer la phrase",
+      "playTranslation": "Prononcer la traduction",
+      "moreActions": "Actions supplémentaires"
     }
   }
 }
