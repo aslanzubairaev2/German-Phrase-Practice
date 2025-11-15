@@ -1,7 +1,7 @@
 // FIX: Moved View type from App.tsx and exported it to be shared across components.
 export type View = 'practice' | 'list' | 'library' | 'reader';
 
-export const SUPPORTED_LANGUAGE_CODES = ['en', 'de', 'ru', 'fr', 'es', 'it', 'pt', 'pl', 'zh', 'ja', 'ar', 'hi'] as const;
+export const SUPPORTED_LANGUAGE_CODES = ['en', 'de', 'ru', 'fr', 'es', 'it', 'pt', 'pl', 'zh', 'ja', 'ar', 'hi', 'ma'] as const;
 export type LanguageCode = typeof SUPPORTED_LANGUAGE_CODES[number];
 
 export interface LanguageProfile {
