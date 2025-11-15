@@ -1,27 +1,27 @@
 {
   "header": {
-    "title": "",
-    "subtitle": "",
+    "title": "Lingogo",
+    "subtitle": "间隔重复系统",
     "actions": {
-      "openList": "",
-      "openPractice": "",
-      "openSettings": "",
-      "signOut": "",
-      "signingOut": ""
+      "openList": "打开列表",
+      "openPractice": "开始练习",
+      "openSettings": "打开设置",
+      "signOut": "退出登录",
+      "signingOut": "正在退出..."
     },
     "errors": {
-      "signOutFailed": ""
+      "signOutFailed": "退出登录失败"
     }
   },
   "common": {
     "field": {
-      "email": ""
+      "email": "邮箱"
     },
     "placeholder": {
-      "email": ""
+      "email": "you@example.com"
     },
     "labels": {
-      "error": ""
+      "error": "错误"
     },
     "actions": {
       "delete": "删除"
@@ -29,1031 +29,1080 @@
   },
   "auth": {
     "errors": {
-      "ensureUserData": "",
-      "sessionExpired": "",
-      "supabaseSignOut": "",
-      "restoreSession": "",
-      "subscribeAuth": "",
-      "noSessionAfterSignIn": "",
-      "noSessionAfterSignUp": ""
+      "ensureUserData": "无法初始化用户数据。",
+      "sessionExpired": "会话已过期。请重新登录。",
+      "supabaseSignOut": "401错误后无法终止Supabase会话。",
+      "restoreSession": "无法恢复认证会话。",
+      "subscribeAuth": "无法订阅认证事件。",
+      "noSessionAfterSignIn": "登录后无法获取会话。",
+      "noSessionAfterSignUp": "注册后无法获取会话。"
     },
     "loading": {
-      "preparingData": ""
+      "preparingData": "正在加载您的数据..."
     },
     "login": {
       "validation": {
-        "missingCredentials": ""
+        "missingCredentials": "请输入邮箱和密码。"
       },
-      "title": "",
-      "subtitle": "",
+      "title": "登录",
+      "subtitle": "验证身份以继续学习短语。",
       "field": {
-        "passwordLabel": "",
-        "passwordPlaceholder": ""
+        "passwordLabel": "密码",
+        "passwordPlaceholder": "********"
       },
       "submit": {
         "state": {
-          "loading": ""
+          "loading": "正在登录..."
         },
-        "label": ""
+        "label": "登录"
       },
       "switch": {
-        "prompt": "",
-        "cta": ""
+        "prompt": "没有账户？",
+        "cta": "注册"
       }
     },
     "signup": {
       "validation": {
-        "missingFields": "",
-        "passwordMismatch": ""
+        "missingFields": "请填写所有字段。",
+        "passwordMismatch": "密码不匹配。"
       },
-      "title": "",
-      "subtitle": "",
+      "title": "注册",
+      "subtitle": "创建账户以同步您的短语。",
       "field": {
-        "passwordLabel": "",
-        "passwordPlaceholder": "",
-        "confirmLabel": "",
-        "confirmPlaceholder": ""
+        "passwordLabel": "密码",
+        "passwordPlaceholder": "最少6个字符",
+        "confirmLabel": "确认密码",
+        "confirmPlaceholder": "再次输入密码"
       },
       "submit": {
         "state": {
-          "loading": ""
+          "loading": "正在创建账户..."
         },
-        "label": ""
+        "label": "注册"
       },
       "switch": {
-        "prompt": "",
-        "cta": ""
+        "prompt": "已有账户？",
+        "cta": "登录"
       }
     }
   },
   "account": {
     "title": "账户",
-    "email": "电子邮件"
+    "email": "邮箱"
   },
   "settings": {
     "views": {
-      "main": "",
-      "general": "",
-      "automation": "",
-      "categories": "",
-      "analytics": "Progress & analytics"
+      "main": "设置",
+      "general": "通用",
+      "automation": "自动化(AI)",
+      "categories": "练习分类",
+      "analytics": "进度与分析"
     },
     "general": {
-      "legend": "",
+      "legend": "通用设置",
       "autoSpeak": {
-        "label": ""
+        "label": "自动发音"
       },
       "soundEffects": {
-        "label": ""
+        "label": "音效"
       }
     },
     "automation": {
-      "legend": "",
+      "legend": "自动化设置",
       "autoCheckShortPhrases": {
-        "label": "",
-        "description": ""
+        "label": "短短语自动检查",
+        "description": "如果短语构建正确，立即检查。"
       },
       "learnNextPhraseHabit": {
-        "label": "",
-        "description": ""
+        "label": "下一个短语习惯",
+        "description": "在快速连续正确答案时自动前进。"
       }
     },
     "categories": {
-      "manageButton": ""
+      "manageButton": "管理分类"
     },
     "analytics": {
       "noData": "—",
       "srs": {
-        "totalCards": "Total Cards",
-        "mastered": "Mastered",
-        "learning": "Learning: {{count}}",
-        "dueToday": "Due Today",
-        "overdue": "Overdue: {{count}}",
-        "accuracy": "Accuracy",
-        "reviews": "{{count}} reviews",
-        "masteryProgress": "{{percent}}% mastered",
-        "streak": "🔥 {{days}} day streak",
-        "streak_plural": "🔥 {{days}} days streak",
-        "accuracyBreakdown": "Accuracy Breakdown",
-        "overall": "Overall",
-        "last7Days": "Last 7 days",
-        "last30Days": "Last 30 days",
-        "levelsDistribution": "SRS Levels Distribution",
-        "level": "L{{level}}",
-        "categories": "Categories",
-        "cards": "cards",
-        "avgLevel": "Avg Level",
-        "recentActivity": "Recent Activity (14 days)",
-        "difficultCards": "Difficult Cards (Leeches)",
-        "lapses": "lapses",
-        "noActivityYet": "No review activity yet",
-        "noDifficultCards": "No difficult cards yet",
-        "emptyState": "No practice data yet",
-        "emptyStateHint": "Start practicing cards to see your progress statistics here."
+        "totalCards": "总卡片数",
+        "mastered": "已掌握",
+        "learning": "学习中: {{count}}",
+        "dueToday": "今日需复习",
+        "overdue": "逾期: {{count}}",
+        "accuracy": "准确率",
+        "reviews": "{{count}} 次复习",
+        "masteryProgress": "{{percent}}% 已掌握",
+        "streak": "🔥 {{days}} 天连续",
+        "streak_plural": "🔥 {{days}} 天连续",
+        "accuracyBreakdown": "准确率明细",
+        "overall": "总体",
+        "last7Days": "最近7天",
+        "last30Days": "最近30天",
+        "levelsDistribution": "SRS级别分布",
+        "level": "级别{{level}}",
+        "categories": "分类",
+        "cards": "卡片",
+        "avgLevel": "平均级别",
+        "recentActivity": "最近活动(14天)",
+        "difficultCards": "困难卡片(Leech)",
+        "lapses": "遗忘次数",
+        "noActivityYet": "暂无活动",
+        "noDifficultCards": "暂无困难卡片",
+        "emptyState": "暂无练习数据",
+        "emptyStateHint": "开始练习卡片以查看进度统计。"
       }
     }
   },
   "notifications": {
     "sync": {
-      "synced": "",
-      "loaded": "",
-      "error": ""
+      "synced": "✓ 数据已与服务器同步。",
+      "loaded": "✓ 数据成功从服务器加载。",
+      "error": "同步错误: {{message}}"
     },
     "phrases": {
-      "existsInCategory": "",
-      "existsInOtherCategory": "",
-      "createError": "",
-      "exists": "",
-      "created": "",
-      "createCardError": "",
-      "createCardGenericError": ""
+      "existsInCategory": "卡片\"{{phrase}}\"已在此分类中存在。",
+      "existsInOtherCategory": "卡片\"{{phrase}}\"已在其他分类中存在。",
+      "createError": "创建短语错误: {{message}}",
+      "exists": "卡片\"{{phrase}}\"已存在。",
+      "created": "为\"{{phrase}}\"创建了卡片。",
+      "createCardError": "创建卡片错误: {{message}}",
+      "createCardGenericError": "无法创建卡片。"
     },
     "ai": {
-      "providerUnavailable": ""
+      "providerUnavailable": "AI提供商不可用。"
     },
-    "updateError": "",
-    "saveError": "",
-    "deleteError": "",
-    "moveError": "",
-    "genericError": "",
-    "cards": {
-      "moving": "",
-      "moveSuccess": "",
-      "deleting": "",
-      "deleteSuccess": "",
-      "generateError": "",
-      "addFailed": "",
-      "rateLimit": "",
-      "addedToCategory": "",
-      "movedAndAdded": "",
-      "addedWithDuplicatesSkipped": "",
-      "deletedCount": "",
-      "movedToCategory": "",
-      "otherCategory": "",
-      "bulkAdded": "",
-      "bulkAdded_plural": "",
-      "bulkSkipped": "",
-      "bulkSkipped_plural": "",
-      "bulkAdded_one": "✓ {{count}} card added.",
-      "bulkAdded_few": "✓ {{count}} cards added.",
-      "bulkAdded_many": "✓ {{count}} cards added.",
-      "bulkAdded_other": "✓ {{count}} cards added.",
-      "bulkSkipped_one": "{{count}} already existed and was skipped.",
-      "bulkSkipped_few": "{{count}} already existed and were skipped.",
-      "bulkSkipped_many": "{{count}} already existed and were skipped.",
-      "bulkSkipped_other": "{{count}} already existed and were skipped."
-    },
+    "updateError": "更新错误: {{message}}",
+    "saveError": "保存错误: {{message}}",
+    "deleteError": "删除错误: {{message}}",
+    "moveError": "移动错误: {{message}}",
+    "genericError": "错误: {{message}}",
     "categories": {
-      "createError": "",
-      "saveError": "",
-      "deleteSuccess": ""
+      "createError": "创建分类错误: {{message}}",
+      "saveError": "保存分类错误: {{message}}",
+      "deleteSuccess": "✓ 分类\"{{name}}\"已删除。"
+    },
+    "cards": {
+      "moving": "正在移动 {{count}} 张卡片...",
+      "moveSuccess": "✓ 卡片已移动。",
+      "deleting": "正在删除 {{count}} 张卡片...",
+      "deleteSuccess": "✓ 卡片已删除。",
+      "generateError": "无法生成卡片。",
+      "addFailed": "无法添加\"{{phrase}}\": {{error}}",
+      "rateLimit": "请求超限。请尝试一次添加较少的卡片。",
+      "addedToCategory": "✓ {{count}} 张卡片已添加到\"{{category}}\"。",
+      "movedAndAdded": "✓ {{moved}} 张卡片已移动，{{added}} 张已添加到\"{{category}}\"。",
+      "addedWithDuplicatesSkipped": "✓ {{count}} 张卡片已添加到\"{{category}}\"。重复项已跳过。",
+      "deletedCount": "✓ {{count}} 张卡片已删除。",
+      "movedToCategory": "✓ {{count}} 张卡片已移动到\"{{category}}\"。",
+      "otherCategory": "其他分类",
+      "bulkAdded_one": "✓ {{count}} 张卡片已添加。",
+      "bulkAdded_few": "✓ {{count}} 张卡片已添加。",
+      "bulkAdded_many": "✓ {{count}} 张卡片已添加。",
+      "bulkAdded_other": "✓ {{count}} 张卡片已添加。",
+      "bulkAdded": "✓ {{count}} 张卡片已添加。",
+      "bulkSkipped_one": "{{count}} 张已存在并已跳过。",
+      "bulkSkipped_few": "{{count}} 张已存在并已跳过。",
+      "bulkSkipped_many": "{{count}} 张已存在并已跳过。",
+      "bulkSkipped_other": "{{count}} 张已存在并已跳过。",
+      "bulkSkipped": "{{count}} 张已存在并已跳过。"
     }
   },
   "localization": {
     "overlay": {
-      "heading": "",
-      "title": "",
-      "subtitle": "",
-      "fallbackDescription": "",
-      "currentStepHint": "",
-      "fallbackMessage": "",
+      "heading": "本地化",
+      "title": "正在准备{{language}}界面",
+      "subtitle": "正在将界面元素翻译成{{language}}。",
+      "fallbackDescription": "翻译过程中出错，正在启用备用语言。",
+      "currentStepHint": "正在执行...",
+      "fallbackMessage": "在{{language}}翻译准备完成前，我们将使用英语。",
       "steps": {
-        "checkingStatic": "",
-        "loadingCache": "",
-        "requestingAI": "",
-        "validating": "",
-        "applying": ""
+        "checkingStatic": "正在检查内置翻译",
+        "loadingCache": "正在加载本地缓存",
+        "requestingAI": "正在向AI请求翻译",
+        "validating": "正在验证翻译结构",
+        "applying": "正在应用翻译"
       }
     }
   },
   "library": {
     "empty": {
-      "title": "",
-      "description": "",
-      "action": ""
+      "title": "您的图书馆为空",
+      "description": "上传EPUB文件以开始创建阅读图书馆。",
+      "action": "添加第一本书"
     },
     "actions": {
-      "add": "",
-      "adding": ""
+      "add": "添加书籍",
+      "adding": "正在添加..."
     },
     "notifications": {
-      "epubProcessingFailed": ""
+      "epubProcessingFailed": "无法处理EPUB文件。请确保文件未损坏。"
     },
     "cards": {
-      "add": ""
+      "add": "添加新书"
     },
     "alt": {
-      "cover": ""
+      "cover": "{{title}}封面"
     }
   },
   "categories": {
-    "manager": {
-      "title": "",
-      "aria": {
-        "edit": "",
-        "delete": ""
-      },
-      "add": ""
-    },
-    "form": {
-      "createTitle": "",
-      "editTitle": "",
-      "fields": {
-        "nameLabel": "",
-        "namePlaceholder": "",
-        "colorLabel": "",
-        "colorAria": ""
-      },
-      "notes": {
-        "aiHint": ""
-      },
-      "errors": {
-        "duplicate": ""
-      },
-      "submit": {
-        "create": "",
-        "save": ""
-      }
-    },
     "detail": {
       "actions": {
-        "addMore": "",
-        "addPhrase": "",
-        "aiAssistant": ""
+        "addMore": "添加更多",
+        "addPhrase": "添加短语",
+        "aiAssistant": "AI助手"
       },
       "empty": {
-        "title": ""
+        "title": "暂无短语"
+      }
+    },
+    "manager": {
+      "title": "管理分类",
+      "aria": {
+        "edit": "编辑{{name}}",
+        "delete": "删除{{name}}"
+      },
+      "add": "添加新分类"
+    },
+    "form": {
+      "createTitle": "创建分类",
+      "editTitle": "编辑分类",
+      "fields": {
+        "nameLabel": "分类名称",
+        "namePlaceholder": "例如：旅行、工作或对话",
+        "colorLabel": "颜色",
+        "colorAria": "选择{{color}}颜色"
+      },
+      "notes": {
+        "aiHint": "提示：使用不含\"!\"和连字符的易懂名称，以便AI自动化正确分配短语。"
+      },
+      "errors": {
+        "duplicate": "已存在同名分类。"
+      },
+      "submit": {
+        "create": "创建",
+        "save": "保存更改"
       }
     },
     "filterMenu": {
       "actions": {
-        "settings": "",
-        "aiAssistant": ""
+        "settings": "设置",
+        "aiAssistant": "AI助手"
       }
     }
   },
   "practice": {
     "chat": {
-      "title": "",
-      "placeholder": "",
-      "listeningPlaceholder": "",
+      "title": "AI练习",
+      "placeholder": "输入消息...",
+      "listeningPlaceholder": "正在聆听...",
       "actions": {
-        "speak": "播放"
+        "speak": "发音"
       },
       "messages": {
         "revealTranslation": "点击显示翻译",
-        "secondaryPrefix": "提示：",
-        "errorPrefix": "错误：{{message}}",
+        "secondaryPrefix": "提示:",
+        "errorPrefix": "错误: {{message}}",
         "unknownError": "未知错误"
       },
       "stats": {
-        "phrasesUsed": "已练习 {{count}} 条短语",
-        "phrasesUsed_plural": "已练习 {{count}} 个短语"
+        "phrasesUsed_zero": "{{count}} 个短语已复习",
+        "phrasesUsed_one": "{{count}} 个短语已复习",
+        "phrasesUsed_few": "{{count}} 个短语已复习",
+        "phrasesUsed_many": "{{count}} 个短语已复习",
+        "phrasesUsed_other": "{{count}} 个短语已复习",
+        "phrasesUsed": "{{count}} 个短语已复习",
+        "phrasesUsed_plural": "{{count}} 个短语已练习"
       }
     },
     "actions": {
-      "skip": "",
-      "know": ""
+      "skip": "跳过",
+      "know": "知道"
     },
     "states": {
-      "allCategories": "",
-      "add": "",
-      "manage": "",
-      "errorOccurred": "",
-      "congratulations": "",
-      "learnedAllSelected": "",
-      "excellent": "",
-      "foundationCompleted": "",
-      "noMoreCards": "",
-      "practiceOtherCategories": "",
-      "empty": "",
-      "noUnlearnedInCategory": "",
-      "practiceAllCategories": "",
-      "allForToday": "",
-      "completedAllAvailable": "",
-      "comeBackLater": "",
-      "continue": "",
-      "generateNew": "",
-      "generating": ""
+      "allCategories": "所有分类",
+      "add": "添加",
+      "manage": "管理",
+      "errorOccurred": "发生错误",
+      "congratulations": "恭喜！",
+      "learnedAllSelected": "您已学会所选分类中的所有短语。",
+      "excellent": "优秀！",
+      "foundationCompleted": "分类\"{categoryName}\"中的基础卡片已完成。",
+      "noMoreCards": "没有更多卡片需要学习。",
+      "practiceOtherCategories": "练习其他分类",
+      "empty": "空",
+      "noUnlearnedInCategory": "分类\"{categoryName}\"中没有未学习的卡片。",
+      "practiceAllCategories": "练习所有分类",
+      "allForToday": "今天就到这里！",
+      "completedAllAvailable": "您已完成此分类中所有可用卡片。",
+      "comeBackLater": "稍后再来复习所学内容。",
+      "continue": "继续",
+      "generateNew": "生成新的",
+      "generating": "正在生成..."
     },
     "discuss": {
       "examples": {
-        "intro": "这里有一些示例和提示，帮助你更好地理解这个短语："
+        "intro": "以下是一些示例和提示，将帮助您更好地理解这个短语："
       }
     }
   },
   "languages": {
     "names": {
-      "ru": "",
-      "de": ""
+      "ru": "俄语",
+      "de": "德语"
     },
     "prepositional": {
-      "ru": "",
-      "de": ""
+      "ru": "俄语",
+      "de": "德语"
     },
     "badge": {
-      "en": "",
-      "de": "",
-      "ru": "",
-      "fr": "",
-      "es": "",
-      "it": "",
-      "pt": "",
-      "pl": "",
-      "zh": "",
-      "ja": "",
-      "ar": ""
+      "en": "EN",
+      "de": "DE",
+      "ru": "RU",
+      "fr": "FR",
+      "es": "ES",
+      "it": "IT",
+      "pt": "PT",
+      "pl": "PL",
+      "zh": "中文",
+      "ja": "日本",
+      "ar": "AR"
     }
   },
   "fab": {
-    "addPhrase": "",
-    "openLibrary": "",
-    "smartImport": "",
-    "chooseLanguage": "",
-    "toggle": ""
+    "addPhrase": "添加{{language}}短语",
+    "openLibrary": "打开图书馆",
+    "smartImport": "智能导入",
+    "chooseLanguage": "选择短语语言",
+    "toggle": "添加短语"
   },
   "modals": {
-    "nounDeclension": {
-      "title": "",
-      "errors": {
-        "generic": "",
-        "noData": ""
-      },
-      "headers": {
-        "case": "",
-        "singular": "",
-        "plural": ""
-      },
-      "cases": {
-        "nominativ": {
-          "name": "",
-          "question": ""
-        },
-        "akkusativ": {
-          "name": "",
-          "question": ""
-        },
-        "dativ": {
-          "name": "",
-          "question": ""
-        },
-        "genitiv": {
-          "name": "",
-          "question": ""
-        }
-      }
-    },
-    "pronouns": {
-      "title": "",
-      "headers": {
-        "speak": "",
-        "german": "",
-        "russian": ""
-      },
-      "pronouns": [
-        {
-          "german": "",
-          "russian": ""
-        },
-        {
-          "german": "",
-          "russian": ""
-        },
-        {
-          "german": "",
-          "russian": ""
-        },
-        {
-          "german": "",
-          "russian": ""
-        },
-        {
-          "german": "",
-          "russian": ""
-        },
-        {
-          "german": "",
-          "russian": ""
-        }
-      ]
-    },
-    "sentenceChain": {
-      "title": "",
-      "aria": {
-        "goBack": ""
-      },
-      "tooltips": {
-        "clickToRevert": ""
-      },
-      "errors": {
-        "generic": ""
-      },
-      "messages": {
-        "noContinuations": ""
-      },
-      "actions": {
-        "addCustom": ""
-      }
-    },
-    "smartImport": {
-      "tabs": {
-        "assistant": "",
-        "speech": "",
-        "file": ""
-      },
-      "assistant": {
-        "title": "",
-        "subtitle": "",
-        "placeholder": "",
-        "aria": {
-          "microphone": "",
-          "generate": ""
-        }
-      },
-      "speech": {
-        "title": "",
-        "subtitle": "",
-        "transcriptPlaceholder": "",
-        "aria": {
-          "paste": "",
-          "process": ""
-        },
-        "errors": {
-          "pasteFailed": ""
-        }
-      },
-      "file": {
-        "title": ""
-      },
-      "processing": {
-        "generatingCards": "",
-        "analyzingTopic": ""
-      },
-      "suggestion": {
-        "addToExisting": {
-          "title": "",
-          "body": "",
-          "yes": "",
-          "no": ""
-        },
-        "createNew": {
-          "title": "",
-          "body": "",
-          "create": "",
-          "addToGeneral": ""
-        }
-      },
-      "preview": {
-        "title": "",
-        "aria": {
-          "back": ""
-        },
-        "actions": {
-          "selectAll": "",
-          "clearAll": "",
-          "refine": "",
-          "add": "",
-          "addWithCount": ""
-        },
-        "refine": {
-          "placeholder": "",
-          "aria": {
-            "microphone": ""
-          }
-        }
-      },
-      "categoryNames": {
-        "fromSpeech": "",
-        "general": ""
-      }
-    },
     "addContinuation": {
       "placeholders": {
-        "text": ""
+        "text": "输入续写..."
       },
       "aria": {
-        "microphone": "",
-        "send": "",
-        "switchToText": "",
-        "switchToVoice": ""
+        "microphone": "语音输入",
+        "send": "发送续写",
+        "switchToText": "切换到文本输入",
+        "switchToVoice": "切换到语音输入"
       }
     },
     "addPhrase": {
-      "loading": "",
-      "title": "",
+      "loading": "正在创建卡片...",
+      "title": "创建新短语",
       "body": {
         "instructions": {
-          "voice": "",
-          "text": ""
+          "voice": "用{{language}}说出短语",
+          "text": "输入{{language}}短语"
         }
       },
       "placeholders": {
-        "ru": "",
-        "de": ""
+        "ru": "例如：\"这个多少钱？\"",
+        "de": "例如：\"Wie viel kostet das?\""
       },
       "aria": {
-        "microphone": "",
+        "microphone": "语音输入",
         "textField": {
-          "ru": "",
-          "de": ""
+          "ru": "俄语短语",
+          "de": "德语短语"
         },
-        "send": "",
-        "toggleToText": "",
-        "toggleToVoice": "",
-        "close": ""
+        "send": "创建短语",
+        "toggleToText": "切换到文本输入",
+        "toggleToVoice": "切换到语音输入",
+        "close": "关闭"
       },
       "status": {
-        "listening": ""
+        "listening": "正在聆听..."
       },
       "errors": {
-        "generic": "",
-        "network": "",
-        "permission": "",
-        "recognition": ""
+        "generic": "无法创建短语。",
+        "network": "网络错误。请检查连接或手动输入文本。",
+        "permission": "麦克风访问被拒绝。请检查设置并手动输入文本。",
+        "recognition": "语音识别出错。"
       },
-      "errorLabel": "",
+      "errorLabel": "错误",
       "actions": {
-        "create": ""
+        "create": "创建"
       }
     },
     "adjectiveDeclension": {
-      "title": "",
-      "phraseNative": "",
+      "title": "形容词: {{adjective}}",
+      "phraseNative": "变格: {{adjective}}",
       "labels": {
-        "case": "",
-        "masculine": "",
-        "feminine": "",
-        "neuter": "",
-        "plural": "",
-        "weak": "",
-        "mixed": "",
-        "strong": "",
-        "degrees": "",
-        "positive": "",
-        "comparative": "",
-        "superlative": ""
+        "case": "格",
+        "masculine": "阳性",
+        "feminine": "阴性",
+        "neuter": "中性",
+        "plural": "复数",
+        "weak": "弱变格(带定冠词)",
+        "mixed": "混合变格(带不定冠词)",
+        "strong": "强变格(无冠词)",
+        "degrees": "比较级",
+        "positive": "原级",
+        "comparative": "比较级",
+        "superlative": "最高级"
       },
       "sections": {
-        "grammar": "",
-        "example": ""
+        "grammar": "语法参考",
+        "example": "使用示例"
       },
       "states": {
-        "errorTitle": "",
-        "empty": "",
-        "errorMessage": ""
+        "errorTitle": "错误",
+        "empty": "无数据。",
+        "errorMessage": "无法加载变格详情。"
       },
       "cases": {
-        "nominativ": "",
-        "akkusativ": "",
-        "dativ": "",
-        "genitiv": ""
+        "nominativ": "主格",
+        "akkusativ": "宾格",
+        "dativ": "与格",
+        "genitiv": "属格"
       }
     },
     "autoFillLoading": {
-      "title": "",
-      "body": ""
+      "title": "正在生成卡片...",
+      "body": "请稍候。AI正在为分类«{{category}}»选择短语。"
     },
     "autoFillPreview": {
-      "title": "",
-      "tooltip": "",
-      "empty": "",
+      "title": "\"{{category}}\"的建议",
+      "tooltip": "\"{{category}}\"的建议",
+      "empty": "AI未建议任何卡片。请尝试优化请求。",
       "refine": {
-        "placeholder": "",
-        "toggle": ""
+        "placeholder": "例如：仅名称，不含短语",
+        "toggle": "优化"
       },
       "actions": {
-        "refine": "",
-        "confirm": "",
-        "confirmShort": "",
-        "confirmWithCount": ""
+        "refine": "优化",
+        "confirm": "添加",
+        "confirmShort": "+",
+        "confirmWithCount": "添加({{count}})"
       },
       "selection": {
-        "select": "",
-        "clear": ""
+        "select": "全选",
+        "clear": "全不选"
       },
       "status": {
-        "listening": ""
+        "listening": "正在聆听..."
       }
     },
     "chat": {
       "placeholders": {
-        "listening": "",
-        "ask": ""
+        "listening": "正在聆听...",
+        "ask": "问点什么..."
       },
       "aria": {
-        "stopListening": "",
-        "startListening": ""
+        "stopListening": "停止聆听",
+        "startListening": "开始聆听"
       },
       "errors": {
-        "generic": ""
+        "generic": "发生错误: {{message}}"
       }
     },
     "confirmCategoryFill": {
-      "title": "",
-      "body": "",
+      "title": "填充分类？",
+      "body": "是否立即使用AI填充分类\"{{category}}\"？",
       "actions": {
-        "cancel": "",
-        "confirm": ""
+        "cancel": "稍后",
+        "confirm": "是的，填充"
       }
     },
     "confirmDeleteCategory": {
-      "title": "",
-      "body": "",
-      "phraseCount": "",
+      "title": "删除分类？",
+      "body": "您即将删除分类：",
+      "phraseCount": "此分类包含{{count}}张{{cards}}。如何处理它们？",
       "cards": {
-        "one": "",
-        "few": "",
-        "many": "",
-        "other": ""
+        "one": "卡片",
+        "few": "卡片",
+        "many": "卡片",
+        "other": "卡片"
       },
       "actions": {
-        "move": "",
-        "delete": "",
-        "cancel": "",
-        "confirm": ""
+        "move": "移动到",
+        "delete": "删除所有卡片",
+        "cancel": "取消",
+        "confirm": "删除"
       }
     },
     "confirmDelete": {
-      "title": "",
-      "body": "",
-      "mastery": "",
+      "title": "确认删除",
+      "body": "您确定要永久删除此短语吗？",
+      "mastery": "掌握级别：",
       "actions": {
-        "cancel": "",
-        "confirm": ""
+        "cancel": "取消",
+        "confirm": "删除"
       }
     },
     "confirmDeletePhrases": {
-      "title": "",
-      "body": "",
+      "title": "确认操作",
+      "body": "AI助手建议删除或移动以下{{count}}张{{cards}}。如何处理它们？",
       "cards": {
-        "one": "",
-        "few": "",
-        "many": "",
-        "other": ""
+        "one": "卡片",
+        "few": "卡片",
+        "many": "卡片",
+        "other": "卡片"
       },
       "actions": {
-        "selectAll": "",
-        "deselectAll": "",
-        "delete": "",
-        "move": ""
+        "selectAll": "全选",
+        "deselectAll": "全不选",
+        "delete": "删除({{count}})",
+        "move": "移动({{count}})"
       }
     },
     "deepDive": {
       "stages": {
-        "deconstruction": "",
-        "personalization": "",
-        "encoding": ""
+        "deconstruction": "阶段1：解构",
+        "personalization": "阶段2：个性化",
+        "encoding": "阶段3：编码"
       },
       "errors": {
-        "analysis": "",
-        "noData": ""
+        "analysis": "分析错误",
+        "noData": "无数据可供分析。"
       }
     },
     "discussTranslation": {
-      "title": "",
-      "suggestion": "",
-      "accept": "",
-      "placeholder": "",
+      "title": "讨论翻译",
+      "suggestion": "AI建议：",
+      "accept": "接受此选项",
+      "placeholder": "您的评论...",
       "errors": {
-        "generic": ""
+        "generic": "发生错误: {{message}}"
       }
     },
     "editPhrase": {
-      "title": "",
+      "title": "编辑短语",
       "fields": {
-        "russian": "",
-        "german": "",
-        "category": ""
+        "russian": "俄语",
+        "german": "德语",
+        "category": "分类"
       },
       "errors": {
-        "translation": ""
+        "translation": "无法获取翻译。"
       },
       "actions": {
-        "discuss": "",
-        "save": ""
+        "discuss": "讨论翻译",
+        "save": "保存"
       }
     },
     "findDuplicates": {
-      "title": "",
-      "processing": "",
-      "found": "",
-      "description": "",
+      "title": "查找重复项",
+      "processing": "正在搜索...",
+      "found": "找到{{count}}组重复项。",
+      "description": "每组中进度最差的短语将被删除。",
       "actions": {
-        "cancel": "",
-        "clean": "",
-        "close": ""
+        "cancel": "取消",
+        "clean": "清理",
+        "close": "关闭"
       },
-      "noDuplicates": "",
+      "noDuplicates": "未找到重复项。",
       "errors": {
-        "search": ""
+        "search": "查找重复项时出错: {{message}}"
       }
     },
     "improvePhrase": {
       "actions": {
-        "suggest": "",
-        "discuss": ""
+        "suggest": "建议正确版本",
+        "discuss": "与AI讨论"
       },
-      "reasoning": "",
-      "improve": "",
+      "reasoning": "理由：",
+      "improve": "改进",
       "errors": {
-        "generic": ""
+        "generic": "无法获取改进。"
       }
     },
     "learningAssistant": {
-      "success": "",
-      "placeholder": "",
+      "success": "正确！",
+      "placeholder": "您的回答...",
+      "dontKnow": "不知道",
       "errors": {
-        "generic": ""
-      },
-      "dontKnow": "I don't know"
+        "generic": "发生错误: {{message}}"
+      }
     },
     "moveOrSkip": {
-      "title": "",
-      "body": "",
-      "newCards": "",
-      "question": "",
+      "title": "找到重复项",
+      "body": "找到{{count}}张{{cards}}，这些卡片已存在于其他分类中。{{newCards}}",
+      "newCards": " 还将添加{{count}}张新卡片。",
+      "question": "您想做什么？",
       "actions": {
-        "move": "",
-        "addOnlyNew": "",
-        "cancel": ""
+        "move": "将{{count}}张移动到\"{{category}}\"",
+        "addOnlyNew": "仅添加{{count}}张新的",
+        "cancel": "取消"
       },
       "cards": {
-        "one": "",
-        "few": "",
-        "many": "",
-        "other": ""
+        "one": "卡片",
+        "few": "卡片",
+        "many": "卡片",
+        "other": "卡片"
       }
     },
     "movieExamples": {
-      "title": "",
+      "title": "电影示例",
       "errors": {
-        "generic": ""
+        "generic": "错误"
       },
-      "noExamples": ""
+      "noExamples": "无法找到此短语的电影示例。"
+    },
+    "nounDeclension": {
+      "title": "变格: {{noun}}",
+      "errors": {
+        "generic": "错误",
+        "noData": "无数据。"
+      },
+      "headers": {
+        "case": "格",
+        "singular": "单数",
+        "plural": "复数"
+      },
+      "cases": {
+        "nominativ": {
+          "name": "主格",
+          "question": "(谁？什么？)"
+        },
+        "akkusativ": {
+          "name": "宾格",
+          "question": "(谁？什么？)"
+        },
+        "dativ": {
+          "name": "与格",
+          "question": "(给谁？给什么？)"
+        },
+        "genitiv": {
+          "name": "属格",
+          "question": "(谁的？什么的？)"
+        }
+      }
     },
     "phraseBuilder": {
-      "loading": "",
+      "loading": "正在选择词语...",
       "errors": {
-        "generic": "",
-        "check": ""
+        "generic": "错误",
+        "check": "检查时出错。"
       },
-      "instructions": "",
+      "instructions": "点击下面的词语构建短语",
       "aria": {
-        "clear": ""
+        "clear": "清除"
       },
       "actions": {
-        "check": "",
-        "close": "",
-        "continue": ""
+        "check": "检查",
+        "close": "关闭",
+        "continue": "继续"
       }
     },
     "phrasePreview": {
       "actions": {
-        "learn": ""
+        "learn": "学习此短语"
       }
     },
     "practiceResult": {
-      "correct": "",
-      "incorrect": "",
-      "correctAnswer": "",
+      "correct": "优秀！",
+      "incorrect": "错误",
+      "correctAnswer": "正确答案：",
       "actions": {
-        "continue": ""
+        "continue": "继续"
+      }
+    },
+    "pronouns": {
+      "title": "人称代词",
+      "headers": {
+        "speak": "发音",
+        "german": "德语",
+        "russian": "俄语",
+        "learning": "学习语言",
+        "native": "母语"
+      },
+      "error": "无法加载代词",
+      "pronouns": [
+        {
+          "german": "ich",
+          "russian": "я"
+        },
+        {
+          "german": "du",
+          "russian": "ты"
+        },
+        {
+          "german": "er / sie / es",
+          "russian": "он / она / оно"
+        },
+        {
+          "german": "wir",
+          "russian": "мы"
+        },
+        {
+          "german": "ihr",
+          "russian": "вы (非正式)"
+        },
+        {
+          "german": "sie / Sie",
+          "russian": "они / Вы (正式)"
+        }
+      ]
+    },
+    "sentenceChain": {
+      "title": "短语构建器",
+      "aria": {
+        "goBack": "返回上一步"
+      },
+      "tooltips": {
+        "clickToRevert": "点击返回此步骤"
+      },
+      "errors": {
+        "generic": "错误"
+      },
+      "messages": {
+        "noContinuations": "没有续写建议。请尝试返回。"
+      },
+      "actions": {
+        "addCustom": "添加自定义版本"
+      }
+    },
+    "smartImport": {
+      "tabs": {
+        "assistant": "助手",
+        "speech": "从语音",
+        "file": "从文件"
+      },
+      "assistant": {
+        "title": "AI助手",
+        "subtitle": "输入主题，AI将为您生成一组卡片。",
+        "placeholder": "例如：'在机场'或'手指'",
+        "aria": {
+          "microphone": "语音输入",
+          "generate": "生成"
+        }
+      },
+      "speech": {
+        "title": "从语音或文本导入",
+        "subtitle": "录制语音或粘贴文本来创建卡片。",
+        "transcriptPlaceholder": "转录文本将显示在这里...",
+        "aria": {
+          "paste": "从剪贴板粘贴",
+          "process": "处理"
+        },
+        "errors": {
+          "pasteFailed": "无法从剪贴板粘贴文本。可能您未授予权限。"
+        }
+      },
+      "file": {
+        "title": "从文件导入"
+      },
+      "processing": {
+        "generatingCards": "AI正在生成卡片...",
+        "analyzingTopic": "正在分析主题..."
+      },
+      "suggestion": {
+        "addToExisting": {
+          "title": "补充分类？",
+          "body": "您已有分类«{{category}}»。是否要将«{{topic}}»主题的新卡片添加到其中？",
+          "yes": "是的，添加到«{{category}}»",
+          "no": "不，添加到«通用»"
+        },
+        "createNew": {
+          "title": "创建新分类？",
+          "body": "AI建议创建名称为的分类：",
+          "create": "创建",
+          "addToGeneral": "添加到«通用»"
+        }
+      },
+      "preview": {
+        "title": "建议的卡片",
+        "aria": {
+          "back": "返回"
+        },
+        "actions": {
+          "selectAll": "全选",
+          "clearAll": "全不选",
+          "refine": "优化",
+          "add": "添加",
+          "addWithCount": "添加({{count}})"
+        },
+        "refine": {
+          "placeholder": "优化，例如：仅动词",
+          "aria": {
+            "microphone": "语音输入"
+          }
+        }
+      },
+      "categoryNames": {
+        "fromSpeech": "语音卡片",
+        "general": "通用"
+      }
+    },
+    "voiceWorkspace": {
+      "instructions": "说出短语或将词语拖到此处",
+      "loading": "正在选择词语...",
+      "actions": {
+        "check": "检查",
+        "learnWithAI": "与AI一起学习",
+        "showAnswer": "显示答案",
+        "clear": "清除",
+        "close": "关闭",
+        "continue": "继续",
+        "nextPhrase": "下一个短语"
+      },
+      "feedback": {
+        "correct": "优秀！全部正确。",
+        "incorrect": "很遗憾，错误。请再试一次。",
+        "revealAnswer": "这是正确答案。下次再试！"
+      },
+      "errors": {
+        "check": "检查错误。",
+        "speech": "语音识别出错。",
+        "speechNetwork": "语音识别网络错误。",
+        "microphoneDenied": "麦克风访问未获授权。",
+        "unexpected": "发生意外错误。",
+        "serviceUnavailable": "服务暂时不可用(错误500)。",
+        "apiKey": "API密钥配置错误。",
+        "requestFailed": "无法执行请求。",
+        "loadWords": "无法加载词语选项。"
+      },
+      "automation": {
+        "nextPhrase": "下一个短语"
       }
     },
     "fileImport": {
       "cropper": {
-        "cancel": "",
-        "confirm": ""
+        "cancel": "取消",
+        "confirm": "确认"
       },
       "errors": {
-        "unsupportedType": "",
-        "tooLarge": "",
-        "cropFirst": ""
+        "unsupportedType": "不支持的文件类型。请选择图像。",
+        "tooLarge": "文件太大。最大大小10MB。",
+        "cropFirst": "请先上传并裁剪图像。"
       },
-      "instructions": "",
+      "instructions": "上传图像。AI将识别文本或描述照片中的物体，将其转换为卡片。",
       "dropzone": {
-        "text": "",
-        "subtext": ""
+        "text": "拖放或选择文件",
+        "subtext": "图像(最大10MB)"
       },
       "camera": {
-        "button": "",
-        "subtext": ""
+        "button": "拍照",
+        "subtext": "使用相机"
       },
       "preview": {
-        "alt": ""
+        "alt": "裁剪图像预览"
       },
       "refinement": {
-        "placeholder": "",
-        "aria": ""
+        "placeholder": "添加优化(可选)...",
+        "aria": "语音输入优化"
       },
-      "submit": ""
-    },
-    "voiceWorkspace": {
-      "instructions": "",
-      "loading": "",
-      "actions": {
-        "check": "",
-        "learnWithAI": "",
-        "showAnswer": "",
-        "clear": "",
-        "close": "",
-        "continue": "",
-        "nextPhrase": ""
-      },
-      "feedback": {
-        "correct": "",
-        "incorrect": "",
-        "revealAnswer": ""
-      },
-      "errors": {
-        "check": "",
-        "speech": "",
-        "speechNetwork": "",
-        "microphoneDenied": "",
-        "unexpected": "",
-        "serviceUnavailable": "",
-        "apiKey": "",
-        "requestFailed": "",
-        "loadWords": ""
-      },
-      "automation": {
-        "nextPhrase": ""
-      }
+      "submit": "创建卡片"
     },
     "verbConjugation": {
-      "title": "",
-      "proxyTitle": "",
+      "title": "变位: {{infinitive}}",
+      "proxyTitle": "变位: {{infinitive}}",
       "errors": {
-        "simple": "",
-        "detailed": ""
+        "simple": "无法加载简单变位。",
+        "detailed": "无法加载详细变位。"
       },
       "simple": {
-        "heading": "",
-        "button": ""
+        "heading": "Präsens (现在时)",
+        "button": "更多详情"
       },
       "tense": {
-        "present": "",
-        "past": "",
-        "future": ""
+        "present": "Präsens (现在时)",
+        "past": "Perfekt (过去时)",
+        "future": "Futur I (将来时)"
       },
       "forms": {
-        "statement": "",
-        "question": "",
-        "negative": ""
+        "statement": "陈述",
+        "question": "疑问",
+        "negative": "否定"
       }
     },
     "voicePractice": {
-      "prompt": "",
-      "listening": "",
+      "prompt": "说出这个短语：",
+      "listening": "正在聆听...",
       "aria": {
-        "microphone": "",
-        "close": ""
+        "microphone": "开始语音输入",
+        "close": "关闭"
       }
     },
     "wFragen": {
-      "title": "",
+      "title": "疑问词",
       "columns": {
-        "play": "",
-        "german": "",
-        "translation": ""
+        "play": "发音",
+        "german": "德语",
+        "translation": "翻译"
       },
       "items": [
         {
-          "german": "",
-          "translation": ""
+          "german": "Was?",
+          "translation": "什么？"
         },
         {
-          "german": "",
-          "translation": ""
+          "german": "Wer?",
+          "translation": "谁？"
         },
         {
-          "german": "",
-          "translation": ""
+          "german": "Wo?",
+          "translation": "哪里？"
         },
         {
-          "german": "",
-          "translation": ""
+          "german": "Wann?",
+          "translation": "何时？"
         },
         {
-          "german": "",
-          "translation": ""
+          "german": "Wie?",
+          "translation": "如何？"
         },
         {
-          "german": "",
-          "translation": ""
+          "german": "Warum?",
+          "translation": "为什么？"
         },
         {
-          "german": "",
-          "translation": ""
+          "german": "Woher?",
+          "translation": "从哪里来？"
         },
         {
-          "german": "",
-          "translation": ""
+          "german": "Wohin?",
+          "translation": "到哪里去？"
         }
       ]
     },
     "wordAnalysis": {
-      "title": "",
+      "title": "词语分析: {{word}}",
       "errors": {
-        "generic": "",
-        "unknown": ""
+        "generic": "无法加载分析。",
+        "unknown": "无数据可供分析。"
       },
       "labels": {
-        "partOfSpeech": "",
-        "grammarReference": "",
-        "baseForm": "",
-        "nativeTranslation": "",
-        "article": "",
-        "plural": "",
-        "infinitive": "",
-        "tense": "",
+        "partOfSpeech": "词性",
+        "grammarReference": "语法参考",
+        "baseForm": "基本形式",
+        "nativeTranslation": "翻译",
+        "article": "冠词",
+        "plural": "复数",
+        "infinitive": "不定式",
+        "tense": "时态",
         "person": "人称和数",
-        "example": "",
-        "exampleTranslation": "",
-        "cardCreated": ""
+        "example": "使用示例",
+        "exampleTranslation": "翻译：",
+        "cardCreated": "卡片已创建！"
       },
       "actions": {
-        "createCard": "",
-        "openVerb": "",
-        "openNoun": "",
-        "openAdjective": ""
+        "createCard": "创建卡片",
+        "openVerb": "打开变位",
+        "openNoun": "打开变格",
+        "openAdjective": "打开变格和比较级"
       }
     },
     "cameraCapture": {
-      "errorTitle": "",
+      "errorTitle": "相机错误",
       "errors": {
-        "permission": "",
-        "notFound": "",
-        "generic": ""
+        "permission": "相机访问被拒绝。",
+        "notFound": "未找到相机。",
+        "generic": "相机访问错误。"
       },
       "aria": {
-        "capture": ""
+        "capture": "拍照"
+      }
+    },
+    "phraseList": {
+      "search": {
+        "listening": "正在聆听...",
+        "placeholder": "搜索短语..."
+      },
+      "filters": {
+        "all": "全部"
+      },
+      "summary": {
+        "count": "{{count}} 张卡片"
+      },
+      "actions": {
+        "duplicates": "重复项",
+        "aiImport": "AI导入"
+      },
+      "sections": {
+        "new": "新的",
+        "inProgress": "进行中",
+        "mastered": "已掌握"
       }
     }
   },
   "phraseList": {
     "item": {
       "badges": {
-        "new": ""
+        "new": "新"
       },
       "actions": {
-        "practice": "",
-        "edit": "",
-        "delete": ""
+        "practice": "练习",
+        "edit": "编辑",
+        "delete": "删除"
       },
-      "categoryButton": ""
+      "categoryButton": "分类: {{name}}"
     },
     "search": {
-      "listening": "",
-      "placeholder": ""
+      "listening": "正在聆听搜索查询...",
+      "placeholder": "搜索短语..."
     },
     "sections": {
-      "new": "",
-      "inProgress": "",
-      "mastered": ""
+      "new": "新的",
+      "inProgress": "进行中",
+      "mastered": "已掌握"
     },
     "filters": {
-      "all": ""
+      "all": "全部"
     },
     "summary": {
-      "count": ""
+      "count": "{{count}} 张卡片"
     },
     "actions": {
-      "duplicates": "",
-      "aiImport": ""
-    }
-  },
-  "phraseCard": {
-    "actions": {
-      "learningAssistant": "与 AI 学习",
-      "sentenceChain": "句子链",
-      "phraseBuilder": "句子构建器",
-      "chat": "与 AI 讨论",
-      "deepDive": "深入分析",
-      "movieExamples": "电影示例"
-    },
-    "aria": {
-      "openSettings": "改进短语",
-      "playTranslation": "播放翻译",
-      "moreActions": "更多操作"
+      "duplicates": "重复项",
+      "aiImport": "AI导入"
     }
   },
   "assistant": {
     "contextMenu": {
-      "wordDetails": "单词详情",
-      "createWordCard": "创建单词卡片",
+      "wordDetails": "词语详情",
+      "createWordCard": "创建词语卡片",
       "createPhraseCard": "创建短语卡片",
-      "generateSimilar": "生成相似项",
-      "goToList": "前往列表",
+      "generateSimilar": "生成相似的",
+      "goToList": "转到任务列表",
       "discussTranslation": "讨论翻译"
     },
     "common": {
       "translationError": "翻译错误",
-      "translating": "翻译中",
+      "translating": "正在翻译...",
       "translate": "翻译"
     },
+    "modal": {
+      "title": "«{{name}}»的助手",
+      "input": {
+        "placeholder": "描述需要添加的内容...",
+        "listening": "正在聆听..."
+      },
+      "quickActions": {
+        "addSimilar": "添加相似短语",
+        "checkConsistency": "检查一致性",
+        "createDialogue": "创建对话"
+      },
+      "actions": {
+        "addSelected": "添加选中的({{count}})",
+        "goToList": "转到列表"
+      },
+      "messages": {
+        "error": "无法执行请求: {{message}}"
+      },
+      "success": {
+        "added": "{{count}}张卡片已添加到分类。"
+      }
+    },
     "prompts": {
-      "generateSimilar": "为 {phrase} 生成相似短语"
+      "generateSimilar": "为以下内容生成相似短语: {phrase}"
+    }
+  },
+  "phraseCard": {
+    "actions": {
+      "learningAssistant": "与AI一起学习",
+      "sentenceChain": "短语链",
+      "phraseBuilder": "短语构建器",
+      "chat": "与AI讨论",
+      "deepDive": "深度分析",
+      "movieExamples": "电影示例"
+    },
+    "aria": {
+      "openSettings": "改进短语",
+      "playTranslation": "发音翻译",
+      "moreActions": "更多操作"
     }
   }
 }

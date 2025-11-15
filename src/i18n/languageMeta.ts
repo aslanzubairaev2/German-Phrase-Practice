@@ -12,6 +12,8 @@ export const LANGUAGE_LABELS: Record<LanguageCode, string> = {
   zh: '中文',
   ja: '日本語',
   ar: 'العربية',
+  hi: 'हिन्दी',
+  ma: 'मराठी',
 };
 
 export const getLanguageLabel = (code: LanguageCode): string => LANGUAGE_LABELS[code] ?? code.toUpperCase();

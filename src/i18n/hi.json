@@ -1,0 +1,1108 @@
+{
+  "header": {
+    "title": "लिंगोगो",
+    "subtitle": "अंतराल दोहराव प्रणाली",
+    "actions": {
+      "openList": "सूची खोलें",
+      "openPractice": "अभ्यास पर जाएं",
+      "openSettings": "सेटिंग्स खोलें",
+      "signOut": "साइन आउट",
+      "signingOut": "साइन आउट कर रहे हैं..."
+    },
+    "errors": {
+      "signOutFailed": "साइन आउट पूरा नहीं हो सका"
+    }
+  },
+  "common": {
+    "field": {
+      "email": "ईमेल"
+    },
+    "placeholder": {
+      "email": "you@example.com"
+    },
+    "labels": {
+      "error": "त्रुटि"
+    },
+    "actions": {
+      "delete": "हटाएं"
+    }
+  },
+  "auth": {
+    "errors": {
+      "ensureUserData": "उपयोगकर्ता डेटा प्रारंभ नहीं किया जा सका।",
+      "sessionExpired": "सत्र समाप्त हो गया। कृपया फिर से साइन इन करें।",
+      "supabaseSignOut": "401 के बाद सुपाबेस सत्र समाप्त नहीं किया जा सका।",
+      "restoreSession": "प्रमाणीकरण सत्र पुनर्स्थापित नहीं किया जा सका।",
+      "subscribeAuth": "प्रमाणीकरण घटनाओं की सदस्यता नहीं ली जा सकी।",
+      "noSessionAfterSignIn": "साइन इन के बाद सत्र प्राप्त नहीं हो सका।",
+      "noSessionAfterSignUp": "साइन अप के बाद सत्र प्राप्त नहीं हो सका।"
+    },
+    "loading": {
+      "preparingData": "आपका डेटा लोड हो रहा है..."
+    },
+    "login": {
+      "validation": {
+        "missingCredentials": "कृपया ईमेल और पासवर्ड दर्ज करें।"
+      },
+      "title": "साइन इन",
+      "subtitle": "वाक्यांश सीखना जारी रखने के लिए प्रमाणित करें।",
+      "field": {
+        "passwordLabel": "पासवर्ड",
+        "passwordPlaceholder": "********"
+      },
+      "submit": {
+        "state": {
+          "loading": "साइन इन हो रहा है..."
+        },
+        "label": "साइन इन"
+      },
+      "switch": {
+        "prompt": "खाता नहीं है?",
+        "cta": "साइन अप करें"
+      }
+    },
+    "signup": {
+      "validation": {
+        "missingFields": "कृपया सभी फ़ील्ड भरें।",
+        "passwordMismatch": "पासवर्ड मेल नहीं खा रहे हैं।"
+      },
+      "title": "साइन अप",
+      "subtitle": "अपने वाक्यांशों को सिंक करने के लिए खाता बनाएं।",
+      "field": {
+        "passwordLabel": "पासवर्ड",
+        "passwordPlaceholder": "न्यूनतम 6 वर्ण",
+        "confirmLabel": "पासवर्ड दोबारा दर्ज करें",
+        "confirmPlaceholder": "पासवर्ड दोबारा दर्ज करें"
+      },
+      "submit": {
+        "state": {
+          "loading": "खाता बनाया जा रहा है..."
+        },
+        "label": "साइन अप करें"
+      },
+      "switch": {
+        "prompt": "पहले से ही खाता है?",
+        "cta": "साइन इन"
+      }
+    }
+  },
+  "account": {
+    "title": "खाता",
+    "email": "ईमेल"
+  },
+  "settings": {
+    "views": {
+      "main": "सेटिंग्स",
+      "general": "सामान्य",
+      "automation": "ऑटोमेशन (एआई)",
+      "categories": "अभ्यास के लिए श्रेणियाँ",
+      "analytics": "प्रगति और विश्लेषण"
+    },
+    "general": {
+      "legend": "सामान्य सेटिंग्स",
+      "autoSpeak": {
+        "label": "स्वचालित उच्चारण"
+      },
+      "soundEffects": {
+        "label": "ध्वनि प्रभाव"
+      }
+    },
+    "automation": {
+      "legend": "ऑटोमेशन सेटिंग्स",
+      "autoCheckShortPhrases": {
+        "label": "छोटे वाक्यांशों की स्वचालित जाँच",
+        "description": "तुरंत जाँचें यदि वाक्यांश सही ढंग से बना है।"
+      },
+      "learnNextPhraseHabit": {
+        "label": "'अगला वाक्यांश' आदत",
+        "description": "सही उत्तरों की तेज श्रृंखला में स्वचालित रूप से आगे बढ़ें।"
+      }
+    },
+    "categories": {
+      "manageButton": "श्रेणियाँ प्रबंधित करें"
+    },
+    "analytics": {
+      "noData": "—",
+      "srs": {
+        "totalCards": "कुल कार्ड",
+        "mastered": "मास्टर किए गए",
+        "learning": "सीखे जा रहे: {{count}}",
+        "dueToday": "आज दोहराने के लिए",
+        "overdue": "विलंबित: {{count}}",
+        "accuracy": "सटीकता",
+        "reviews": "{{count}} दोहराव",
+        "masteryProgress": "{{percent}}% मास्टर किए गए",
+        "streak": "🔥 {{days}} दिन लगातार",
+        "streak_plural": "🔥 {{days}} दिन लगातार",
+        "accuracyBreakdown": "सटीकता विवरण",
+        "overall": "कुल मिलाकर",
+        "last7Days": "पिछले 7 दिन",
+        "last30Days": "पिछले 30 दिन",
+        "levelsDistribution": "एसआरएस स्तरों के अनुसार वितरण",
+        "level": "स्तर {{level}}",
+        "categories": "श्रेणियाँ",
+        "cards": "कार्ड",
+        "avgLevel": "औसत स्तर",
+        "recentActivity": "हाल की गतिविधि (14 दिन)",
+        "difficultCards": "कठिन कार्ड (लीच)",
+        "lapses": "भूल",
+        "noActivityYet": "अभी तक कोई गतिविधि नहीं",
+        "noDifficultCards": "अभी तक कोई कठिन कार्ड नहीं",
+        "emptyState": "अभी तक अभ्यास डेटा नहीं है",
+        "emptyStateHint": "प्रगति आँकड़े देखने के लिए कार्ड का अभ्यास शुरू करें।"
+      }
+    }
+  },
+  "notifications": {
+    "sync": {
+      "synced": "✓ डेटा सर्वर के साथ सिंक हो गया।",
+      "loaded": "✓ डेटा सर्वर से सफलतापूर्वक लोड हो गया।",
+      "error": "सिंक त्रुटि: {{message}}"
+    },
+    "phrases": {
+      "existsInCategory": "कार्ड \"{{phrase}}\" पहले से ही इस श्रेणी में मौजूद है।",
+      "existsInOtherCategory": "कार्ड \"{{phrase}}\" पहले से ही दूसरी श्रेणी में मौजूद है।",
+      "createError": "वाक्यांश बनाने में त्रुटि: {{message}}",
+      "exists": "कार्ड \"{{phrase}}\" पहले से ही मौजूद है।",
+      "created": "\"{{phrase}}\" के लिए कार्ड बनाया गया।",
+      "createCardError": "कार्ड बनाने में त्रुटि: {{message}}",
+      "createCardGenericError": "कार्ड नहीं बनाया जा सका।"
+    },
+    "ai": {
+      "providerUnavailable": "एआई प्रदाता उपलब्ध नहीं है।"
+    },
+    "updateError": "अपडेट त्रुटि: {{message}}",
+    "saveError": "सेव त्रुटि: {{message}}",
+    "deleteError": "डिलीट त्रुटि: {{message}}",
+    "moveError": "मूव त्रुटि: {{message}}",
+    "genericError": "त्रुटि: {{message}}",
+    "categories": {
+      "createError": "श्रेणी बनाने में त्रुटि: {{message}}",
+      "saveError": "श्रेणी सेव करने में त्रुटि: {{message}}",
+      "deleteSuccess": "✓ श्रेणी \"{{name}}\" हटाई गई।"
+    },
+    "cards": {
+      "moving": "{{count}} कार्ड मूव किए जा रहे हैं...",
+      "moveSuccess": "✓ कार्ड मूव हो गए।",
+      "deleting": "{{count}} कार्ड डिलीट किए जा रहे हैं...",
+      "deleteSuccess": "✓ कार्ड डिलीट हो गए।",
+      "generateError": "कार्ड जनरेट नहीं किए जा सके।",
+      "addFailed": "\"{{phrase}}\" जोड़ा नहीं जा सका: {{error}}",
+      "rateLimit": "अनुरोध सीमा पार हो गई। एक बार में कम कार्ड जोड़ने का प्रयास करें।",
+      "addedToCategory": "✓ {{count}} कार्ड \"{{category}}\" में जोड़े गए।",
+      "movedAndAdded": "✓ {{moved}} कार्ड मूव किए गए और {{added}} \"{{category}}\" में जोड़े गए।",
+      "addedWithDuplicatesSkipped": "✓ {{count}} कार्ड \"{{category}}\" में जोड़े गए। डुप्लिकेट छोड़ दिए गए।",
+      "deletedCount": "✓ {{count}} कार्ड डिलीट किए गए।",
+      "movedToCategory": "✓ {{count}} कार्ड \"{{category}}\" में मूव किए गए।",
+      "otherCategory": "दूसरी श्रेणी",
+      "bulkAdded_one": "✓ {{count}} कार्ड जोड़ा गया।",
+      "bulkAdded_few": "✓ {{count}} कार्ड जोड़े गए।",
+      "bulkAdded_many": "✓ {{count}} कार्ड जोड़े गए।",
+      "bulkAdded_other": "✓ {{count}} कार्ड जोड़े गए।",
+      "bulkAdded": "✓ {{count}} कार्ड जोड़े गए।",
+      "bulkSkipped_one": "{{count}} पहले से मौजूद था और छोड़ दिया गया।",
+      "bulkSkipped_few": "{{count}} पहले से मौजूद थे और छोड़ दिए गए।",
+      "bulkSkipped_many": "{{count}} पहले से मौजूद थे और छोड़ दिए गए।",
+      "bulkSkipped_other": "{{count}} पहले से मौजूद थे और छोड़ दिए गए।",
+      "bulkSkipped": "{{count}} पहले से मौजूद थे और छोड़ दिए गए।"
+    }
+  },
+  "localization": {
+    "overlay": {
+      "heading": "स्थानीयकरण",
+      "title": "{{language}} में इंटरफेस तैयार कर रहे हैं",
+      "subtitle": "इंटरफेस तत्वों का {{language}} में अनुवाद किया जा रहा है।",
+      "fallbackDescription": "अनुवाद के दौरान त्रुटि हुई, फ़ॉलबैक भाषा सक्षम कर रहे हैं।",
+      "currentStepHint": "निष्पादित किया जा रहा है...",
+      "fallbackMessage": "{{language}} में अनुवाद तैयार होने तक हम अंग्रेजी का उपयोग करेंगे।",
+      "steps": {
+        "checkingStatic": "अंतर्निहित अनुवाद जाँचे जा रहे हैं",
+        "loadingCache": "स्थानीय कैश लोड हो रहा है",
+        "requestingAI": "एआई से अनुवाद का अनुरोध किया जा रहा है",
+        "validating": "अनुवाद संरचना की जाँच की जा रही है",
+        "applying": "अनुवाद लागू किए जा रहे हैं"
+      }
+    }
+  },
+  "library": {
+    "empty": {
+      "title": "आपकी लाइब्रेरी खाली है",
+      "description": "पढ़ने के लिए लाइब्रेरी बनाना शुरू करने के लिए ईपब फ़ाइल अपलोड करें।",
+      "action": "पहली किताब जोड़ें"
+    },
+    "actions": {
+      "add": "किताब जोड़ें",
+      "adding": "जोड़ा जा रहा है..."
+    },
+    "notifications": {
+      "epubProcessingFailed": "ईपब फ़ाइल प्रोसेस नहीं की जा सकी। सुनिश्चित करें कि फ़ाइल खराब नहीं है।"
+    },
+    "cards": {
+      "add": "नई किताब जोड़ें"
+    },
+    "alt": {
+      "cover": "{{title}} का कवर"
+    }
+  },
+  "categories": {
+    "detail": {
+      "actions": {
+        "addMore": "और जोड़ें",
+        "addPhrase": "वाक्यांश जोड़ें",
+        "aiAssistant": "एआई असिस्टेंट"
+      },
+      "empty": {
+        "title": "अभी तक कोई वाक्यांश नहीं"
+      }
+    },
+    "manager": {
+      "title": "श्रेणियाँ प्रबंधित करें",
+      "aria": {
+        "edit": "{{name}} संपादित करें",
+        "delete": "{{name}} हटाएं"
+      },
+      "add": "नई श्रेणी जोड़ें"
+    },
+    "form": {
+      "createTitle": "श्रेणी बनाएं",
+      "editTitle": "श्रेणी संपादित करें",
+      "fields": {
+        "nameLabel": "श्रेणी का नाम",
+        "namePlaceholder": "उदाहरण: यात्रा, काम, या बातचीत",
+        "colorLabel": "रंग",
+        "colorAria": "{{color}} रंग चुनें"
+      },
+      "notes": {
+        "aiHint": "सुझाव: एआई ऑटोमेशन द्वारा वाक्यांशों को सही ढंग से वितरित करने के लिए \"!\" और हाइफन के बिना समझने योग्य नामों का उपयोग करें।"
+      },
+      "errors": {
+        "duplicate": "इस नाम की श्रेणी पहले से मौजूद है।"
+      },
+      "submit": {
+        "create": "बनाएं",
+        "save": "परिवर्तन सेव करें"
+      }
+    },
+    "filterMenu": {
+      "actions": {
+        "settings": "सेटिंग्स",
+        "aiAssistant": "एआई असिस्टेंट"
+      }
+    }
+  },
+  "practice": {
+    "chat": {
+      "title": "एआई के साथ अभ्यास",
+      "placeholder": "संदेश टाइप करें...",
+      "listeningPlaceholder": "सुन रहा हूँ...",
+      "actions": {
+        "speak": "बोलें"
+      },
+      "messages": {
+        "revealTranslation": "अनुवाद दिखाने के लिए क्लिक करें",
+        "secondaryPrefix": "संकेत:",
+        "errorPrefix": "त्रुटि: {{message}}",
+        "unknownError": "अज्ञात त्रुटि"
+      },
+      "stats": {
+        "phrasesUsed_zero": "{{count}} वाक्यांश दोहराए गए",
+        "phrasesUsed_one": "{{count}} वाक्यांश दोहराया गया",
+        "phrasesUsed_few": "{{count}} वाक्यांश दोहराए गए",
+        "phrasesUsed_many": "{{count}} वाक्यांश दोहराए गए",
+        "phrasesUsed_other": "{{count}} वाक्यांश दोहराए गए",
+        "phrasesUsed": "{{count}} वाक्यांश दोहराए गए",
+        "phrasesUsed_plural": "{{count}} वाक्यांश अभ्यास किए गए"
+      }
+    },
+    "actions": {
+      "skip": "छोड़ें",
+      "know": "जानता हूँ"
+    },
+    "states": {
+      "allCategories": "सभी श्रेणियाँ",
+      "add": "जोड़ें",
+      "manage": "प्रबंधित करें",
+      "errorOccurred": "एक त्रुटि हुई",
+      "congratulations": "बधाई हो!",
+      "learnedAllSelected": "आपने चयनित श्रेणियों के सभी वाक्यांश सीख लिए हैं।",
+      "excellent": "उत्कृष्ट!",
+      "foundationCompleted": "\"{categoryName}\" श्रेणी में मूलभूत कार्ड पूरे हो गए हैं।",
+      "noMoreCards": "सीखने के लिए और कार्ड नहीं हैं।",
+      "practiceOtherCategories": "अन्य श्रेणियों का अभ्यास करें",
+      "empty": "खाली",
+      "noUnlearnedInCategory": "\"{categoryName}\" श्रेणी में कोई अनसीखे कार्ड नहीं हैं।",
+      "practiceAllCategories": "सभी श्रेणियों का अभ्यास करें",
+      "allForToday": "आज के लिए बस!",
+      "completedAllAvailable": "आपने इस श्रेणी में सभी उपलब्ध कार्ड पूरे कर लिए हैं।",
+      "comeBackLater": "सीखी हुई चीजों को दोहराने के लिए बाद में आएं।",
+      "continue": "जारी रखें",
+      "generateNew": "नए जनरेट करें",
+      "generating": "जनरेट हो रहा है..."
+    },
+    "discuss": {
+      "examples": {
+        "intro": "यहाँ कुछ उदाहरण और सुझाव हैं जो आपको इस वाक्यांश को बेहतर ढंग से समझने में मदद करेंगे:"
+      }
+    }
+  },
+  "languages": {
+    "names": {
+      "ru": "रूसी",
+      "de": "जर्मन"
+    },
+    "prepositional": {
+      "ru": "रूसी",
+      "de": "जर्मन"
+    },
+    "badge": {
+      "en": "EN",
+      "de": "DE",
+      "ru": "RU",
+      "fr": "FR",
+      "es": "ES",
+      "it": "IT",
+      "pt": "PT",
+      "pl": "PL",
+      "zh": "中文",
+      "ja": "日本",
+      "ar": "AR"
+    }
+  },
+  "fab": {
+    "addPhrase": "{{language}} में वाक्यांश जोड़ें",
+    "openLibrary": "लाइब्रेरी खोलें",
+    "smartImport": "स्मार्ट आयात",
+    "chooseLanguage": "वाक्यांश की भाषा चुनें",
+    "toggle": "वाक्यांश जोड़ें"
+  },
+  "modals": {
+    "addContinuation": {
+      "placeholders": {
+        "text": "जारी रखें दर्ज करें..."
+      },
+      "aria": {
+        "microphone": "वॉइस इनपुट",
+        "send": "जारी रखें भेजें",
+        "switchToText": "टेक्स्ट इनपुट पर स्विच करें",
+        "switchToVoice": "वॉइस इनपुट पर स्विच करें"
+      }
+    },
+    "addPhrase": {
+      "loading": "कार्ड बनाया जा रहा है...",
+      "title": "नया वाक्यांश बनाएं",
+      "body": {
+        "instructions": {
+          "voice": "{{language}} में वाक्यांश बोलें",
+          "text": "{{language}} में वाक्यांश दर्ज करें"
+        }
+      },
+      "placeholders": {
+        "ru": "उदाहरण: \"यह कितना खर्च होता है?\"",
+        "de": "उदाहरण: \"Wie viel kostet das?\""
+      },
+      "aria": {
+        "microphone": "वॉइस इनपुट",
+        "textField": {
+          "ru": "रूसी में वाक्यांश",
+          "de": "जर्मन में वाक्यांश"
+        },
+        "send": "वाक्यांश बनाएं",
+        "toggleToText": "टेक्स्ट इनपुट पर स्विच करें",
+        "toggleToVoice": "वॉइस इनपुट पर स्विच करें",
+        "close": "बंद करें"
+      },
+      "status": {
+        "listening": "सुन रहा हूँ..."
+      },
+      "errors": {
+        "generic": "वाक्यांश नहीं बनाया जा सका।",
+        "network": "नेटवर्क त्रुटि। कनेक्शन जाँचें या मैन्युअल रूप से टेक्स्ट दर्ज करें।",
+        "permission": "माइक्रोफोन एक्सेस अस्वीकृत। सेटिंग्स जाँचें और मैन्युअल रूप से टेक्स्ट दर्ज करें।",
+        "recognition": "स्पीच रिकग्निशन में त्रुटि हुई।"
+      },
+      "errorLabel": "त्रुटि",
+      "actions": {
+        "create": "बनाएं"
+      }
+    },
+    "adjectiveDeclension": {
+      "title": "विशेषण: {{adjective}}",
+      "phraseNative": "रूप रचना: {{adjective}}",
+      "labels": {
+        "case": "कारक",
+        "masculine": "पुल्लिंग",
+        "feminine": "स्त्रीलिंग",
+        "neuter": "नपुंसकलिंग",
+        "plural": "बहुवचन",
+        "weak": "कमजोर रूप रचना (निश्चित आर्टिकल के साथ)",
+        "mixed": "मिश्रित रूप रचना (अनिश्चित आर्टिकल के साथ)",
+        "strong": "मजबूत रूप रचना (बिना आर्टिकल के)",
+        "degrees": "तुलना की डिग्री",
+        "positive": "सकारात्मक",
+        "comparative": "तुलनात्मक",
+        "superlative": "अतिशय"
+      },
+      "sections": {
+        "grammar": "व्याकरण संदर्भ",
+        "example": "उपयोग उदाहरण"
+      },
+      "states": {
+        "errorTitle": "त्रुटि",
+        "empty": "कोई डेटा नहीं।",
+        "errorMessage": "रूप रचना विवरण लोड नहीं किए जा सके।"
+      },
+      "cases": {
+        "nominativ": "कर्ता कारक",
+        "akkusativ": "कर्म कारक",
+        "dativ": "संप्रदान कारक",
+        "genitiv": "संबंध कारक"
+      }
+    },
+    "autoFillLoading": {
+      "title": "कार्ड जनरेट हो रहे हैं...",
+      "body": "कृपया प्रतीक्षा करें। एआई «{{category}}» श्रेणी के लिए वाक्यांश चुन रहा है।"
+    },
+    "autoFillPreview": {
+      "title": "\"{{category}}\" के लिए सुझाव",
+      "tooltip": "\"{{category}}\" के लिए सुझाव",
+      "empty": "एआई ने कोई कार्ड सुझाए नहीं। कृपया अनुरोध को परिष्कृत करने का प्रयास करें।",
+      "refine": {
+        "placeholder": "उदाहरण: केवल नाम, वाक्यांशों के बिना",
+        "toggle": "परिष्कृत करें"
+      },
+      "actions": {
+        "refine": "परिष्कृत करें",
+        "confirm": "जोड़ें",
+        "confirmShort": "+",
+        "confirmWithCount": "जोड़ें ({{count}})"
+      },
+      "selection": {
+        "select": "सभी चुनें",
+        "clear": "सभी हटाएं"
+      },
+      "status": {
+        "listening": "सुन रहा हूँ..."
+      }
+    },
+    "chat": {
+      "placeholders": {
+        "listening": "सुन रहा हूँ...",
+        "ask": "कुछ पूछें..."
+      },
+      "aria": {
+        "stopListening": "सुनना बंद करें",
+        "startListening": "सुनना शुरू करें"
+      },
+      "errors": {
+        "generic": "एक त्रुटि हुई: {{message}}"
+      }
+    },
+    "confirmCategoryFill": {
+      "title": "श्रेणी भरें?",
+      "body": "क्या आप तुरंत \"{{category}}\" श्रेणी को एआई से भरना चाहते हैं?",
+      "actions": {
+        "cancel": "बाद में",
+        "confirm": "हाँ, भरें"
+      }
+    },
+    "confirmDeleteCategory": {
+      "title": "श्रेणी हटाएं?",
+      "body": "आप श्रेणी हटाने वाले हैं:",
+      "phraseCount": "इस श्रेणी में {{count}} {{cards}} हैं। उनके साथ क्या करना है?",
+      "cards": {
+        "one": "कार्ड",
+        "few": "कार्ड",
+        "many": "कार्ड",
+        "other": "कार्ड"
+      },
+      "actions": {
+        "move": "मूव करें",
+        "delete": "सभी कार्ड हटाएं",
+        "cancel": "रद्द करें",
+        "confirm": "हटाएं"
+      }
+    },
+    "confirmDelete": {
+      "title": "हटाने की पुष्टि करें",
+      "body": "क्या आप वाकई इस वाक्यांश को स्थायी रूप से हटाना चाहते हैं?",
+      "mastery": "मास्टरी स्तर:",
+      "actions": {
+        "cancel": "रद्द करें",
+        "confirm": "हटाएं"
+      }
+    },
+    "confirmDeletePhrases": {
+      "title": "कार्रवाई की पुष्टि करें",
+      "body": "एआई असिस्टेंट निम्नलिखित {{count}} {{cards}} को हटाने या मूव करने का सुझाव देता है। उनके साथ क्या करना है?",
+      "cards": {
+        "one": "कार्ड",
+        "few": "कार्ड",
+        "many": "कार्ड",
+        "other": "कार्ड"
+      },
+      "actions": {
+        "selectAll": "सभी चुनें",
+        "deselectAll": "सभी अचयनित करें",
+        "delete": "हटाएं ({{count}})",
+        "move": "मूव करें ({{count}})"
+      }
+    },
+    "deepDive": {
+      "stages": {
+        "deconstruction": "चरण 1: विघटन",
+        "personalization": "चरण 2: वैयक्तिकरण",
+        "encoding": "चरण 3: एन्कोडिंग"
+      },
+      "errors": {
+        "analysis": "विश्लेषण त्रुटि",
+        "noData": "विश्लेषण के लिए कोई डेटा नहीं।"
+      }
+    },
+    "discussTranslation": {
+      "title": "अनुवाद पर चर्चा करें",
+      "suggestion": "एआई सुझाव:",
+      "accept": "यह विकल्प स्वीकार करें",
+      "placeholder": "आपकी टिप्पणी...",
+      "errors": {
+        "generic": "एक त्रुटि हुई: {{message}}"
+      }
+    },
+    "editPhrase": {
+      "title": "वाक्यांश संपादित करें",
+      "fields": {
+        "russian": "रूसी",
+        "german": "जर्मन",
+        "category": "श्रेणी"
+      },
+      "errors": {
+        "translation": "अनुवाद प्राप्त नहीं हो सका।"
+      },
+      "actions": {
+        "discuss": "अनुवाद पर चर्चा करें",
+        "save": "सेव करें"
+      }
+    },
+    "findDuplicates": {
+      "title": "डुप्लिकेट ढूंढें",
+      "processing": "खोजा जा रहा है...",
+      "found": "{{count}} डुप्लिकेट समूह मिले।",
+      "description": "प्रत्येक समूह में सबसे कम प्रगति वाला वाक्यांश हटाया जाएगा।",
+      "actions": {
+        "cancel": "रद्द करें",
+        "clean": "साफ करें",
+        "close": "बंद करें"
+      },
+      "noDuplicates": "कोई डुप्लिकेट नहीं मिले।",
+      "errors": {
+        "search": "डुप्लिकेट खोजने में त्रुटि: {{message}}"
+      }
+    },
+    "improvePhrase": {
+      "actions": {
+        "suggest": "सही विकल्प सुझाएं",
+        "discuss": "एआई के साथ चर्चा करें"
+      },
+      "reasoning": "तर्क:",
+      "improve": "सुधारें",
+      "errors": {
+        "generic": "सुधार प्राप्त नहीं हो सका।"
+      }
+    },
+    "learningAssistant": {
+      "success": "सही!",
+      "placeholder": "आपका उत्तर...",
+      "dontKnow": "नहीं पता",
+      "errors": {
+        "generic": "एक त्रुटि हुई: {{message}}"
+      }
+    },
+    "moveOrSkip": {
+      "title": "डुप्लिकेट मिले",
+      "body": "{{count}} {{cards}} मिले जो पहले से ही अन्य श्रेणियों में मौजूद हैं।{{newCards}}",
+      "newCards": " {{count}} नए भी जोड़े जाएंगे।",
+      "question": "आप क्या करना चाहते हैं?",
+      "actions": {
+        "move": "{{count}} को \"{{category}}\" में मूव करें",
+        "addOnlyNew": "केवल {{count}} नए जोड़ें",
+        "cancel": "रद्द करें"
+      },
+      "cards": {
+        "one": "कार्ड",
+        "few": "कार्ड",
+        "many": "कार्ड",
+        "other": "कार्ड"
+      }
+    },
+    "movieExamples": {
+      "title": "फिल्म उदाहरण",
+      "errors": {
+        "generic": "त्रुटि"
+      },
+      "noExamples": "इस वाक्यांश के लिए फिल्म उदाहरण नहीं मिल सके।"
+    },
+    "nounDeclension": {
+      "title": "रूप रचना: {{noun}}",
+      "errors": {
+        "generic": "त्रुटि",
+        "noData": "कोई डेटा नहीं।"
+      },
+      "headers": {
+        "case": "कारक",
+        "singular": "एकवचन",
+        "plural": "बहुवचन"
+      },
+      "cases": {
+        "nominativ": {
+          "name": "कर्ता कारक",
+          "question": "(कौन? क्या?)"
+        },
+        "akkusativ": {
+          "name": "कर्म कारक",
+          "question": "(किसे? क्या?)"
+        },
+        "dativ": {
+          "name": "संप्रदान कारक",
+          "question": "(किसको? किसे?)"
+        },
+        "genitiv": {
+          "name": "संबंध कारक",
+          "question": "(किसका? किसके?)"
+        }
+      }
+    },
+    "phraseBuilder": {
+      "loading": "शब्द चुने जा रहे हैं...",
+      "errors": {
+        "generic": "त्रुटि",
+        "check": "जाँच के दौरान त्रुटि हुई।"
+      },
+      "instructions": "वाक्यांश बनाने के लिए नीचे दिए गए शब्दों पर क्लिक करें",
+      "aria": {
+        "clear": "साफ करें"
+      },
+      "actions": {
+        "check": "जाँचें",
+        "close": "बंद करें",
+        "continue": "जारी रखें"
+      }
+    },
+    "phrasePreview": {
+      "actions": {
+        "learn": "यह वाक्यांश सीखें"
+      }
+    },
+    "practiceResult": {
+      "correct": "उत्कृष्ट!",
+      "incorrect": "गलत",
+      "correctAnswer": "सही उत्तर:",
+      "actions": {
+        "continue": "जारी रखें"
+      }
+    },
+    "pronouns": {
+      "title": "पुरुषवाचक सर्वनाम",
+      "headers": {
+        "speak": "बोलें",
+        "german": "जर्मन",
+        "russian": "रूसी",
+        "learning": "सीखी जाने वाली भाषा",
+        "native": "मूल भाषा"
+      },
+      "error": "सर्वनाम लोड नहीं हो सके",
+      "pronouns": [
+        {
+          "german": "ich",
+          "russian": "я"
+        },
+        {
+          "german": "du",
+          "russian": "ты"
+        },
+        {
+          "german": "er / sie / es",
+          "russian": "он / она / оно"
+        },
+        {
+          "german": "wir",
+          "russian": "мы"
+        },
+        {
+          "german": "ihr",
+          "russian": "вы (неформ.)"
+        },
+        {
+          "german": "sie / Sie",
+          "russian": "они / Вы (форм.)"
+        }
+      ]
+    },
+    "sentenceChain": {
+      "title": "वाक्यांश निर्माता",
+      "aria": {
+        "goBack": "एक कदम पीछे जाएं"
+      },
+      "tooltips": {
+        "clickToRevert": "इस चरण पर वापस जाने के लिए क्लिक करें"
+      },
+      "errors": {
+        "generic": "त्रुटि"
+      },
+      "messages": {
+        "noContinuations": "जारी रखने के लिए कोई सुझाव नहीं। पीछे जाने का प्रयास करें।"
+      },
+      "actions": {
+        "addCustom": "अपना विकल्प जोड़ें"
+      }
+    },
+    "smartImport": {
+      "tabs": {
+        "assistant": "असिस्टेंट",
+        "speech": "स्पीच से",
+        "file": "फ़ाइल से"
+      },
+      "assistant": {
+        "title": "एआई असिस्टेंट",
+        "subtitle": "एक विषय दर्ज करें और एआई आपके लिए कार्डों का एक सेट जनरेट करेगा।",
+        "placeholder": "उदाहरण: 'हवाई अड्डे पर' या 'हाथ की उंगलियां'",
+        "aria": {
+          "microphone": "वॉइस इनपुट",
+          "generate": "जनरेट करें"
+        }
+      },
+      "speech": {
+        "title": "स्पीच या टेक्स्ट से आयात",
+        "subtitle": "कार्ड बनाने के लिए स्पीच रिकॉर्ड करें या टेक्स्ट पेस्ट करें।",
+        "transcriptPlaceholder": "यहाँ ट्रांसक्रिप्शन दिखाई देगा...",
+        "aria": {
+          "paste": "क्लिपबोर्ड से पेस्ट करें",
+          "process": "प्रोसेस करें"
+        },
+        "errors": {
+          "pasteFailed": "क्लिपबोर्ड से टेक्स्ट पेस्ट नहीं हो सका। संभवतः आपने अनुमति नहीं दी।"
+        }
+      },
+      "file": {
+        "title": "फ़ाइल से आयात"
+      },
+      "processing": {
+        "generatingCards": "एआई कार्ड जनरेट कर रहा है...",
+        "analyzingTopic": "विषय का विश्लेषण किया जा रहा है..."
+      },
+      "suggestion": {
+        "addToExisting": {
+          "title": "श्रेणी को पूरक करें?",
+          "body": "आपके पास पहले से ही «{{category}}» श्रेणी है। क्या आप «{{topic}}» विषय पर नए कार्ड इसमें जोड़ना चाहते हैं?",
+          "yes": "हाँ, «{{category}}» में जोड़ें",
+          "no": "नहीं, «सामान्य» में जोड़ें"
+        },
+        "createNew": {
+          "title": "नई श्रेणी बनाएं?",
+          "body": "एआई नाम के साथ श्रेणी बनाने का सुझाव देता है:",
+          "create": "बनाएं",
+          "addToGeneral": "«सामान्य» में जोड़ें"
+        }
+      },
+      "preview": {
+        "title": "सुझाए गए कार्ड",
+        "aria": {
+          "back": "पीछे"
+        },
+        "actions": {
+          "selectAll": "सभी चुनें",
+          "clearAll": "सभी हटाएं",
+          "refine": "परिष्कृत करें",
+          "add": "जोड़ें",
+          "addWithCount": "जोड़ें ({{count}})"
+        },
+        "refine": {
+          "placeholder": "परिष्करण, उदाहरण: केवल क्रियाएँ",
+          "aria": {
+            "microphone": "वॉइस इनपुट"
+          }
+        }
+      },
+      "categoryNames": {
+        "fromSpeech": "स्पीच से कार्ड",
+        "general": "सामान्य"
+      }
+    },
+    "voiceWorkspace": {
+      "instructions": "वाक्यांश बोलें या शब्दों को यहाँ खींचें",
+      "loading": "शब्द चुने जा रहे हैं...",
+      "actions": {
+        "check": "जाँचें",
+        "learnWithAI": "एआई के साथ सीखें",
+        "showAnswer": "उत्तर दिखाएं",
+        "clear": "साफ करें",
+        "close": "बंद करें",
+        "continue": "जारी रखें",
+        "nextPhrase": "अगला वाक्यांश"
+      },
+      "feedback": {
+        "correct": "उत्कृष्ट! सब कुछ सही है।",
+        "incorrect": "दुर्भाग्य से, गलती। फिर से प्रयास करें।",
+        "revealAnswer": "यहाँ सही उत्तर है। अगली बार प्रयास करें!"
+      },
+      "errors": {
+        "check": "जाँच त्रुटि।",
+        "speech": "स्पीच रिकग्निशन में त्रुटि हुई।",
+        "speechNetwork": "स्पीच रिकग्निशन में नेटवर्क त्रुटि।",
+        "microphoneDenied": "माइक्रोफोन एक्सेस अनुमति नहीं है।",
+        "unexpected": "एक अप्रत्याशित त्रुटि हुई।",
+        "serviceUnavailable": "सेवा अस्थायी रूप से अनुपलब्ध (त्रुटि 500)।",
+        "apiKey": "एपीआई कुंजी कॉन्फ़िगरेशन त्रुटि।",
+        "requestFailed": "अनुरोध निष्पादित नहीं किया जा सका।",
+        "loadWords": "शब्द विकल्प लोड नहीं हो सके।"
+      },
+      "automation": {
+        "nextPhrase": "अगला वाक्यांश"
+      }
+    },
+    "fileImport": {
+      "cropper": {
+        "cancel": "रद्द करें",
+        "confirm": "पुष्टि करें"
+      },
+      "errors": {
+        "unsupportedType": "असमर्थित फ़ाइल प्रकार। कृपया एक छवि चुनें।",
+        "tooLarge": "फ़ाइल बहुत बड़ी। अधिकतम आकार 10MB।",
+        "cropFirst": "पहले छवि अपलोड और क्रॉप करें।"
+      },
+      "instructions": "एक छवि अपलोड करें। एआई टेक्स्ट पहचानेगा या फोटो में वस्तुओं का वर्णन करेगा, उन्हें कार्ड में बदलते हुए।",
+      "dropzone": {
+        "text": "फ़ाइल खींचें या चुनें",
+        "subtext": "छवि (अधिकतम 10MB)"
+      },
+      "camera": {
+        "button": "फोटो लें",
+        "subtext": "कैमरा उपयोग करें"
+      },
+      "preview": {
+        "alt": "क्रॉप की गई छवि का पूर्वावलोकन"
+      },
+      "refinement": {
+        "placeholder": "परिष्करण जोड़ें (वैकल्पिक)...",
+        "aria": "परिष्करण के लिए वॉइस इनपुट"
+      },
+      "submit": "कार्ड बनाएं"
+    },
+    "verbConjugation": {
+      "title": "क्रिया रूप: {{infinitive}}",
+      "proxyTitle": "क्रिया रूप: {{infinitive}}",
+      "errors": {
+        "simple": "सरल क्रिया रूप लोड नहीं हो सके।",
+        "detailed": "विस्तृत क्रिया रूप लोड नहीं हो सके।"
+      },
+      "simple": {
+        "heading": "Präsens (वर्तमान काल)",
+        "button": "अधिक जानकारी"
+      },
+      "tense": {
+        "present": "Präsens (वर्तमान काल)",
+        "past": "Perfekt (भूतकाल)",
+        "future": "Futur I (भविष्य काल)"
+      },
+      "forms": {
+        "statement": "कथन",
+        "question": "प्रश्न",
+        "negative": "नकारात्मक"
+      }
+    },
+    "voicePractice": {
+      "prompt": "इस वाक्यांश को बोलें:",
+      "listening": "सुन रहा हूँ...",
+      "aria": {
+        "microphone": "वॉइस इनपुट शुरू करें",
+        "close": "बंद करें"
+      }
+    },
+    "wFragen": {
+      "title": "प्रश्नवाचक शब्द",
+      "columns": {
+        "play": "बोलें",
+        "german": "जर्मन",
+        "translation": "अनुवाद"
+      },
+      "items": [
+        {
+          "german": "Was?",
+          "translation": "क्या?"
+        },
+        {
+          "german": "Wer?",
+          "translation": "कौन?"
+        },
+        {
+          "german": "Wo?",
+          "translation": "कहाँ?"
+        },
+        {
+          "german": "Wann?",
+          "translation": "कब?"
+        },
+        {
+          "german": "Wie?",
+          "translation": "कैसे?"
+        },
+        {
+          "german": "Warum?",
+          "translation": "क्यों?"
+        },
+        {
+          "german": "Woher?",
+          "translation": "कहाँ से?"
+        },
+        {
+          "german": "Wohin?",
+          "translation": "कहाँ तक?"
+        }
+      ]
+    },
+    "wordAnalysis": {
+      "title": "शब्द विश्लेषण: {{word}}",
+      "errors": {
+        "generic": "विश्लेषण लोड नहीं हो सका।",
+        "unknown": "विश्लेषण के लिए कोई डेटा नहीं।"
+      },
+      "labels": {
+        "partOfSpeech": "शब्द भेद",
+        "grammarReference": "व्याकरण संदर्भ",
+        "baseForm": "मूल रूप",
+        "nativeTranslation": "अनुवाद",
+        "article": "आर्टिकल",
+        "plural": "बहुवचन",
+        "infinitive": "इनफिनिटिव",
+        "tense": "काल",
+        "person": "पुरुष और वचन",
+        "example": "उपयोग उदाहरण",
+        "exampleTranslation": "अनुवाद:",
+        "cardCreated": "कार्ड बन गया!"
+      },
+      "actions": {
+        "createCard": "कार्ड बनाएं",
+        "openVerb": "क्रिया रूप खोलें",
+        "openNoun": "संज्ञा रूप रचना खोलें",
+        "openAdjective": "विशेषण रूप रचना और डिग्री खोलें"
+      }
+    },
+    "cameraCapture": {
+      "errorTitle": "कैमरा त्रुटि",
+      "errors": {
+        "permission": "कैमरा एक्सेस अस्वीकृत।",
+        "notFound": "कैमरा नहीं मिला।",
+        "generic": "कैमरा एक्सेस त्रुटि।"
+      },
+      "aria": {
+        "capture": "फोटो लें"
+      }
+    },
+    "phraseList": {
+      "search": {
+        "listening": "सुन रहा हूँ...",
+        "placeholder": "वाक्यांश खोजें..."
+      },
+      "filters": {
+        "all": "सभी"
+      },
+      "summary": {
+        "count": "{{count}} कार्ड"
+      },
+      "actions": {
+        "duplicates": "डुप्लिकेट",
+        "aiImport": "एआई आयात"
+      },
+      "sections": {
+        "new": "नए",
+        "inProgress": "प्रगति पर",
+        "mastered": "सीखे गए"
+      }
+    }
+  },
+  "phraseList": {
+    "item": {
+      "badges": {
+        "new": "नया"
+      },
+      "actions": {
+        "practice": "अभ्यास करें",
+        "edit": "संपादित करें",
+        "delete": "हटाएं"
+      },
+      "categoryButton": "श्रेणी: {{name}}"
+    },
+    "search": {
+      "listening": "खोज क्वेरी सुनी जा रही है...",
+      "placeholder": "वाक्यांश खोजें..."
+    },
+    "sections": {
+      "new": "नए",
+      "inProgress": "प्रगति पर",
+      "mastered": "सीखे गए"
+    },
+    "filters": {
+      "all": "सभी"
+    },
+    "summary": {
+      "count": "{{count}} कार्ड"
+    },
+    "actions": {
+      "duplicates": "डुप्लिकेट",
+      "aiImport": "एआई आयात"
+    }
+  },
+  "assistant": {
+    "contextMenu": {
+      "wordDetails": "शब्द विवरण",
+      "createWordCard": "शब्द कार्ड बनाएं",
+      "createPhraseCard": "वाक्यांश कार्ड बनाएं",
+      "generateSimilar": "समान जनरेट करें",
+      "goToList": "कार्य सूची पर जाएं",
+      "discussTranslation": "अनुवाद पर चर्चा करें"
+    },
+    "common": {
+      "translationError": "अनुवाद त्रुटि",
+      "translating": "अनुवाद हो रहा है...",
+      "translate": "अनुवाद करें"
+    },
+    "modal": {
+      "title": "«{{name}}» के लिए असिस्टेंट",
+      "input": {
+        "placeholder": "बताएं कि क्या जोड़ना है...",
+        "listening": "सुन रहा हूँ..."
+      },
+      "quickActions": {
+        "addSimilar": "समान वाक्यांश जोड़ें",
+        "checkConsistency": "सुसंगतता जाँचें",
+        "createDialogue": "संवाद बनाएं"
+      },
+      "actions": {
+        "addSelected": "चयनित जोड़ें ({{count}})",
+        "goToList": "सूची पर जाएं"
+      },
+      "messages": {
+        "error": "अनुरोध निष्पादित नहीं किया जा सका: {{message}}"
+      },
+      "success": {
+        "added": "श्रेणी में {{count}} कार्ड जोड़े गए।"
+      }
+    },
+    "prompts": {
+      "generateSimilar": "इसके लिए समान वाक्यांश जनरेट करें: {phrase}"
+    }
+  },
+  "phraseCard": {
+    "actions": {
+      "learningAssistant": "एआई के साथ सीखें",
+      "sentenceChain": "वाक्यांश श्रृंखला",
+      "phraseBuilder": "वाक्यांश निर्माता",
+      "chat": "एआई के साथ चर्चा करें",
+      "deepDive": "गहन विश्लेषण",
+      "movieExamples": "फिल्म उदाहरण"
+    },
+    "aria": {
+      "openSettings": "वाक्यांश सुधारें",
+      "playTranslation": "अनुवाद बोलें",
+      "moreActions": "अतिरिक्त कार्रवाइयाँ"
+    }
+  }
+}
