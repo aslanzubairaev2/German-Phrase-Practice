@@ -1,27 +1,27 @@
 {
   "header": {
-    "title": "",
-    "subtitle": "",
+    "title": "Lingogo",
+    "subtitle": "نظام التكرار المتباعد",
     "actions": {
-      "openList": "",
-      "openPractice": "",
-      "openSettings": "",
-      "signOut": "",
-      "signingOut": ""
+      "openList": "فتح القائمة",
+      "openPractice": "الانتقال إلى التمرين",
+      "openSettings": "فتح الإعدادات",
+      "signOut": "تسجيل الخروج",
+      "signingOut": "جاري تسجيل الخروج..."
     },
     "errors": {
-      "signOutFailed": ""
+      "signOutFailed": "تعذر إكمال تسجيل الخروج"
     }
   },
   "common": {
     "field": {
-      "email": ""
+      "email": "البريد الإلكتروني"
     },
     "placeholder": {
-      "email": ""
+      "email": "you@example.com"
     },
     "labels": {
-      "error": ""
+      "error": "خطأ"
     },
     "actions": {
       "delete": "حذف"
@@ -29,60 +29,60 @@
   },
   "auth": {
     "errors": {
-      "ensureUserData": "",
-      "sessionExpired": "",
-      "supabaseSignOut": "",
-      "restoreSession": "",
-      "subscribeAuth": "",
-      "noSessionAfterSignIn": "",
-      "noSessionAfterSignUp": ""
+      "ensureUserData": "تعذر تهيئة بيانات المستخدم.",
+      "sessionExpired": "انتهت الجلسة. يرجى تسجيل الدخول مرة أخرى.",
+      "supabaseSignOut": "تعذر إنهاء جلسة Supabase بعد الخطأ 401.",
+      "restoreSession": "تعذر استعادة جلسة المصادقة.",
+      "subscribeAuth": "تعذر الاشتراك في أحداث المصادقة.",
+      "noSessionAfterSignIn": "تعذر الحصول على الجلسة بعد تسجيل الدخول.",
+      "noSessionAfterSignUp": "تعذر الحصول على الجلسة بعد التسجيل."
     },
     "loading": {
-      "preparingData": ""
+      "preparingData": "جاري تحميل بياناتك..."
     },
     "login": {
       "validation": {
-        "missingCredentials": ""
+        "missingCredentials": "يرجى إدخال البريد الإلكتروني وكلمة المرور."
       },
-      "title": "",
-      "subtitle": "",
+      "title": "تسجيل الدخول",
+      "subtitle": "قم بالمصادقة لمتابعة تعلم العبارات.",
       "field": {
-        "passwordLabel": "",
-        "passwordPlaceholder": ""
+        "passwordLabel": "كلمة المرور",
+        "passwordPlaceholder": "********"
       },
       "submit": {
         "state": {
-          "loading": ""
+          "loading": "جاري تسجيل الدخول..."
         },
-        "label": ""
+        "label": "تسجيل الدخول"
       },
       "switch": {
-        "prompt": "",
-        "cta": ""
+        "prompt": "ليس لديك حساب؟",
+        "cta": "إنشاء حساب"
       }
     },
     "signup": {
       "validation": {
-        "missingFields": "",
-        "passwordMismatch": ""
+        "missingFields": "يرجى ملء جميع الحقول.",
+        "passwordMismatch": "كلمات المرور غير متطابقة."
       },
-      "title": "",
-      "subtitle": "",
+      "title": "التسجيل",
+      "subtitle": "أنشئ حسابًا لمزامنة عباراتك.",
       "field": {
-        "passwordLabel": "",
-        "passwordPlaceholder": "",
-        "confirmLabel": "",
-        "confirmPlaceholder": ""
+        "passwordLabel": "كلمة المرور",
+        "passwordPlaceholder": "6 أحرف على الأقل",
+        "confirmLabel": "تأكيد كلمة المرور",
+        "confirmPlaceholder": "أعد إدخال كلمة المرور"
       },
       "submit": {
         "state": {
-          "loading": ""
+          "loading": "جاري إنشاء الحساب..."
         },
-        "label": ""
+        "label": "إنشاء حساب"
       },
       "switch": {
-        "prompt": "",
-        "cta": ""
+        "prompt": "لديك حساب بالفعل؟",
+        "cta": "تسجيل الدخول"
       }
     }
   },
@@ -92,974 +92,1017 @@
   },
   "settings": {
     "views": {
-      "main": "",
-      "general": "",
-      "automation": "",
-      "categories": "",
-      "analytics": "Progress & analytics"
+      "main": "الإعدادات",
+      "general": "عام",
+      "automation": "الأتمتة (الذكاء الاصطناعي)",
+      "categories": "الفئات للتمرين",
+      "analytics": "التقدم والتحليلات"
     },
     "general": {
-      "legend": "",
+      "legend": "الإعدادات العامة",
       "autoSpeak": {
-        "label": ""
+        "label": "النطق التلقائي"
       },
       "soundEffects": {
-        "label": ""
+        "label": "المؤثرات الصوتية"
       }
     },
     "automation": {
-      "legend": "",
+      "legend": "إعدادات الأتمتة",
       "autoCheckShortPhrases": {
-        "label": "",
-        "description": ""
+        "label": "التحقق التلقائي من العبارات القصيرة",
+        "description": "تحقق فوري إذا كانت العبارة مبنية بشكل صحيح."
       },
       "learnNextPhraseHabit": {
-        "label": "",
-        "description": ""
+        "label": "عادة 'العبارة التالية'",
+        "description": "الانتقال التلقائي في سلسلة الإجابات الصحيحة السريعة."
       }
     },
     "categories": {
-      "manageButton": ""
+      "manageButton": "إدارة الفئات"
     },
     "analytics": {
       "noData": "—",
       "srs": {
-        "totalCards": "Total Cards",
-        "mastered": "Mastered",
-        "learning": "Learning: {{count}}",
-        "dueToday": "Due Today",
-        "overdue": "Overdue: {{count}}",
-        "accuracy": "Accuracy",
-        "reviews": "{{count}} reviews",
-        "masteryProgress": "{{percent}}% mastered",
-        "streak": "🔥 {{days}} day streak",
-        "streak_plural": "🔥 {{days}} days streak",
-        "accuracyBreakdown": "Accuracy Breakdown",
-        "overall": "Overall",
-        "last7Days": "Last 7 days",
-        "last30Days": "Last 30 days",
-        "levelsDistribution": "SRS Levels Distribution",
-        "level": "L{{level}}",
-        "categories": "Categories",
-        "cards": "cards",
-        "avgLevel": "Avg Level",
-        "recentActivity": "Recent Activity (14 days)",
-        "difficultCards": "Difficult Cards (Leeches)",
-        "lapses": "lapses",
-        "noActivityYet": "No review activity yet",
-        "noDifficultCards": "No difficult cards yet",
-        "emptyState": "No practice data yet",
-        "emptyStateHint": "Start practicing cards to see your progress statistics here."
+        "totalCards": "إجمالي البطاقات",
+        "mastered": "تم إتقانها",
+        "learning": "قيد التعلم: {{count}}",
+        "dueToday": "للمراجعة اليوم",
+        "overdue": "متأخرة: {{count}}",
+        "accuracy": "الدقة",
+        "reviews": "{{count}} مراجعة",
+        "masteryProgress": "{{percent}}% تم إتقانها",
+        "streak": "🔥 {{days}} يوم متتالي",
+        "streak_plural": "🔥 {{days}} يومًا متتاليًا",
+        "accuracyBreakdown": "تفصيل الدقة",
+        "overall": "الإجمالي",
+        "last7Days": "آخر 7 أيام",
+        "last30Days": "آخر 30 يومًا",
+        "levelsDistribution": "توزيع مستويات SRS",
+        "level": "المستوى {{level}}",
+        "categories": "الفئات",
+        "cards": "بطاقة",
+        "avgLevel": "المستوى المتوسط",
+        "recentActivity": "النشاط الأخير (14 يومًا)",
+        "difficultCards": "البطاقات الصعبة (Leech)",
+        "lapses": "مرات النسيان",
+        "noActivityYet": "لا يوجد نشاط حتى الآن",
+        "noDifficultCards": "لا توجد بطاقات صعبة حتى الآن",
+        "emptyState": "لا توجد بيانات تمرين حتى الآن",
+        "emptyStateHint": "ابدأ في ممارسة البطاقات لرؤية إحصائيات التقدم هنا."
       }
     }
   },
   "notifications": {
     "sync": {
-      "synced": "",
-      "loaded": "",
-      "error": ""
+      "synced": "✓ تمت مزامنة البيانات مع الخادم.",
+      "loaded": "✓ تم تحميل البيانات بنجاح من الخادم.",
+      "error": "خطأ في المزامنة: {{message}}"
     },
     "phrases": {
-      "existsInCategory": "",
-      "existsInOtherCategory": "",
-      "createError": "",
-      "exists": "",
-      "created": "",
-      "createCardError": "",
-      "createCardGenericError": ""
+      "existsInCategory": "البطاقة \"{{phrase}}\" موجودة بالفعل في هذه الفئة.",
+      "existsInOtherCategory": "البطاقة \"{{phrase}}\" موجودة بالفعل في فئة أخرى.",
+      "createError": "خطأ في إنشاء العبارة: {{message}}",
+      "exists": "البطاقة \"{{phrase}}\" موجودة بالفعل.",
+      "created": "تم إنشاء بطاقة لـ \"{{phrase}}\".",
+      "createCardError": "خطأ في إنشاء البطاقة: {{message}}",
+      "createCardGenericError": "تعذر إنشاء البطاقة."
     },
     "ai": {
-      "providerUnavailable": ""
+      "providerUnavailable": "مزود الذكاء الاصطناعي غير متاح."
     },
-    "updateError": "",
-    "saveError": "",
-    "deleteError": "",
-    "moveError": "",
-    "genericError": "",
-    "cards": {
-      "moving": "",
-      "moveSuccess": "",
-      "deleting": "",
-      "deleteSuccess": "",
-      "generateError": "",
-      "addFailed": "",
-      "rateLimit": "",
-      "addedToCategory": "",
-      "movedAndAdded": "",
-      "addedWithDuplicatesSkipped": "",
-      "deletedCount": "",
-      "movedToCategory": "",
-      "otherCategory": "",
-      "bulkAdded": "",
-      "bulkAdded_plural": "",
-      "bulkSkipped": "",
-      "bulkSkipped_plural": "",
-      "bulkAdded_one": "✓ {{count}} card added.",
-      "bulkAdded_few": "✓ {{count}} cards added.",
-      "bulkAdded_many": "✓ {{count}} cards added.",
-      "bulkAdded_other": "✓ {{count}} cards added.",
-      "bulkSkipped_one": "{{count}} already existed and was skipped.",
-      "bulkSkipped_few": "{{count}} already existed and were skipped.",
-      "bulkSkipped_many": "{{count}} already existed and were skipped.",
-      "bulkSkipped_other": "{{count}} already existed and were skipped."
-    },
+    "updateError": "خطأ في التحديث: {{message}}",
+    "saveError": "خطأ في الحفظ: {{message}}",
+    "deleteError": "خطأ في الحذف: {{message}}",
+    "moveError": "خطأ في النقل: {{message}}",
+    "genericError": "خطأ: {{message}}",
     "categories": {
-      "createError": "",
-      "saveError": "",
-      "deleteSuccess": ""
+      "createError": "خطأ في إنشاء الفئة: {{message}}",
+      "saveError": "خطأ في حفظ الفئة: {{message}}",
+      "deleteSuccess": "✓ تم حذف الفئة \"{{name}}\"."
+    },
+    "cards": {
+      "moving": "جاري نقل {{count}} بطاقة...",
+      "moveSuccess": "✓ تم نقل البطاقات.",
+      "deleting": "جاري حذف {{count}} بطاقة...",
+      "deleteSuccess": "✓ تم حذف البطاقات.",
+      "generateError": "تعذر إنشاء البطاقات.",
+      "addFailed": "تعذر إضافة \"{{phrase}}\": {{error}}",
+      "rateLimit": "تم تجاوز حد الطلبات. حاول إضافة بطاقات أقل في المرة الواحدة.",
+      "addedToCategory": "✓ تمت إضافة {{count}} بطاقة إلى \"{{category}}\".",
+      "movedAndAdded": "✓ تم نقل {{moved}} بطاقة وإضافة {{added}} إلى \"{{category}}\".",
+      "addedWithDuplicatesSkipped": "✓ تمت إضافة {{count}} بطاقة إلى \"{{category}}\". تم تخطي التكرارات.",
+      "deletedCount": "✓ تم حذف {{count}} بطاقة.",
+      "movedToCategory": "✓ تم نقل {{count}} بطاقة إلى \"{{category}}\".",
+      "otherCategory": "فئة أخرى",
+      "bulkAdded_one": "✓ تمت إضافة {{count}} بطاقة.",
+      "bulkAdded_few": "✓ تمت إضافة {{count}} بطاقة.",
+      "bulkAdded_many": "✓ تمت إضافة {{count}} بطاقة.",
+      "bulkAdded_other": "✓ تمت إضافة {{count}} بطاقة.",
+      "bulkAdded": "✓ تمت إضافة {{count}} بطاقة.",
+      "bulkSkipped_one": "{{count}} كانت موجودة بالفعل وتم تخطيها.",
+      "bulkSkipped_few": "{{count}} كانت موجودة بالفعل وتم تخطيها.",
+      "bulkSkipped_many": "{{count}} كانت موجودة بالفعل وتم تخطيها.",
+      "bulkSkipped_other": "{{count}} كانت موجودة بالفعل وتم تخطيها.",
+      "bulkSkipped": "{{count}} كانت موجودة بالفعل وتم تخطيها."
     }
   },
   "localization": {
     "overlay": {
-      "heading": "",
-      "title": "",
-      "subtitle": "",
-      "fallbackDescription": "",
-      "currentStepHint": "",
-      "fallbackMessage": "",
+      "heading": "التوطين",
+      "title": "نحضر الواجهة باللغة {{language}}",
+      "subtitle": "نترجم عناصر الواجهة إلى اللغة {{language}}.",
+      "fallbackDescription": "حدث خطأ أثناء الترجمة، نقوم بتمكين اللغة الاحتياطية.",
+      "currentStepHint": "جاري التنفيذ...",
+      "fallbackMessage": "حتى تصبح الترجمة إلى {{language}} جاهزة، سنستخدم الإنجليزية.",
       "steps": {
-        "checkingStatic": "",
-        "loadingCache": "",
-        "requestingAI": "",
-        "validating": "",
-        "applying": ""
+        "checkingStatic": "نتحقق من الترجمات المضمنة",
+        "loadingCache": "جاري تحميل الذاكرة المؤقتة المحلية",
+        "requestingAI": "نطلب الترجمة من الذكاء الاصطناعي",
+        "validating": "نتحقق من هيكل الترجمة",
+        "applying": "نطبق الترجمات"
       }
     }
   },
   "library": {
     "empty": {
-      "title": "",
-      "description": "",
-      "action": ""
+      "title": "مكتبتك فارغة",
+      "description": "قم بتحميل ملف EPUB لبدء إنشاء مكتبة للقراءة.",
+      "action": "أضف الكتاب الأول"
     },
     "actions": {
-      "add": "",
-      "adding": ""
+      "add": "إضافة كتاب",
+      "adding": "جاري الإضافة..."
     },
     "notifications": {
-      "epubProcessingFailed": ""
+      "epubProcessingFailed": "تعذر معالجة ملف EPUB. تأكد من أن الملف غير تالف."
     },
     "cards": {
-      "add": ""
+      "add": "إضافة كتاب جديد"
     },
     "alt": {
-      "cover": ""
+      "cover": "غلاف {{title}}"
     }
   },
   "categories": {
-    "manager": {
-      "title": "",
-      "aria": {
-        "edit": "",
-        "delete": ""
-      },
-      "add": ""
-    },
-    "form": {
-      "createTitle": "",
-      "editTitle": "",
-      "fields": {
-        "nameLabel": "",
-        "namePlaceholder": "",
-        "colorLabel": "",
-        "colorAria": ""
-      },
-      "notes": {
-        "aiHint": ""
-      },
-      "errors": {
-        "duplicate": ""
-      },
-      "submit": {
-        "create": "",
-        "save": ""
-      }
-    },
     "detail": {
       "actions": {
-        "addMore": "",
-        "addPhrase": "",
-        "aiAssistant": ""
+        "addMore": "إضافة المزيد",
+        "addPhrase": "إضافة عبارة",
+        "aiAssistant": "مساعد الذكاء الاصطناعي"
       },
       "empty": {
-        "title": ""
+        "title": "لا توجد عبارات حتى الآن"
+      }
+    },
+    "manager": {
+      "title": "إدارة الفئات",
+      "aria": {
+        "edit": "تعديل {{name}}",
+        "delete": "حذف {{name}}"
+      },
+      "add": "إضافة فئة جديدة"
+    },
+    "form": {
+      "createTitle": "إنشاء فئة",
+      "editTitle": "تعديل الفئة",
+      "fields": {
+        "nameLabel": "اسم الفئة",
+        "namePlaceholder": "مثال: سفر، عمل، أو محادثة",
+        "colorLabel": "اللون",
+        "colorAria": "اختر اللون {{color}}"
+      },
+      "notes": {
+        "aiHint": "نصيحة: استخدم أسماء مفهومة بدون \"!\" وشرطات لتوزيع العبارات بشكل صحيح بواسطة أتمتة الذكاء الاصطناعي."
+      },
+      "errors": {
+        "duplicate": "فئة بهذا الاسم موجودة بالفعل."
+      },
+      "submit": {
+        "create": "إنشاء",
+        "save": "حفظ التغييرات"
       }
     },
     "filterMenu": {
       "actions": {
-        "settings": "",
-        "aiAssistant": ""
+        "settings": "الإعدادات",
+        "aiAssistant": "مساعد الذكاء الاصطناعي"
       }
     }
   },
   "practice": {
     "chat": {
-      "title": "",
-      "placeholder": "",
-      "listeningPlaceholder": "",
+      "title": "التمرين مع الذكاء الاصطناعي",
+      "placeholder": "اكتب رسالة...",
+      "listeningPlaceholder": "جاري الاستماع...",
       "actions": {
-        "speak": "تشغيل"
+        "speak": "نطق"
       },
       "messages": {
-        "revealTranslation": "انقر لعرض الترجمة",
+        "revealTranslation": "انقر لإظهار الترجمة",
         "secondaryPrefix": "تلميح:",
         "errorPrefix": "خطأ: {{message}}",
         "unknownError": "خطأ غير معروف"
       },
       "stats": {
-        "phrasesUsed": "تم تدريب {{count}} عبارة",
-        "phrasesUsed_zero": "تم تدريب {{count}} عبارة",
-        "phrasesUsed_one": "تم تدريب عبارة واحدة",
-        "phrasesUsed_two": "تم تدريب عبارتين",
-        "phrasesUsed_few": "تم تدريب {{count}} عبارات",
-        "phrasesUsed_many": "تم تدريب {{count}} عبارة",
-        "phrasesUsed_other": "تم تدريب {{count}} عبارة",
-        "phrasesUsed_plural": "تم التدرب على {{count}} عبارة"
+        "phrasesUsed_zero": "تمت مراجعة {{count}} عبارة",
+        "phrasesUsed_one": "تمت مراجعة {{count}} عبارة",
+        "phrasesUsed_few": "تمت مراجعة {{count}} عبارة",
+        "phrasesUsed_many": "تمت مراجعة {{count}} عبارة",
+        "phrasesUsed_other": "تمت مراجعة {{count}} عبارة",
+        "phrasesUsed": "تمت مراجعة {{count}} عبارة",
+        "phrasesUsed_plural": "تم تمرين {{count}} عبارة"
       }
     },
     "actions": {
-      "skip": "",
-      "know": ""
+      "skip": "تخطي",
+      "know": "أعرف"
     },
     "states": {
-      "allCategories": "",
-      "add": "",
-      "manage": "",
-      "errorOccurred": "",
-      "congratulations": "",
-      "learnedAllSelected": "",
-      "excellent": "",
-      "foundationCompleted": "",
-      "noMoreCards": "",
-      "practiceOtherCategories": "",
-      "empty": "",
-      "noUnlearnedInCategory": "",
-      "practiceAllCategories": "",
-      "allForToday": "",
-      "completedAllAvailable": "",
-      "comeBackLater": "",
-      "continue": "",
-      "generateNew": "",
-      "generating": ""
+      "allCategories": "جميع الفئات",
+      "add": "إضافة",
+      "manage": "إدارة",
+      "errorOccurred": "حدث خطأ",
+      "congratulations": "مبروك!",
+      "learnedAllSelected": "لقد تعلمت جميع العبارات في الفئات المحددة.",
+      "excellent": "ممتاز!",
+      "foundationCompleted": "اكتملت البطاقات الأساسية في فئة \"{categoryName}\".",
+      "noMoreCards": "لا توجد المزيد من البطاقات للتعلم.",
+      "practiceOtherCategories": "تمرين فئات أخرى",
+      "empty": "فارغ",
+      "noUnlearnedInCategory": "لا توجد بطاقات غير متعلمة في فئة \"{categoryName}\".",
+      "practiceAllCategories": "تمرين جميع الفئات",
+      "allForToday": "هذا كل شيء لليوم!",
+      "completedAllAvailable": "لقد أكملت جميع البطاقات المتاحة في هذه الفئة.",
+      "comeBackLater": "عد لاحقًا لمراجعة ما تعلمته.",
+      "continue": "متابعة",
+      "generateNew": "إنشاء جديدة",
+      "generating": "جاري الإنشاء..."
     },
     "discuss": {
       "examples": {
-        "intro": "إليك بعض الأمثلة والنصائح لمساعدتك على فهم هذه العبارة بشكل أفضل:"
+        "intro": "إليك بعض الأمثلة والنصائح التي ستساعدك على فهم هذه العبارة بشكل أفضل:"
       }
     }
   },
   "languages": {
     "names": {
-      "ru": "",
-      "de": ""
+      "ru": "الروسية",
+      "de": "الألمانية"
     },
     "prepositional": {
-      "ru": "",
-      "de": ""
+      "ru": "الروسية",
+      "de": "الألمانية"
     },
     "badge": {
-      "en": "",
-      "de": "",
-      "ru": "",
-      "fr": "",
-      "es": "",
-      "it": "",
-      "pt": "",
-      "pl": "",
-      "zh": "",
-      "ja": "",
-      "ar": ""
+      "en": "EN",
+      "de": "DE",
+      "ru": "RU",
+      "fr": "FR",
+      "es": "ES",
+      "it": "IT",
+      "pt": "PT",
+      "pl": "PL",
+      "zh": "中文",
+      "ja": "日本",
+      "ar": "AR"
     }
   },
   "fab": {
-    "addPhrase": "",
-    "openLibrary": "",
-    "smartImport": "",
-    "chooseLanguage": "",
-    "toggle": ""
+    "addPhrase": "إضافة عبارة باللغة {{language}}",
+    "openLibrary": "فتح المكتبة",
+    "smartImport": "استيراد ذكي",
+    "chooseLanguage": "اختر لغة العبارة",
+    "toggle": "إضافة عبارة"
   },
   "modals": {
-    "nounDeclension": {
-      "title": "",
-      "errors": {
-        "generic": "",
-        "noData": ""
-      },
-      "headers": {
-        "case": "",
-        "singular": "",
-        "plural": ""
-      },
-      "cases": {
-        "nominativ": {
-          "name": "",
-          "question": ""
-        },
-        "akkusativ": {
-          "name": "",
-          "question": ""
-        },
-        "dativ": {
-          "name": "",
-          "question": ""
-        },
-        "genitiv": {
-          "name": "",
-          "question": ""
-        }
-      }
-    },
-    "pronouns": {
-      "title": "",
-      "headers": {
-        "speak": "",
-        "german": "",
-        "russian": ""
-      },
-      "pronouns": [
-        {
-          "german": "",
-          "russian": ""
-        },
-        {
-          "german": "",
-          "russian": ""
-        },
-        {
-          "german": "",
-          "russian": ""
-        },
-        {
-          "german": "",
-          "russian": ""
-        },
-        {
-          "german": "",
-          "russian": ""
-        },
-        {
-          "german": "",
-          "russian": ""
-        }
-      ]
-    },
-    "sentenceChain": {
-      "title": "",
-      "aria": {
-        "goBack": ""
-      },
-      "tooltips": {
-        "clickToRevert": ""
-      },
-      "errors": {
-        "generic": ""
-      },
-      "messages": {
-        "noContinuations": ""
-      },
-      "actions": {
-        "addCustom": ""
-      }
-    },
-    "smartImport": {
-      "tabs": {
-        "assistant": "",
-        "speech": "",
-        "file": ""
-      },
-      "assistant": {
-        "title": "",
-        "subtitle": "",
-        "placeholder": "",
-        "aria": {
-          "microphone": "",
-          "generate": ""
-        }
-      },
-      "speech": {
-        "title": "",
-        "subtitle": "",
-        "transcriptPlaceholder": "",
-        "aria": {
-          "paste": "",
-          "process": ""
-        },
-        "errors": {
-          "pasteFailed": ""
-        }
-      },
-      "file": {
-        "title": ""
-      },
-      "processing": {
-        "generatingCards": "",
-        "analyzingTopic": ""
-      },
-      "suggestion": {
-        "addToExisting": {
-          "title": "",
-          "body": "",
-          "yes": "",
-          "no": ""
-        },
-        "createNew": {
-          "title": "",
-          "body": "",
-          "create": "",
-          "addToGeneral": ""
-        }
-      },
-      "preview": {
-        "title": "",
-        "aria": {
-          "back": ""
-        },
-        "actions": {
-          "selectAll": "",
-          "clearAll": "",
-          "refine": "",
-          "add": "",
-          "addWithCount": ""
-        },
-        "refine": {
-          "placeholder": "",
-          "aria": {
-            "microphone": ""
-          }
-        }
-      },
-      "categoryNames": {
-        "fromSpeech": "",
-        "general": ""
-      }
-    },
     "addContinuation": {
       "placeholders": {
-        "text": ""
+        "text": "أدخل الاستمرارية..."
       },
       "aria": {
-        "microphone": "",
-        "send": "",
-        "switchToText": "",
-        "switchToVoice": ""
+        "microphone": "إدخال صوتي",
+        "send": "إرسال الاستمرارية",
+        "switchToText": "التبديل إلى الإدخال النصي",
+        "switchToVoice": "التبديل إلى الإدخال الصوتي"
       }
     },
     "addPhrase": {
-      "loading": "",
-      "title": "",
+      "loading": "جاري إنشاء البطاقة...",
+      "title": "إنشاء عبارة جديدة",
       "body": {
         "instructions": {
-          "voice": "",
-          "text": ""
+          "voice": "انطق العبارة باللغة {{language}}",
+          "text": "أدخل العبارة باللغة {{language}}"
         }
       },
       "placeholders": {
-        "ru": "",
-        "de": ""
+        "ru": "مثال: \"كم ثمن هذا؟\"",
+        "de": "مثال: \"Wie viel kostet das?\""
       },
       "aria": {
-        "microphone": "",
+        "microphone": "إدخال صوتي",
         "textField": {
-          "ru": "",
-          "de": ""
+          "ru": "عبارة بالروسية",
+          "de": "عبارة بالألمانية"
         },
-        "send": "",
-        "toggleToText": "",
-        "toggleToVoice": "",
-        "close": ""
+        "send": "إنشاء عبارة",
+        "toggleToText": "التبديل إلى الإدخال النصي",
+        "toggleToVoice": "التبديل إلى الإدخال الصوتي",
+        "close": "إغلاق"
       },
       "status": {
-        "listening": ""
+        "listening": "جاري الاستماع..."
       },
       "errors": {
-        "generic": "",
-        "network": "",
-        "permission": "",
-        "recognition": ""
+        "generic": "تعذر إنشاء العبارة.",
+        "network": "خطأ في الشبكة. تحقق من الاتصال أو أدخل النص يدويًا.",
+        "permission": "تم رفض الوصول إلى الميكروفون. تحقق من الإعدادات وأدخل النص يدويًا.",
+        "recognition": "حدث خطأ في التعرف على الصوت."
       },
-      "errorLabel": "",
+      "errorLabel": "خطأ",
       "actions": {
-        "create": ""
+        "create": "إنشاء"
       }
     },
     "adjectiveDeclension": {
-      "title": "",
-      "phraseNative": "",
+      "title": "الصفة: {{adjective}}",
+      "phraseNative": "الإعراب: {{adjective}}",
       "labels": {
-        "case": "",
-        "masculine": "",
-        "feminine": "",
-        "neuter": "",
-        "plural": "",
-        "weak": "",
-        "mixed": "",
-        "strong": "",
-        "degrees": "",
-        "positive": "",
-        "comparative": "",
-        "superlative": ""
+        "case": "الحالة",
+        "masculine": "المذكر",
+        "feminine": "المؤنث",
+        "neuter": "المحايد",
+        "plural": "الجمع",
+        "weak": "الإعراب الضعيف (مع أداة التعريف)",
+        "mixed": "الإعراب المختلط (مع أداة التنكير)",
+        "strong": "الإعراب القوي (بدون أداة)",
+        "degrees": "درجات المقارنة",
+        "positive": "إيجابي",
+        "comparative": "مقارن",
+        "superlative": "تفضيل"
       },
       "sections": {
-        "grammar": "",
-        "example": ""
+        "grammar": "مرجع قواعدي",
+        "example": "مثال للاستخدام"
       },
       "states": {
-        "errorTitle": "",
-        "empty": "",
-        "errorMessage": ""
+        "errorTitle": "خطأ",
+        "empty": "لا توجد بيانات.",
+        "errorMessage": "تعذر تحميل تفاصيل الإعراب."
       },
       "cases": {
-        "nominativ": "",
-        "akkusativ": "",
-        "dativ": "",
-        "genitiv": ""
+        "nominativ": "المرفوع",
+        "akkusativ": "المنصوب",
+        "dativ": "المجرور",
+        "genitiv": "المضاف إليه"
       }
     },
     "autoFillLoading": {
-      "title": "",
-      "body": ""
+      "title": "جاري إنشاء البطاقات...",
+      "body": "يرجى الانتظار. الذكاء الاصطناعي يختار عبارات للفئة «{{category}}»."
     },
     "autoFillPreview": {
-      "title": "",
-      "tooltip": "",
-      "empty": "",
+      "title": "اقتراحات لـ \"{{category}}\"",
+      "tooltip": "اقتراحات لـ \"{{category}}\"",
+      "empty": "لم يقترح الذكاء الاصطناعي أي بطاقات. حاول تحسين الطلب.",
       "refine": {
-        "placeholder": "",
-        "toggle": ""
+        "placeholder": "مثال: الأسماء فقط، بدون عبارات",
+        "toggle": "تحسين"
       },
       "actions": {
-        "refine": "",
-        "confirm": "",
-        "confirmShort": "",
-        "confirmWithCount": ""
+        "refine": "تحسين",
+        "confirm": "إضافة",
+        "confirmShort": "+",
+        "confirmWithCount": "إضافة ({{count}})"
       },
       "selection": {
-        "select": "",
-        "clear": ""
+        "select": "اختيار الكل",
+        "clear": "إلغاء الكل"
       },
       "status": {
-        "listening": ""
+        "listening": "جاري الاستماع..."
       }
     },
     "chat": {
       "placeholders": {
-        "listening": "",
-        "ask": ""
+        "listening": "جاري الاستماع...",
+        "ask": "اسأل عن شيء..."
       },
       "aria": {
-        "stopListening": "",
-        "startListening": ""
+        "stopListening": "إيقاف الاستماع",
+        "startListening": "بدء الاستماع"
       },
       "errors": {
-        "generic": ""
+        "generic": "حدث خطأ: {{message}}"
       }
     },
     "confirmCategoryFill": {
-      "title": "",
-      "body": "",
+      "title": "ملء الفئة؟",
+      "body": "هل تريد ملء الفئة \"{{category}}\" فورًا باستخدام الذكاء الاصطناعي؟",
       "actions": {
-        "cancel": "",
-        "confirm": ""
+        "cancel": "لاحقًا",
+        "confirm": "نعم، املأ"
       }
     },
     "confirmDeleteCategory": {
-      "title": "",
-      "body": "",
-      "phraseCount": "",
+      "title": "حذف الفئة؟",
+      "body": "أنت على وشك حذف الفئة:",
+      "phraseCount": "تحتوي هذه الفئة على {{count}} {{cards}}. ماذا تفعل بها؟",
       "cards": {
-        "one": "",
-        "few": "",
-        "many": "",
-        "other": ""
+        "one": "بطاقة",
+        "few": "بطاقة",
+        "many": "بطاقة",
+        "other": "بطاقة"
       },
       "actions": {
-        "move": "",
-        "delete": "",
-        "cancel": "",
-        "confirm": ""
+        "move": "نقل إلى",
+        "delete": "حذف جميع البطاقات",
+        "cancel": "إلغاء",
+        "confirm": "حذف"
       }
     },
     "confirmDelete": {
-      "title": "",
-      "body": "",
-      "mastery": "",
+      "title": "تأكيد الحذف",
+      "body": "هل أنت متأكد أنك تريد حذف هذه العبارة بشكل دائم؟",
+      "mastery": "مستوى الإتقان:",
       "actions": {
-        "cancel": "",
-        "confirm": ""
+        "cancel": "إلغاء",
+        "confirm": "حذف"
       }
     },
     "confirmDeletePhrases": {
-      "title": "",
-      "body": "",
+      "title": "تأكيد الإجراء",
+      "body": "يقترح مساعد الذكاء الاصطناعي حذف أو نقل {{count}} {{cards}} التالية. ماذا تفعل بها؟",
       "cards": {
-        "one": "",
-        "few": "",
-        "many": "",
-        "other": ""
+        "one": "بطاقة",
+        "few": "بطاقة",
+        "many": "بطاقة",
+        "other": "بطاقة"
       },
       "actions": {
-        "selectAll": "",
-        "deselectAll": "",
-        "delete": "",
-        "move": ""
+        "selectAll": "اختيار الكل",
+        "deselectAll": "إلغاء اختيار الكل",
+        "delete": "حذف ({{count}})",
+        "move": "نقل ({{count}})"
       }
     },
     "deepDive": {
       "stages": {
-        "deconstruction": "",
-        "personalization": "",
-        "encoding": ""
+        "deconstruction": "المرحلة 1: التفكيك",
+        "personalization": "المرحلة 2: التخصيص",
+        "encoding": "المرحلة 3: الترميز"
       },
       "errors": {
-        "analysis": "",
-        "noData": ""
+        "analysis": "خطأ في التحليل",
+        "noData": "لا توجد بيانات للتحليل."
       }
     },
     "discussTranslation": {
-      "title": "",
-      "suggestion": "",
-      "accept": "",
-      "placeholder": "",
+      "title": "مناقشة الترجمة",
+      "suggestion": "اقتراح الذكاء الاصطناعي:",
+      "accept": "اقبل هذا الخيار",
+      "placeholder": "تعليقك...",
       "errors": {
-        "generic": ""
+        "generic": "حدث خطأ: {{message}}"
       }
     },
     "editPhrase": {
-      "title": "",
+      "title": "تعديل العبارة",
       "fields": {
-        "russian": "",
-        "german": "",
-        "category": ""
+        "russian": "الروسية",
+        "german": "الألمانية",
+        "category": "الفئة"
       },
       "errors": {
-        "translation": ""
+        "translation": "تعذر الحصول على الترجمة."
       },
       "actions": {
-        "discuss": "",
-        "save": ""
+        "discuss": "مناقشة الترجمة",
+        "save": "حفظ"
       }
     },
     "findDuplicates": {
-      "title": "",
-      "processing": "",
-      "found": "",
-      "description": "",
+      "title": "البحث عن التكرارات",
+      "processing": "جاري البحث...",
+      "found": "تم العثور على {{count}} مجموعة تكرارات.",
+      "description": "سيتم حذف العبارة ذات أقل تقدم في كل مجموعة.",
       "actions": {
-        "cancel": "",
-        "clean": "",
-        "close": ""
+        "cancel": "إلغاء",
+        "clean": "تنظيف",
+        "close": "إغلاق"
       },
-      "noDuplicates": "",
+      "noDuplicates": "لم يتم العثور على تكرارات.",
       "errors": {
-        "search": ""
+        "search": "خطأ في البحث عن التكرارات: {{message}}"
       }
     },
     "improvePhrase": {
       "actions": {
-        "suggest": "",
-        "discuss": ""
+        "suggest": "اقتراح نسخة صحيحة",
+        "discuss": "مناقشة مع الذكاء الاصطناعي"
       },
-      "reasoning": "",
-      "improve": "",
+      "reasoning": "المنطق:",
+      "improve": "تحسين",
       "errors": {
-        "generic": ""
+        "generic": "تعذر الحصول على التحسين."
       }
     },
     "learningAssistant": {
-      "success": "",
-      "placeholder": "",
+      "success": "صحيح!",
+      "placeholder": "إجابتك...",
+      "dontKnow": "لا أعرف",
       "errors": {
-        "generic": ""
-      },
-      "dontKnow": "I don't know"
+        "generic": "حدث خطأ: {{message}}"
+      }
     },
     "moveOrSkip": {
-      "title": "",
-      "body": "",
-      "newCards": "",
-      "question": "",
+      "title": "تم العثور على تكرارات",
+      "body": "تم العثور على {{count}} {{cards}} موجودة بالفعل في فئات أخرى.{{newCards}}",
+      "newCards": " سيتم أيضًا إضافة {{count}} جديدة.",
+      "question": "ماذا تريد أن تفعل؟",
       "actions": {
-        "move": "",
-        "addOnlyNew": "",
-        "cancel": ""
+        "move": "انقل {{count}} إلى \"{{category}}\"",
+        "addOnlyNew": "أضف فقط {{count}} جديدة",
+        "cancel": "إلغاء"
       },
       "cards": {
-        "one": "",
-        "few": "",
-        "many": "",
-        "other": ""
+        "one": "بطاقة",
+        "few": "بطاقة",
+        "many": "بطاقة",
+        "other": "بطاقة"
       }
     },
     "movieExamples": {
-      "title": "",
+      "title": "أمثلة من الأفلام",
       "errors": {
-        "generic": ""
+        "generic": "خطأ"
       },
-      "noExamples": ""
+      "noExamples": "تعذر العثور على أمثلة أفلام لهذه العبارة."
+    },
+    "nounDeclension": {
+      "title": "الإعراب: {{noun}}",
+      "errors": {
+        "generic": "خطأ",
+        "noData": "لا توجد بيانات."
+      },
+      "headers": {
+        "case": "الحالة",
+        "singular": "المفرد",
+        "plural": "الجمع"
+      },
+      "cases": {
+        "nominativ": {
+          "name": "المرفوع",
+          "question": "(من؟ ماذا؟)"
+        },
+        "akkusativ": {
+          "name": "المنصوب",
+          "question": "(من؟ ماذا؟)"
+        },
+        "dativ": {
+          "name": "المجرور",
+          "question": "(لمن؟ لماذا؟)"
+        },
+        "genitiv": {
+          "name": "المضاف إليه",
+          "question": "(لمن؟ لماذا؟)"
+        }
+      }
     },
     "phraseBuilder": {
-      "loading": "",
+      "loading": "جاري اختيار الكلمات...",
       "errors": {
-        "generic": "",
-        "check": ""
+        "generic": "خطأ",
+        "check": "حدث خطأ أثناء التحقق."
       },
-      "instructions": "",
+      "instructions": "انقر على الكلمات أدناه لبناء العبارة",
       "aria": {
-        "clear": ""
+        "clear": "مسح"
       },
       "actions": {
-        "check": "",
-        "close": "",
-        "continue": ""
+        "check": "تحقق",
+        "close": "إغلاق",
+        "continue": "متابعة"
       }
     },
     "phrasePreview": {
       "actions": {
-        "learn": ""
+        "learn": "تعلم هذه العبارة"
       }
     },
     "practiceResult": {
-      "correct": "",
-      "incorrect": "",
-      "correctAnswer": "",
+      "correct": "ممتاز!",
+      "incorrect": "خطأ",
+      "correctAnswer": "الإجابة الصحيحة:",
       "actions": {
-        "continue": ""
+        "continue": "متابعة"
+      }
+    },
+    "pronouns": {
+      "title": "الضمائر الشخصية",
+      "headers": {
+        "speak": "نطق",
+        "german": "الألمانية",
+        "russian": "الروسية",
+        "learning": "لغة التعلم",
+        "native": "اللغة الأم"
+      },
+      "error": "تعذر تحميل الضمائر",
+      "pronouns": [
+        {
+          "german": "ich",
+          "russian": "я"
+        },
+        {
+          "german": "du",
+          "russian": "ты"
+        },
+        {
+          "german": "er / sie / es",
+          "russian": "он / она / оно"
+        },
+        {
+          "german": "wir",
+          "russian": "мы"
+        },
+        {
+          "german": "ihr",
+          "russian": "вы (неформ.)"
+        },
+        {
+          "german": "sie / Sie",
+          "russian": "они / Вы (форм.)"
+        }
+      ]
+    },
+    "sentenceChain": {
+      "title": "منشئ العبارات",
+      "aria": {
+        "goBack": "العودة خطوة للخلف"
+      },
+      "tooltips": {
+        "clickToRevert": "انقر للعودة إلى هذه المرحلة"
+      },
+      "errors": {
+        "generic": "خطأ"
+      },
+      "messages": {
+        "noContinuations": "لا توجد اقتراحات للمتابعة. حاول العودة للخلف."
+      },
+      "actions": {
+        "addCustom": "أضف نسختك"
+      }
+    },
+    "smartImport": {
+      "tabs": {
+        "assistant": "المساعد",
+        "speech": "من الكلام",
+        "file": "من ملف"
+      },
+      "assistant": {
+        "title": "مساعد الذكاء الاصطناعي",
+        "subtitle": "أدخل موضوعًا وسيولد الذكاء الاصطناعي مجموعة بطاقات لك.",
+        "placeholder": "مثال: 'في المطار' أو 'أصابع اليد'",
+        "aria": {
+          "microphone": "إدخال صوتي",
+          "generate": "إنشاء"
+        }
+      },
+      "speech": {
+        "title": "استيراد من الكلام أو النص",
+        "subtitle": "سجل كلامًا أو الصق نصًا لإنشاء بطاقات.",
+        "transcriptPlaceholder": "سيظهر النص المنقول هنا...",
+        "aria": {
+          "paste": "لصق من الحافظة",
+          "process": "معالجة"
+        },
+        "errors": {
+          "pasteFailed": "تعذر لصق النص من الحافظة. ربما لم تمنح الإذن."
+        }
+      },
+      "file": {
+        "title": "استيراد من ملف"
+      },
+      "processing": {
+        "generatingCards": "الذكاء الاصطناعي يولد بطاقات...",
+        "analyzingTopic": "جاري تحليل الموضوع..."
+      },
+      "suggestion": {
+        "addToExisting": {
+          "title": "تكميل الفئة؟",
+          "body": "لديك بالفعل فئة «{{category}}». هل تريد إضافة بطاقات جديدة حول موضوع «{{topic}}» إليها؟",
+          "yes": "نعم، أضف إلى «{{category}}»",
+          "no": "لا، أضف إلى «عام»"
+        },
+        "createNew": {
+          "title": "إنشاء فئة جديدة؟",
+          "body": "يقترح الذكاء الاصطناعي إنشاء فئة بالاسم:",
+          "create": "إنشاء",
+          "addToGeneral": "أضف إلى «عام»"
+        }
+      },
+      "preview": {
+        "title": "البطاقات المقترحة",
+        "aria": {
+          "back": "رجوع"
+        },
+        "actions": {
+          "selectAll": "اختيار الكل",
+          "clearAll": "إلغاء الكل",
+          "refine": "تحسين",
+          "add": "إضافة",
+          "addWithCount": "إضافة ({{count}})"
+        },
+        "refine": {
+          "placeholder": "تحسين، مثال: الأفعال فقط",
+          "aria": {
+            "microphone": "إدخال صوتي"
+          }
+        }
+      },
+      "categoryNames": {
+        "fromSpeech": "بطاقات من الكلام",
+        "general": "عام"
+      }
+    },
+    "voiceWorkspace": {
+      "instructions": "انطق العبارة أو اسحب الكلمات إلى هنا",
+      "loading": "جاري اختيار الكلمات...",
+      "actions": {
+        "check": "تحقق",
+        "learnWithAI": "تعلم مع الذكاء الاصطناعي",
+        "showAnswer": "عرض الإجابة",
+        "clear": "مسح",
+        "close": "إغلاق",
+        "continue": "متابعة",
+        "nextPhrase": "العبارة التالية"
+      },
+      "feedback": {
+        "correct": "ممتاز! كل شيء صحيح.",
+        "incorrect": "للأسف، خطأ. حاول مرة أخرى.",
+        "revealAnswer": "ها هي الإجابة الصحيحة. حاول في المرة القادمة!"
+      },
+      "errors": {
+        "check": "خطأ في التحقق.",
+        "speech": "حدث خطأ في التعرف على الكلام.",
+        "speechNetwork": "خطأ في الشبكة أثناء التعرف على الكلام.",
+        "microphoneDenied": "لم يتم السماح بالوصول إلى الميكروفون.",
+        "unexpected": "حدث خطأ غير متوقع.",
+        "serviceUnavailable": "الخدمة غير متاحة مؤقتًا (خطأ 500).",
+        "apiKey": "خطأ في تكوين مفتاح API.",
+        "requestFailed": "تعذر تنفيذ الطلب.",
+        "loadWords": "تعذر تحميل خيارات الكلمات."
+      },
+      "automation": {
+        "nextPhrase": "العبارة التالية"
       }
     },
     "fileImport": {
       "cropper": {
-        "cancel": "",
-        "confirm": ""
+        "cancel": "إلغاء",
+        "confirm": "تأكيد"
       },
       "errors": {
-        "unsupportedType": "",
-        "tooLarge": "",
-        "cropFirst": ""
+        "unsupportedType": "نوع الملف غير مدعوم. يرجى اختيار صورة.",
+        "tooLarge": "الملف كبير جدًا. الحد الأقصى للحجم 10 ميجابايت.",
+        "cropFirst": "يرجى تحميل وتقصير الصورة أولاً."
       },
-      "instructions": "",
+      "instructions": "قم بتحميل صورة. سيتعرف الذكاء الاصطناعي على النص أو يصف الأشياء في الصورة، محولاً إياها إلى بطاقات.",
       "dropzone": {
-        "text": "",
-        "subtext": ""
+        "text": "اسحب وأفلت أو اختر ملفًا",
+        "subtext": "صورة (10 ميجابايت كحد أقصى)"
       },
       "camera": {
-        "button": "",
-        "subtext": ""
+        "button": "التقاط صورة",
+        "subtext": "استخدم الكاميرا"
       },
       "preview": {
-        "alt": ""
+        "alt": "معاينة الصورة المقطوعة"
       },
       "refinement": {
-        "placeholder": "",
-        "aria": ""
+        "placeholder": "أضف تحسينًا (اختياري)...",
+        "aria": "إدخال صوتي للتحسين"
       },
-      "submit": ""
-    },
-    "voiceWorkspace": {
-      "instructions": "",
-      "loading": "",
-      "actions": {
-        "check": "",
-        "learnWithAI": "",
-        "showAnswer": "",
-        "clear": "",
-        "close": "",
-        "continue": "",
-        "nextPhrase": ""
-      },
-      "feedback": {
-        "correct": "",
-        "incorrect": "",
-        "revealAnswer": ""
-      },
-      "errors": {
-        "check": "",
-        "speech": "",
-        "speechNetwork": "",
-        "microphoneDenied": "",
-        "unexpected": "",
-        "serviceUnavailable": "",
-        "apiKey": "",
-        "requestFailed": "",
-        "loadWords": ""
-      },
-      "automation": {
-        "nextPhrase": ""
-      }
+      "submit": "إنشاء بطاقات"
     },
     "verbConjugation": {
-      "title": "",
-      "proxyTitle": "",
+      "title": "التصريف: {{infinitive}}",
+      "proxyTitle": "التصريف: {{infinitive}}",
       "errors": {
-        "simple": "",
-        "detailed": ""
+        "simple": "تعذر تحميل التصريف البسيط.",
+        "detailed": "تعذر تحميل التصريف المفصل."
       },
       "simple": {
-        "heading": "",
-        "button": ""
+        "heading": "Präsens (المضارع)",
+        "button": "المزيد من التفاصيل"
       },
       "tense": {
-        "present": "",
-        "past": "",
-        "future": ""
+        "present": "Präsens (المضارع)",
+        "past": "Perfekt (الماضي)",
+        "future": "Futur I (المستقبل)"
       },
       "forms": {
-        "statement": "",
-        "question": "",
-        "negative": ""
+        "statement": "خبر",
+        "question": "سؤال",
+        "negative": "نفي"
       }
     },
     "voicePractice": {
-      "prompt": "",
-      "listening": "",
+      "prompt": "انطق هذه العبارة:",
+      "listening": "جاري الاستماع...",
       "aria": {
-        "microphone": "",
-        "close": ""
+        "microphone": "بدء الإدخال الصوتي",
+        "close": "إغلاق"
       }
     },
     "wFragen": {
-      "title": "",
+      "title": "كلمات الاستفهام",
       "columns": {
-        "play": "",
-        "german": "",
-        "translation": ""
+        "play": "نطق",
+        "german": "الألمانية",
+        "translation": "الترجمة"
       },
       "items": [
         {
-          "german": "",
-          "translation": ""
+          "german": "Was?",
+          "translation": "ماذا؟"
         },
         {
-          "german": "",
-          "translation": ""
+          "german": "Wer?",
+          "translation": "من؟"
         },
         {
-          "german": "",
-          "translation": ""
+          "german": "Wo?",
+          "translation": "أين؟"
         },
         {
-          "german": "",
-          "translation": ""
+          "german": "Wann?",
+          "translation": "متى؟"
         },
         {
-          "german": "",
-          "translation": ""
+          "german": "Wie?",
+          "translation": "كيف؟"
         },
         {
-          "german": "",
-          "translation": ""
+          "german": "Warum?",
+          "translation": "لماذا؟"
         },
         {
-          "german": "",
-          "translation": ""
+          "german": "Woher?",
+          "translation": "من أين؟"
         },
         {
-          "german": "",
-          "translation": ""
+          "german": "Wohin?",
+          "translation": "إلى أين؟"
         }
       ]
     },
     "wordAnalysis": {
-      "title": "",
+      "title": "تحليل الكلمة: {{word}}",
       "errors": {
-        "generic": "",
-        "unknown": ""
+        "generic": "تعذر تحميل التحليل.",
+        "unknown": "لا توجد بيانات للتحليل."
       },
       "labels": {
-        "partOfSpeech": "",
-        "grammarReference": "",
-        "baseForm": "",
-        "nativeTranslation": "",
-        "article": "",
-        "plural": "",
-        "infinitive": "",
-        "tense": "",
+        "partOfSpeech": "نوع الكلمة",
+        "grammarReference": "مرجع قواعدي",
+        "baseForm": "الصورة الأساسية",
+        "nativeTranslation": "الترجمة",
+        "article": "أداة التعريف",
+        "plural": "الجمع",
+        "infinitive": "المصدر",
+        "tense": "الزمن",
         "person": "الشخص والعدد",
-        "example": "",
-        "exampleTranslation": "",
-        "cardCreated": ""
+        "example": "مثال للاستخدام",
+        "exampleTranslation": "الترجمة:",
+        "cardCreated": "تم إنشاء البطاقة!"
       },
       "actions": {
-        "createCard": "",
-        "openVerb": "",
-        "openNoun": "",
-        "openAdjective": ""
+        "createCard": "إنشاء بطاقة",
+        "openVerb": "فتح التصريف",
+        "openNoun": "فتح الإعراب",
+        "openAdjective": "فتح الإعراب والدرجات"
       }
     },
     "cameraCapture": {
-      "errorTitle": "",
+      "errorTitle": "خطأ في الكاميرا",
       "errors": {
-        "permission": "",
-        "notFound": "",
-        "generic": ""
+        "permission": "تم رفض الوصول إلى الكاميرا.",
+        "notFound": "لم يتم العثور على الكاميرا.",
+        "generic": "خطأ في الوصول إلى الكاميرا."
       },
       "aria": {
-        "capture": ""
+        "capture": "التقاط صورة"
+      }
+    },
+    "phraseList": {
+      "search": {
+        "listening": "جاري الاستماع...",
+        "placeholder": "ابحث في العبارات..."
+      },
+      "filters": {
+        "all": "الكل"
+      },
+      "summary": {
+        "count": "{{count}} بطاقة"
+      },
+      "actions": {
+        "duplicates": "التكرارات",
+        "aiImport": "استيراد بالذكاء الاصطناعي"
+      },
+      "sections": {
+        "new": "جديدة",
+        "inProgress": "قيد التقدم",
+        "mastered": "تم إتقانها"
       }
     }
   },
   "phraseList": {
     "item": {
       "badges": {
-        "new": ""
+        "new": "جديد"
       },
       "actions": {
-        "practice": "",
-        "edit": "",
-        "delete": ""
+        "practice": "تمرين",
+        "edit": "تعديل",
+        "delete": "حذف"
       },
-      "categoryButton": ""
+      "categoryButton": "الفئة: {{name}}"
     },
     "search": {
-      "listening": "",
-      "placeholder": ""
+      "listening": "جاري الاستماع إلى استعلام البحث...",
+      "placeholder": "ابحث في العبارات..."
     },
     "sections": {
-      "new": "",
-      "inProgress": "",
-      "mastered": ""
+      "new": "جديدة",
+      "inProgress": "قيد التقدم",
+      "mastered": "تم إتقانها"
     },
     "filters": {
-      "all": ""
+      "all": "الكل"
     },
     "summary": {
-      "count": ""
+      "count": "{{count}} بطاقة"
     },
     "actions": {
-      "duplicates": "",
-      "aiImport": ""
-    }
-  },
-  "phraseCard": {
-    "actions": {
-      "learningAssistant": "تعلّم مع الذكاء الاصطناعي",
-      "sentenceChain": "سلسلة العبارات",
-      "phraseBuilder": "منشئ العبارات",
-      "chat": "ناقش مع الذكاء الاصطناعي",
-      "deepDive": "تحليل متعمق",
-      "movieExamples": "أمثلة من الأفلام"
-    },
-    "aria": {
-      "openSettings": "تحسين العبارة",
-      "playTranslation": "تشغيل الترجمة",
-      "moreActions": "إجراءات إضافية"
+      "duplicates": "التكرارات",
+      "aiImport": "استيراد بالذكاء الاصطناعي"
     }
   },
   "assistant": {
     "contextMenu": {
       "wordDetails": "تفاصيل الكلمة",
-      "createWordCard": "إنشاء بطاقة للكلمة",
-      "createPhraseCard": "إنشاء بطاقة للعبارة",
-      "generateSimilar": "توليد عبارات مشابهة",
-      "goToList": "الانتقال إلى القائمة",
+      "createWordCard": "إنشاء بطاقة كلمة",
+      "createPhraseCard": "إنشاء بطاقة عبارة",
+      "generateSimilar": "إنشاء مشابهات",
+      "goToList": "الانتقال إلى قائمة المهام",
       "discussTranslation": "مناقشة الترجمة"
     },
     "common": {
       "translationError": "خطأ في الترجمة",
-      "translating": "جارٍ الترجمة",
-      "translate": "ترجم"
+      "translating": "جاري الترجمة...",
+      "translate": "ترجمة"
+    },
+    "modal": {
+      "title": "المساعد لـ «{{name}}»",
+      "input": {
+        "placeholder": "صف ما يجب إضافته...",
+        "listening": "جاري الاستماع..."
+      },
+      "quickActions": {
+        "addSimilar": "إضافة عبارات مشابهة",
+        "checkConsistency": "التحقق من الاتساق",
+        "createDialogue": "إنشاء حوار"
+      },
+      "actions": {
+        "addSelected": "إضافة المحددة ({{count}})",
+        "goToList": "الانتقال إلى القائمة"
+      },
+      "messages": {
+        "error": "تعذر تنفيذ الطلب: {{message}}"
+      },
+      "success": {
+        "added": "تمت إضافة {{count}} بطاقة إلى الفئة."
+      }
     },
     "prompts": {
-      "generateSimilar": "توليد عبارات مشابهة لـ: {phrase}"
+      "generateSimilar": "إنشاء عبارات مشابهة لـ: {phrase}"
+    }
+  },
+  "phraseCard": {
+    "actions": {
+      "learningAssistant": "التعلم مع الذكاء الاصطناعي",
+      "sentenceChain": "سلسلة العبارات",
+      "phraseBuilder": "منشئ العبارات",
+      "chat": "الدردشة مع الذكاء الاصطناعي",
+      "deepDive": "تحليل متعمق",
+      "movieExamples": "أمثلة من الأفلام"
+    },
+    "aria": {
+      "openSettings": "تحسين العبارة",
+      "playTranslation": "نطق الترجمة",
+      "moreActions": "إجراءات إضافية"
     }
   }
 }
