@@ -1,27 +1,27 @@
 {
   "header": {
-    "title": "",
-    "subtitle": "",
+    "title": "Lingogo",
+    "subtitle": "間隔反復システム",
     "actions": {
-      "openList": "",
-      "openPractice": "",
-      "openSettings": "",
-      "signOut": "",
-      "signingOut": ""
+      "openList": "リストを開く",
+      "openPractice": "練習に進む",
+      "openSettings": "設定を開く",
+      "signOut": "サインアウト",
+      "signingOut": "サインアウト中..."
     },
     "errors": {
-      "signOutFailed": ""
+      "signOutFailed": "サインアウトを完了できませんでした"
     }
   },
   "common": {
     "field": {
-      "email": ""
+      "email": "メールアドレス"
     },
     "placeholder": {
-      "email": ""
+      "email": "you@example.com"
     },
     "labels": {
-      "error": ""
+      "error": "エラー"
     },
     "actions": {
       "delete": "削除"
@@ -29,60 +29,60 @@
   },
   "auth": {
     "errors": {
-      "ensureUserData": "",
-      "sessionExpired": "",
-      "supabaseSignOut": "",
-      "restoreSession": "",
-      "subscribeAuth": "",
-      "noSessionAfterSignIn": "",
-      "noSessionAfterSignUp": ""
+      "ensureUserData": "ユーザーデータを初期化できませんでした。",
+      "sessionExpired": "セッションの有効期限が切れました。再度サインインしてください。",
+      "supabaseSignOut": "401エラーの後、Supabaseセッションを終了できませんでした。",
+      "restoreSession": "認証セッションを復元できませんでした。",
+      "subscribeAuth": "認証イベントを購読できませんでした。",
+      "noSessionAfterSignIn": "サインイン後にセッションを取得できませんでした。",
+      "noSessionAfterSignUp": "サインアップ後にセッションを取得できませんでした。"
     },
     "loading": {
-      "preparingData": ""
+      "preparingData": "データを読み込み中..."
     },
     "login": {
       "validation": {
-        "missingCredentials": ""
+        "missingCredentials": "メールアドレスとパスワードを入力してください。"
       },
-      "title": "",
-      "subtitle": "",
+      "title": "サインイン",
+      "subtitle": "フレーズの学習を続けるには認証してください。",
       "field": {
-        "passwordLabel": "",
-        "passwordPlaceholder": ""
+        "passwordLabel": "パスワード",
+        "passwordPlaceholder": "********"
       },
       "submit": {
         "state": {
-          "loading": ""
+          "loading": "サインイン中..."
         },
-        "label": ""
+        "label": "サインイン"
       },
       "switch": {
-        "prompt": "",
-        "cta": ""
+        "prompt": "アカウントをお持ちでない場合",
+        "cta": "サインアップ"
       }
     },
     "signup": {
       "validation": {
-        "missingFields": "",
-        "passwordMismatch": ""
+        "missingFields": "すべての項目を入力してください。",
+        "passwordMismatch": "パスワードが一致しません。"
       },
-      "title": "",
-      "subtitle": "",
+      "title": "サインアップ",
+      "subtitle": "フレーズを同期するためにアカウントを作成します。",
       "field": {
-        "passwordLabel": "",
-        "passwordPlaceholder": "",
-        "confirmLabel": "",
-        "confirmPlaceholder": ""
+        "passwordLabel": "パスワード",
+        "passwordPlaceholder": "6文字以上",
+        "confirmLabel": "パスワード確認",
+        "confirmPlaceholder": "パスワードを再入力"
       },
       "submit": {
         "state": {
-          "loading": ""
+          "loading": "アカウント作成中..."
         },
-        "label": ""
+        "label": "サインアップ"
       },
       "switch": {
-        "prompt": "",
-        "cta": ""
+        "prompt": "既にアカウントをお持ちの場合",
+        "cta": "サインイン"
       }
     }
   },
@@ -92,962 +92,962 @@
   },
   "settings": {
     "views": {
-      "main": "",
-      "general": "",
-      "automation": "",
-      "categories": "",
-      "analytics": "Progress & analytics"
+      "main": "設定",
+      "general": "一般",
+      "automation": "自動化（AI）",
+      "categories": "練習用カテゴリ",
+      "analytics": "進捗と分析"
     },
     "general": {
-      "legend": "",
+      "legend": "一般設定",
       "autoSpeak": {
-        "label": ""
+        "label": "自動発音"
       },
       "soundEffects": {
-        "label": ""
+        "label": "サウンドエフェクト"
       }
     },
     "automation": {
-      "legend": "",
+      "legend": "自動化設定",
       "autoCheckShortPhrases": {
-        "label": "",
-        "description": ""
+        "label": "短いフレーズの自動チェック",
+        "description": "フレーズが正しく構築されている場合、即座にチェックします。"
       },
       "learnNextPhraseHabit": {
-        "label": "",
-        "description": ""
+        "label": "「次のフレーズ」習慣",
+        "description": "連続正解時の自動進み。"
       }
     },
     "categories": {
-      "manageButton": ""
+      "manageButton": "カテゴリを管理"
     },
     "analytics": {
       "noData": "—",
       "srs": {
-        "totalCards": "Total Cards",
-        "mastered": "Mastered",
-        "learning": "Learning: {{count}}",
-        "dueToday": "Due Today",
-        "overdue": "Overdue: {{count}}",
-        "accuracy": "Accuracy",
-        "reviews": "{{count}} reviews",
-        "masteryProgress": "{{percent}}% mastered",
-        "streak": "🔥 {{days}} day streak",
-        "streak_plural": "🔥 {{days}} days streak",
-        "accuracyBreakdown": "Accuracy Breakdown",
-        "overall": "Overall",
-        "last7Days": "Last 7 days",
-        "last30Days": "Last 30 days",
-        "levelsDistribution": "SRS Levels Distribution",
-        "level": "L{{level}}",
-        "categories": "Categories",
-        "cards": "cards",
-        "avgLevel": "Avg Level",
-        "recentActivity": "Recent Activity (14 days)",
-        "difficultCards": "Difficult Cards (Leeches)",
-        "lapses": "lapses",
-        "noActivityYet": "No review activity yet",
-        "noDifficultCards": "No difficult cards yet",
-        "emptyState": "No practice data yet",
-        "emptyStateHint": "Start practicing cards to see your progress statistics here."
+        "totalCards": "総カード数",
+        "mastered": "習得済み",
+        "learning": "学習中: {{count}}",
+        "dueToday": "今日の復習",
+        "overdue": "期限切れ: {{count}}",
+        "accuracy": "正確率",
+        "reviews": "{{count}} 回の復習",
+        "masteryProgress": "{{percent}}% 習得済み",
+        "streak": "🔥 {{days}} 日連続",
+        "streak_plural": "🔥 {{days}} 日連続",
+        "accuracyBreakdown": "正確率の内訳",
+        "overall": "全体",
+        "last7Days": "過去7日間",
+        "last30Days": "過去30日間",
+        "levelsDistribution": "SRSレベル分布",
+        "level": "レベル{{level}}",
+        "categories": "カテゴリ",
+        "cards": "枚のカード",
+        "avgLevel": "平均レベル",
+        "recentActivity": "最近の活動（14日間）",
+        "difficultCards": "難しいカード（リーク）",
+        "lapses": "忘却回数",
+        "noActivityYet": "まだ活動がありません",
+        "noDifficultCards": "まだ難しいカードはありません",
+        "emptyState": "まだ練習データがありません",
+        "emptyStateHint": "カードの練習を始めて、進捗統計をここで確認してください。"
       }
     }
   },
   "notifications": {
     "sync": {
-      "synced": "",
-      "loaded": "",
-      "error": ""
+      "synced": "✓ データがサーバーと同期されました。",
+      "loaded": "✓ サーバーからデータを正常に読み込みました。",
+      "error": "同期エラー: {{message}}"
     },
     "phrases": {
-      "existsInCategory": "",
-      "existsInOtherCategory": "",
-      "createError": "",
-      "exists": "",
-      "created": "",
-      "createCardError": "",
-      "createCardGenericError": ""
+      "existsInCategory": "カード「{{phrase}}」は既にこのカテゴリに存在します。",
+      "existsInOtherCategory": "カード「{{phrase}}」は既に他のカテゴリに存在します。",
+      "createError": "フレーズ作成エラー: {{message}}",
+      "exists": "カード「{{phrase}}」は既に存在します。",
+      "created": "「{{phrase}}」のカードを作成しました。",
+      "createCardError": "カード作成エラー: {{message}}",
+      "createCardGenericError": "カードを作成できませんでした。"
     },
     "ai": {
-      "providerUnavailable": ""
+      "providerUnavailable": "AIプロバイダーが利用できません。"
     },
-    "updateError": "",
-    "saveError": "",
-    "deleteError": "",
-    "moveError": "",
-    "genericError": "",
+    "updateError": "更新エラー: {{message}}",
+    "saveError": "保存エラー: {{message}}",
+    "deleteError": "削除エラー: {{message}}",
+    "moveError": "移動エラー: {{message}}",
+    "genericError": "エラー: {{message}}",
     "categories": {
-      "createError": "",
-      "saveError": "",
-      "deleteSuccess": ""
+      "createError": "カテゴリ作成エラー: {{message}}",
+      "saveError": "カテゴリ保存エラー: {{message}}",
+      "deleteSuccess": "✓ カテゴリ「{{name}}」を削除しました。"
     },
     "cards": {
-      "moving": "",
-      "moveSuccess": "",
-      "deleting": "",
-      "deleteSuccess": "",
-      "generateError": "",
-      "addFailed": "",
-      "rateLimit": "",
-      "addedToCategory": "",
-      "movedAndAdded": "",
-      "addedWithDuplicatesSkipped": "",
-      "deletedCount": "",
-      "movedToCategory": "",
-      "otherCategory": "",
-      "bulkAdded_one": "✓ {{count}} card added.",
-      "bulkAdded_few": "✓ {{count}} cards added.",
-      "bulkAdded_many": "✓ {{count}} cards added.",
-      "bulkAdded_other": "✓ {{count}} cards added.",
-      "bulkAdded": "",
-      "bulkSkipped_one": "{{count}} already existed and was skipped.",
-      "bulkSkipped_few": "{{count}} already existed and were skipped.",
-      "bulkSkipped_many": "{{count}} already existed and were skipped.",
-      "bulkSkipped_other": "{{count}} already existed and were skipped.",
-      "bulkSkipped": ""
+      "moving": "{{count}}枚のカードを移動中...",
+      "moveSuccess": "✓ カードを移動しました。",
+      "deleting": "{{count}}枚のカードを削除中...",
+      "deleteSuccess": "✓ カードを削除しました。",
+      "generateError": "カードを生成できませんでした。",
+      "addFailed": "「{{phrase}}」を追加できませんでした: {{error}}",
+      "rateLimit": "リクエスト制限を超えました。一度に少ないカードを追加してみてください。",
+      "addedToCategory": "✓ {{count}}枚のカードを「{{category}}」に追加しました。",
+      "movedAndAdded": "✓ {{moved}}枚のカードを移動し、{{added}}枚を「{{category}}」に追加しました。",
+      "addedWithDuplicatesSkipped": "✓ {{count}}枚のカードを「{{category}}」に追加しました。重複はスキップされました。",
+      "deletedCount": "✓ {{count}}枚のカードを削除しました。",
+      "movedToCategory": "✓ {{count}}枚のカードを「{{category}}」に移動しました。",
+      "otherCategory": "他のカテゴリ",
+      "bulkAdded_one": "✓ {{count}}枚のカードを追加しました。",
+      "bulkAdded_few": "✓ {{count}}枚のカードを追加しました。",
+      "bulkAdded_many": "✓ {{count}}枚のカードを追加しました。",
+      "bulkAdded_other": "✓ {{count}}枚のカードを追加しました。",
+      "bulkAdded": "✓ {{count}}枚のカードを追加しました。",
+      "bulkSkipped_one": "{{count}}枚は既に存在していたためスキップされました。",
+      "bulkSkipped_few": "{{count}}枚は既に存在していたためスキップされました。",
+      "bulkSkipped_many": "{{count}}枚は既に存在していたためスキップされました。",
+      "bulkSkipped_other": "{{count}}枚は既に存在していたためスキップされました。",
+      "bulkSkipped": "{{count}}枚は既に存在していたためスキップされました。"
     }
   },
   "localization": {
     "overlay": {
-      "heading": "",
-      "title": "",
-      "subtitle": "",
-      "fallbackDescription": "",
-      "currentStepHint": "",
-      "fallbackMessage": "",
+      "heading": "ローカライゼーション",
+      "title": "{{language}}でインターフェースを準備中",
+      "subtitle": "インターフェース要素を{{language}}に翻訳しています。",
+      "fallbackDescription": "翻訳中にエラーが発生しました、フォールバック言語を有効にします。",
+      "currentStepHint": "実行中...",
+      "fallbackMessage": "{{language}}への翻訳が準備できるまで、英語を使用します。",
       "steps": {
-        "checkingStatic": "",
-        "loadingCache": "",
-        "requestingAI": "",
-        "validating": "",
-        "applying": ""
+        "checkingStatic": "組み込み翻訳を確認中",
+        "loadingCache": "ローカルキャッシュを読み込み中",
+        "requestingAI": "AIに翻訳をリクエスト中",
+        "validating": "翻訳構造を検証中",
+        "applying": "翻訳を適用中"
       }
     }
   },
   "library": {
     "empty": {
-      "title": "",
-      "description": "",
-      "action": ""
+      "title": "ライブラリが空です",
+      "description": "EPUBファイルをアップロードして読書ライブラリの作成を始めましょう。",
+      "action": "最初の本を追加"
     },
     "actions": {
-      "add": "",
-      "adding": ""
+      "add": "本を追加",
+      "adding": "追加中..."
     },
     "notifications": {
-      "epubProcessingFailed": ""
+      "epubProcessingFailed": "EPUBファイルを処理できませんでした。ファイルが破損していないことを確認してください。"
     },
     "cards": {
-      "add": ""
+      "add": "新しい本を追加"
     },
     "alt": {
-      "cover": ""
+      "cover": "{{title}}の表紙"
     }
   },
   "categories": {
     "detail": {
       "actions": {
-        "addMore": "",
-        "addPhrase": "",
-        "aiAssistant": ""
+        "addMore": "さらに追加",
+        "addPhrase": "フレーズを追加",
+        "aiAssistant": "AIアシスタント"
       },
       "empty": {
-        "title": ""
+        "title": "まだフレーズがありません"
       }
     },
     "manager": {
-      "title": "",
+      "title": "カテゴリを管理",
       "aria": {
-        "edit": "",
-        "delete": ""
+        "edit": "{{name}}を編集",
+        "delete": "{{name}}を削除"
       },
-      "add": ""
+      "add": "新しいカテゴリを追加"
     },
     "form": {
-      "createTitle": "",
-      "editTitle": "",
+      "createTitle": "カテゴリを作成",
+      "editTitle": "カテゴリを編集",
       "fields": {
-        "nameLabel": "",
-        "namePlaceholder": "",
-        "colorLabel": "",
-        "colorAria": ""
+        "nameLabel": "カテゴリ名",
+        "namePlaceholder": "例：旅行、仕事、会話",
+        "colorLabel": "色",
+        "colorAria": "{{color}}色を選択"
       },
       "notes": {
-        "aiHint": ""
+        "aiHint": "ヒント：AI自動化がフレーズを正しく配分できるように、「！」やハイフンなしの理解しやすい名前を使用してください。"
       },
       "errors": {
-        "duplicate": ""
+        "duplicate": "この名前のカテゴリは既に存在します。"
       },
       "submit": {
-        "create": "",
-        "save": ""
+        "create": "作成",
+        "save": "変更を保存"
       }
     },
     "filterMenu": {
       "actions": {
-        "settings": "",
-        "aiAssistant": ""
+        "settings": "設定",
+        "aiAssistant": "AIアシスタント"
       }
     }
   },
   "practice": {
     "chat": {
-      "title": "",
-      "placeholder": "",
-      "listeningPlaceholder": "",
+      "title": "AIとの練習",
+      "placeholder": "メッセージを入力...",
+      "listeningPlaceholder": "聞き取り中...",
       "actions": {
-        "speak": "再生"
+        "speak": "発音"
       },
       "messages": {
         "revealTranslation": "クリックして翻訳を表示",
         "secondaryPrefix": "ヒント：",
-        "errorPrefix": "エラー: {{message}}",
+        "errorPrefix": "エラー：{{message}}",
         "unknownError": "不明なエラー"
       },
       "stats": {
-        "phrasesUsed_zero": "",
-        "phrasesUsed_one": "",
-        "phrasesUsed_few": "",
-        "phrasesUsed_many": "",
-        "phrasesUsed_other": "",
-        "phrasesUsed": "{{count}} 件のフレーズを練習しました",
-        "phrasesUsed_plural": "{{count}} 件のフレーズを練習しました"
+        "phrasesUsed_zero": "{{count}}個のフレーズを復習",
+        "phrasesUsed_one": "{{count}}個のフレーズを復習",
+        "phrasesUsed_few": "{{count}}個のフレーズを復習",
+        "phrasesUsed_many": "{{count}}個のフレーズを復習",
+        "phrasesUsed_other": "{{count}}個のフレーズを復習",
+        "phrasesUsed": "{{count}}個のフレーズを復習",
+        "phrasesUsed_plural": "{{count}}個のフレーズを練習"
       }
     },
     "actions": {
-      "skip": "",
-      "know": ""
+      "skip": "スキップ",
+      "know": "知っている"
     },
     "states": {
-      "allCategories": "",
-      "add": "",
-      "manage": "",
-      "errorOccurred": "",
-      "congratulations": "",
-      "learnedAllSelected": "",
-      "excellent": "",
-      "foundationCompleted": "",
-      "noMoreCards": "",
-      "practiceOtherCategories": "",
-      "empty": "",
-      "noUnlearnedInCategory": "",
-      "practiceAllCategories": "",
-      "allForToday": "",
-      "completedAllAvailable": "",
-      "comeBackLater": "",
-      "continue": "",
-      "generateNew": "",
-      "generating": ""
+      "allCategories": "すべてのカテゴリ",
+      "add": "追加",
+      "manage": "管理",
+      "errorOccurred": "エラーが発生しました",
+      "congratulations": "おめでとうございます！",
+      "learnedAllSelected": "選択したカテゴリのすべてのフレーズを学習しました。",
+      "excellent": "優秀です！",
+      "foundationCompleted": "カテゴリ「{categoryName}」の基礎カードが完了しました。",
+      "noMoreCards": "学習するカードがこれ以上ありません。",
+      "practiceOtherCategories": "他のカテゴリを練習",
+      "empty": "空",
+      "noUnlearnedInCategory": "カテゴリ「{categoryName}」に未学習のカードはありません。",
+      "practiceAllCategories": "すべてのカテゴリを練習",
+      "allForToday": "今日は以上です！",
+      "completedAllAvailable": "このカテゴリの利用可能なすべてのカードを完了しました。",
+      "comeBackLater": "後で学んだ内容を復習するために戻ってきてください。",
+      "continue": "続ける",
+      "generateNew": "新しく生成",
+      "generating": "生成中..."
     },
     "discuss": {
       "examples": {
-        "intro": "このフレーズをより理解するための例とヒントをいくつか紹介します。"
+        "intro": "このフレーズをよりよく理解するのに役立ついくつかの例とヒントを以下に示します："
       }
     }
   },
   "languages": {
     "names": {
-      "ru": "",
-      "de": ""
+      "ru": "ロシア語",
+      "de": "ドイツ語"
     },
     "prepositional": {
-      "ru": "",
-      "de": ""
+      "ru": "ロシア語",
+      "de": "ドイツ語"
     },
     "badge": {
-      "en": "",
-      "de": "",
-      "ru": "",
-      "fr": "",
-      "es": "",
-      "it": "",
-      "pt": "",
-      "pl": "",
-      "zh": "",
-      "ja": "",
-      "ar": ""
+      "en": "EN",
+      "de": "DE",
+      "ru": "RU",
+      "fr": "FR",
+      "es": "ES",
+      "it": "IT",
+      "pt": "PT",
+      "pl": "PL",
+      "zh": "中文",
+      "ja": "日本",
+      "ar": "AR"
     }
   },
   "fab": {
-    "addPhrase": "",
-    "openLibrary": "",
-    "smartImport": "",
-    "chooseLanguage": "",
-    "toggle": ""
+    "addPhrase": "{{language}}でフレーズを追加",
+    "openLibrary": "ライブラリを開く",
+    "smartImport": "スマートインポート",
+    "chooseLanguage": "フレーズの言語を選択",
+    "toggle": "フレーズを追加"
   },
   "modals": {
     "addContinuation": {
       "placeholders": {
-        "text": ""
+        "text": "続きを入力..."
       },
       "aria": {
-        "microphone": "",
-        "send": "",
-        "switchToText": "",
-        "switchToVoice": ""
+        "microphone": "音声入力",
+        "send": "続きを送信",
+        "switchToText": "テキスト入力に切り替え",
+        "switchToVoice": "音声入力に切り替え"
       }
     },
     "addPhrase": {
-      "loading": "",
-      "title": "",
+      "loading": "カードを作成中...",
+      "title": "新しいフレーズを作成",
       "body": {
         "instructions": {
-          "voice": "",
-          "text": ""
+          "voice": "{{language}}でフレーズを発音",
+          "text": "{{language}}でフレーズを入力"
         }
       },
       "placeholders": {
-        "ru": "",
-        "de": ""
+        "ru": "例：「これはいくらですか？」",
+        "de": "例：「Wie viel kostet das?」"
       },
       "aria": {
-        "microphone": "",
+        "microphone": "音声入力",
         "textField": {
-          "ru": "",
-          "de": ""
+          "ru": "ロシア語のフレーズ",
+          "de": "ドイツ語のフレーズ"
         },
-        "send": "",
-        "toggleToText": "",
-        "toggleToVoice": "",
-        "close": ""
+        "send": "フレーズを作成",
+        "toggleToText": "テキスト入力に切り替え",
+        "toggleToVoice": "音声入力に切り替え",
+        "close": "閉じる"
       },
       "status": {
-        "listening": ""
+        "listening": "聞き取り中..."
       },
       "errors": {
-        "generic": "",
-        "network": "",
-        "permission": "",
-        "recognition": ""
+        "generic": "フレーズを作成できませんでした。",
+        "network": "ネットワークエラー。接続を確認するか、手動でテキストを入力してください。",
+        "permission": "マイクへのアクセスが拒否されました。設定を確認し、手動でテキストを入力してください。",
+        "recognition": "音声認識エラーが発生しました。"
       },
-      "errorLabel": "",
+      "errorLabel": "エラー",
       "actions": {
-        "create": ""
+        "create": "作成"
       }
     },
     "adjectiveDeclension": {
-      "title": "",
-      "phraseNative": "",
+      "title": "形容詞：{{adjective}}",
+      "phraseNative": "語形変化：{{adjective}}",
       "labels": {
-        "case": "",
-        "masculine": "",
-        "feminine": "",
-        "neuter": "",
-        "plural": "",
-        "weak": "",
-        "mixed": "",
-        "strong": "",
-        "degrees": "",
-        "positive": "",
-        "comparative": "",
-        "superlative": ""
+        "case": "格",
+        "masculine": "男性形",
+        "feminine": "女性形",
+        "neuter": "中性形",
+        "plural": "複数形",
+        "weak": "弱変化（定冠詞付き）",
+        "mixed": "混合変化（不定冠詞付き）",
+        "strong": "強変化（冠詞なし）",
+        "degrees": "比較級",
+        "positive": "原級",
+        "comparative": "比較級",
+        "superlative": "最上級"
       },
       "sections": {
-        "grammar": "",
-        "example": ""
+        "grammar": "文法リファレンス",
+        "example": "使用例"
       },
       "states": {
-        "errorTitle": "",
-        "empty": "",
-        "errorMessage": ""
+        "errorTitle": "エラー",
+        "empty": "データがありません。",
+        "errorMessage": "語形変化の詳細を読み込めませんでした。"
       },
       "cases": {
-        "nominativ": "",
-        "akkusativ": "",
-        "dativ": "",
-        "genitiv": ""
+        "nominativ": "主格",
+        "akkusativ": "対格",
+        "dativ": "与格",
+        "genitiv": "属格"
       }
     },
     "autoFillLoading": {
-      "title": "",
-      "body": ""
+      "title": "カードを生成中...",
+      "body": "お待ちください。AIがカテゴリ「{{category}}」のフレーズを選択しています。"
     },
     "autoFillPreview": {
-      "title": "",
-      "tooltip": "",
-      "empty": "",
+      "title": "「{{category}}」への提案",
+      "tooltip": "「{{category}}」への提案",
+      "empty": "AIがカードを提案しませんでした。リクエストを改良してみてください。",
       "refine": {
-        "placeholder": "",
-        "toggle": ""
+        "placeholder": "例：名前のみ、フレーズなし",
+        "toggle": "改良"
       },
       "actions": {
-        "refine": "",
-        "confirm": "",
-        "confirmShort": "",
-        "confirmWithCount": ""
+        "refine": "改良",
+        "confirm": "追加",
+        "confirmShort": "+",
+        "confirmWithCount": "追加（{{count}}）"
       },
       "selection": {
-        "select": "",
-        "clear": ""
+        "select": "すべて選択",
+        "clear": "すべて解除"
       },
       "status": {
-        "listening": ""
+        "listening": "聞き取り中..."
       }
     },
     "chat": {
       "placeholders": {
-        "listening": "",
-        "ask": ""
+        "listening": "聞き取り中...",
+        "ask": "何か質問してください..."
       },
       "aria": {
-        "stopListening": "",
-        "startListening": ""
+        "stopListening": "聞き取りを停止",
+        "startListening": "聞き取りを開始"
       },
       "errors": {
-        "generic": ""
+        "generic": "エラーが発生しました：{{message}}"
       }
     },
     "confirmCategoryFill": {
-      "title": "",
-      "body": "",
+      "title": "カテゴリを埋めますか？",
+      "body": "カテゴリ「{{category}}」をAIですぐに埋めますか？",
       "actions": {
-        "cancel": "",
-        "confirm": ""
+        "cancel": "後で",
+        "confirm": "はい、埋めます"
       }
     },
     "confirmDeleteCategory": {
-      "title": "",
-      "body": "",
-      "phraseCount": "",
+      "title": "カテゴリを削除しますか？",
+      "body": "カテゴリを削除しようとしています：",
+      "phraseCount": "このカテゴリには{{count}}枚の{{cards}}が含まれています。どうしますか？",
       "cards": {
-        "one": "",
-        "few": "",
-        "many": "",
-        "other": ""
+        "one": "カード",
+        "few": "カード",
+        "many": "カード",
+        "other": "カード"
       },
       "actions": {
-        "move": "",
-        "delete": "",
-        "cancel": "",
-        "confirm": ""
+        "move": "移動先",
+        "delete": "すべてのカードを削除",
+        "cancel": "キャンセル",
+        "confirm": "削除"
       }
     },
     "confirmDelete": {
-      "title": "",
-      "body": "",
-      "mastery": "",
+      "title": "削除の確認",
+      "body": "このフレーズを完全に削除してもよろしいですか？",
+      "mastery": "習熟レベル：",
       "actions": {
-        "cancel": "",
-        "confirm": ""
+        "cancel": "キャンセル",
+        "confirm": "削除"
       }
     },
     "confirmDeletePhrases": {
-      "title": "",
-      "body": "",
+      "title": "アクションの確認",
+      "body": "AIアシスタントは以下の{{count}}枚の{{cards}}を削除または移動することを提案しています。どうしますか？",
       "cards": {
-        "one": "",
-        "few": "",
-        "many": "",
-        "other": ""
+        "one": "カード",
+        "few": "カード",
+        "many": "カード",
+        "other": "カード"
       },
       "actions": {
-        "selectAll": "",
-        "deselectAll": "",
-        "delete": "",
-        "move": ""
+        "selectAll": "すべて選択",
+        "deselectAll": "すべて解除",
+        "delete": "削除（{{count}}）",
+        "move": "移動（{{count}}）"
       }
     },
     "deepDive": {
       "stages": {
-        "deconstruction": "",
-        "personalization": "",
-        "encoding": ""
+        "deconstruction": "ステージ1：脱構築",
+        "personalization": "ステージ2：個人化",
+        "encoding": "ステージ3：エンコーディング"
       },
       "errors": {
-        "analysis": "",
-        "noData": ""
+        "analysis": "分析エラー",
+        "noData": "分析するデータがありません。"
       }
     },
     "discussTranslation": {
-      "title": "",
-      "suggestion": "",
-      "accept": "",
-      "placeholder": "",
+      "title": "翻訳について議論",
+      "suggestion": "AIの提案：",
+      "accept": "このオプションを受け入れる",
+      "placeholder": "あなたのコメント...",
       "errors": {
-        "generic": ""
+        "generic": "エラーが発生しました：{{message}}"
       }
     },
     "editPhrase": {
-      "title": "",
+      "title": "フレーズを編集",
       "fields": {
-        "russian": "",
-        "german": "",
-        "category": ""
+        "russian": "ロシア語",
+        "german": "ドイツ語",
+        "category": "カテゴリ"
       },
       "errors": {
-        "translation": ""
+        "translation": "翻訳を取得できませんでした。"
       },
       "actions": {
-        "discuss": "",
-        "save": ""
+        "discuss": "翻訳について議論",
+        "save": "保存"
       }
     },
     "findDuplicates": {
-      "title": "",
-      "processing": "",
-      "found": "",
-      "description": "",
+      "title": "重複を検索",
+      "processing": "検索中...",
+      "found": "{{count}}個の重複グループが見つかりました。",
+      "description": "各グループで進捗が最も少ないフレーズが削除されます。",
       "actions": {
-        "cancel": "",
-        "clean": "",
-        "close": ""
+        "cancel": "キャンセル",
+        "clean": "クリーンアップ",
+        "close": "閉じる"
       },
-      "noDuplicates": "",
+      "noDuplicates": "重複は見つかりませんでした。",
       "errors": {
-        "search": ""
+        "search": "重複検索エラー：{{message}}"
       }
     },
     "improvePhrase": {
       "actions": {
-        "suggest": "",
-        "discuss": ""
+        "suggest": "正しいバージョンを提案",
+        "discuss": "AIと議論"
       },
-      "reasoning": "",
-      "improve": "",
+      "reasoning": "理由：",
+      "improve": "改善",
       "errors": {
-        "generic": ""
+        "generic": "改善を取得できませんでした。"
       }
     },
     "learningAssistant": {
-      "success": "",
-      "placeholder": "",
-      "dontKnow": "I don't know",
+      "success": "正解！",
+      "placeholder": "あなたの回答...",
+      "dontKnow": "わかりません",
       "errors": {
-        "generic": ""
+        "generic": "エラーが発生しました：{{message}}"
       }
     },
     "moveOrSkip": {
-      "title": "",
-      "body": "",
-      "newCards": "",
-      "question": "",
+      "title": "重複が見つかりました",
+      "body": "他のカテゴリに既に存在する{{count}}枚の{{cards}}が見つかりました。{{newCards}}",
+      "newCards": " さらに{{count}}枚の新しいカードも追加されます。",
+      "question": "どうしますか？",
       "actions": {
-        "move": "",
-        "addOnlyNew": "",
-        "cancel": ""
+        "move": "{{count}}枚を「{{category}}」に移動",
+        "addOnlyNew": "新しい{{count}}枚のみ追加",
+        "cancel": "キャンセル"
       },
       "cards": {
-        "one": "",
-        "few": "",
-        "many": "",
-        "other": ""
+        "one": "カード",
+        "few": "カード",
+        "many": "カード",
+        "other": "カード"
       }
     },
     "movieExamples": {
-      "title": "",
+      "title": "映画の例",
       "errors": {
-        "generic": ""
+        "generic": "エラー"
       },
-      "noExamples": ""
+      "noExamples": "このフレーズの映画の例を見つけることができませんでした。"
     },
     "nounDeclension": {
-      "title": "",
+      "title": "語形変化：{{noun}}",
       "errors": {
-        "generic": "",
-        "noData": ""
+        "generic": "エラー",
+        "noData": "データがありません。"
       },
       "headers": {
-        "case": "",
-        "singular": "",
-        "plural": ""
+        "case": "格",
+        "singular": "単数形",
+        "plural": "複数形"
       },
       "cases": {
         "nominativ": {
-          "name": "",
-          "question": ""
+          "name": "主格",
+          "question": "（誰が？何が？）"
         },
         "akkusativ": {
-          "name": "",
-          "question": ""
+          "name": "対格",
+          "question": "（誰を？何を？）"
         },
         "dativ": {
-          "name": "",
-          "question": ""
+          "name": "与格",
+          "question": "（誰に？何に？）"
         },
         "genitiv": {
-          "name": "",
-          "question": ""
+          "name": "属格",
+          "question": "（誰の？何の？）"
         }
       }
     },
     "phraseBuilder": {
-      "loading": "",
+      "loading": "単語を選択中...",
       "errors": {
-        "generic": "",
-        "check": ""
+        "generic": "エラー",
+        "check": "チェック中にエラーが発生しました。"
       },
-      "instructions": "",
+      "instructions": "以下の単語をクリックしてフレーズを構築",
       "aria": {
-        "clear": ""
+        "clear": "クリア"
       },
       "actions": {
-        "check": "",
-        "close": "",
-        "continue": ""
+        "check": "チェック",
+        "close": "閉じる",
+        "continue": "続ける"
       }
     },
     "phrasePreview": {
       "actions": {
-        "learn": ""
+        "learn": "このフレーズを学習"
       }
     },
     "practiceResult": {
-      "correct": "",
-      "incorrect": "",
-      "correctAnswer": "",
+      "correct": "優秀です！",
+      "incorrect": "不正解",
+      "correctAnswer": "正しい答え：",
       "actions": {
-        "continue": ""
+        "continue": "続ける"
       }
     },
     "pronouns": {
-      "title": "",
+      "title": "人称代名詞",
       "headers": {
-        "speak": "",
-        "german": "",
-        "russian": "",
-        "learning": "",
-        "native": ""
+        "speak": "発音",
+        "german": "ドイツ語",
+        "russian": "ロシア語",
+        "learning": "学習言語",
+        "native": "母国語"
       },
-      "error": "",
+      "error": "代名詞を読み込めませんでした",
       "pronouns": [
         {
-          "german": "",
-          "russian": ""
+          "german": "ich",
+          "russian": "я"
         },
         {
-          "german": "",
-          "russian": ""
+          "german": "du",
+          "russian": "ты"
         },
         {
-          "german": "",
-          "russian": ""
+          "german": "er / sie / es",
+          "russian": "он / она / оно"
         },
         {
-          "german": "",
-          "russian": ""
+          "german": "wir",
+          "russian": "мы"
         },
         {
-          "german": "",
-          "russian": ""
+          "german": "ihr",
+          "russian": "вы (非公式)"
         },
         {
-          "german": "",
-          "russian": ""
+          "german": "sie / Sie",
+          "russian": "они / Вы (公式)"
         }
       ]
     },
     "sentenceChain": {
-      "title": "",
+      "title": "フレーズビルダー",
       "aria": {
-        "goBack": ""
+        "goBack": "1ステップ戻る"
       },
       "tooltips": {
-        "clickToRevert": ""
+        "clickToRevert": "クリックしてこのステップに戻る"
       },
       "errors": {
-        "generic": ""
+        "generic": "エラー"
       },
       "messages": {
-        "noContinuations": ""
+        "noContinuations": "続行の提案がありません。戻ってみてください。"
       },
       "actions": {
-        "addCustom": ""
+        "addCustom": "あなたのバリアントを追加"
       }
     },
     "smartImport": {
       "tabs": {
-        "assistant": "",
-        "speech": "",
-        "file": ""
+        "assistant": "アシスタント",
+        "speech": "音声から",
+        "file": "ファイルから"
       },
       "assistant": {
-        "title": "",
-        "subtitle": "",
-        "placeholder": "",
+        "title": "AIアシスタント",
+        "subtitle": "トピックを入力すると、AIがあなたのためにカードセットを生成します。",
+        "placeholder": "例：'空港で' または '手の指'",
         "aria": {
-          "microphone": "",
-          "generate": ""
+          "microphone": "音声入力",
+          "generate": "生成"
         }
       },
       "speech": {
-        "title": "",
-        "subtitle": "",
-        "transcriptPlaceholder": "",
+        "title": "音声またはテキストからインポート",
+        "subtitle": "音声を録音するか、テキストを貼り付けてカードを作成します。",
+        "transcriptPlaceholder": "文字起こしがここに表示されます...",
         "aria": {
-          "paste": "",
-          "process": ""
+          "paste": "クリップボードから貼り付け",
+          "process": "処理"
         },
         "errors": {
-          "pasteFailed": ""
+          "pasteFailed": "クリップボードからテキストを貼り付けできませんでした。権限を付与していない可能性があります。"
         }
       },
       "file": {
-        "title": ""
+        "title": "ファイルからインポート"
       },
       "processing": {
-        "generatingCards": "",
-        "analyzingTopic": ""
+        "generatingCards": "AIがカードを生成中...",
+        "analyzingTopic": "トピックを分析中..."
       },
       "suggestion": {
         "addToExisting": {
-          "title": "",
-          "body": "",
-          "yes": "",
-          "no": ""
+          "title": "カテゴリを補完しますか？",
+          "body": "あなたは既にカテゴリ「{{category}}」を持っています。「{{topic}}」トピックに関する新しいカードを追加しますか？",
+          "yes": "はい、「{{category}}」に追加",
+          "no": "いいえ、「一般」に追加"
         },
         "createNew": {
-          "title": "",
-          "body": "",
-          "create": "",
-          "addToGeneral": ""
+          "title": "新しいカテゴリを作成しますか？",
+          "body": "AIが名前でカテゴリを作成することを提案します：",
+          "create": "作成",
+          "addToGeneral": "「一般」に追加"
         }
       },
       "preview": {
-        "title": "",
+        "title": "提案されたカード",
         "aria": {
-          "back": ""
+          "back": "戻る"
         },
         "actions": {
-          "selectAll": "",
-          "clearAll": "",
-          "refine": "",
-          "add": "",
-          "addWithCount": ""
+          "selectAll": "すべて選択",
+          "clearAll": "すべて解除",
+          "refine": "改良",
+          "add": "追加",
+          "addWithCount": "追加（{{count}}）"
         },
         "refine": {
-          "placeholder": "",
+          "placeholder": "改良、例：動詞のみ",
           "aria": {
-            "microphone": ""
+            "microphone": "音声入力"
           }
         }
       },
       "categoryNames": {
-        "fromSpeech": "",
-        "general": ""
+        "fromSpeech": "音声からのカード",
+        "general": "一般"
       }
     },
     "voiceWorkspace": {
-      "instructions": "",
-      "loading": "",
+      "instructions": "フレーズを発音するか、単語をここにドラッグ",
+      "loading": "単語を選択中...",
       "actions": {
-        "check": "",
-        "learnWithAI": "",
-        "showAnswer": "",
-        "clear": "",
-        "close": "",
-        "continue": "",
-        "nextPhrase": ""
+        "check": "チェック",
+        "learnWithAI": "AIで学習",
+        "showAnswer": "答えを表示",
+        "clear": "クリア",
+        "close": "閉じる",
+        "continue": "続ける",
+        "nextPhrase": "次のフレーズ"
       },
       "feedback": {
-        "correct": "",
-        "incorrect": "",
-        "revealAnswer": ""
+        "correct": "優秀です！すべて正解です。",
+        "incorrect": "残念ながら、不正解です。もう一度試してください。",
+        "revealAnswer": "これが正しい答えです。次回挑戦してください！"
       },
       "errors": {
-        "check": "",
-        "speech": "",
-        "speechNetwork": "",
-        "microphoneDenied": "",
-        "unexpected": "",
-        "serviceUnavailable": "",
-        "apiKey": "",
-        "requestFailed": "",
-        "loadWords": ""
+        "check": "チェックエラー。",
+        "speech": "音声認識エラーが発生しました。",
+        "speechNetwork": "音声認識中のネットワークエラー。",
+        "microphoneDenied": "マイクアクセスが許可されていません。",
+        "unexpected": "予期しないエラーが発生しました。",
+        "serviceUnavailable": "サービスが一時的に利用できません（エラー500）。",
+        "apiKey": "APIキー設定エラー。",
+        "requestFailed": "リクエストを実行できませんでした。",
+        "loadWords": "単語オプションを読み込めませんでした。"
       },
       "automation": {
-        "nextPhrase": ""
+        "nextPhrase": "次のフレーズ"
       }
     },
     "fileImport": {
       "cropper": {
-        "cancel": "",
-        "confirm": ""
+        "cancel": "キャンセル",
+        "confirm": "確認"
       },
       "errors": {
-        "unsupportedType": "",
-        "tooLarge": "",
-        "cropFirst": ""
+        "unsupportedType": "サポートされていないファイルタイプです。画像を選択してください。",
+        "tooLarge": "ファイルが大きすぎます。最大サイズは10MBです。",
+        "cropFirst": "まず画像をアップロードしてトリミングしてください。"
       },
-      "instructions": "",
+      "instructions": "画像をアップロードしてください。AIがテキストを認識するか、写真内のオブジェクトを説明し、それらをカードに変換します。",
       "dropzone": {
-        "text": "",
-        "subtext": ""
+        "text": "ドラッグ＆ドロップまたはファイルを選択",
+        "subtext": "画像（最大10MB）"
       },
       "camera": {
-        "button": "",
-        "subtext": ""
+        "button": "写真を撮る",
+        "subtext": "カメラを使用"
       },
       "preview": {
-        "alt": ""
+        "alt": "トリミングされた画像のプレビュー"
       },
       "refinement": {
-        "placeholder": "",
-        "aria": ""
+        "placeholder": "改良を追加（オプション）...",
+        "aria": "改良のための音声入力"
       },
-      "submit": ""
+      "submit": "カードを作成"
     },
     "verbConjugation": {
-      "title": "",
-      "proxyTitle": "",
+      "title": "活用：{{infinitive}}",
+      "proxyTitle": "活用：{{infinitive}}",
       "errors": {
-        "simple": "",
-        "detailed": ""
+        "simple": "単純な活用を読み込めませんでした。",
+        "detailed": "詳細な活用を読み込めませんでした。"
       },
       "simple": {
-        "heading": "",
-        "button": ""
+        "heading": "Präsens（現在時制）",
+        "button": "詳細"
       },
       "tense": {
-        "present": "",
-        "past": "",
-        "future": ""
+        "present": "Präsens（現在時制）",
+        "past": "Perfekt（過去時制）",
+        "future": "Futur I（未来時制）"
       },
       "forms": {
-        "statement": "",
-        "question": "",
-        "negative": ""
+        "statement": "肯定文",
+        "question": "疑問文",
+        "negative": "否定文"
       }
     },
     "voicePractice": {
-      "prompt": "",
-      "listening": "",
+      "prompt": "このフレーズを発音してください：",
+      "listening": "聞き取り中...",
       "aria": {
-        "microphone": "",
-        "close": ""
+        "microphone": "音声入力開始",
+        "close": "閉じる"
       }
     },
     "wFragen": {
-      "title": "",
+      "title": "疑問詞",
       "columns": {
-        "play": "",
-        "german": "",
-        "translation": ""
+        "play": "発音",
+        "german": "ドイツ語",
+        "translation": "翻訳"
       },
       "items": [
         {
-          "german": "",
-          "translation": ""
+          "german": "Was?",
+          "translation": "何？"
         },
         {
-          "german": "",
-          "translation": ""
+          "german": "Wer?",
+          "translation": "誰？"
         },
         {
-          "german": "",
-          "translation": ""
+          "german": "Wo?",
+          "translation": "どこ？"
         },
         {
-          "german": "",
-          "translation": ""
+          "german": "Wann?",
+          "translation": "いつ？"
         },
         {
-          "german": "",
-          "translation": ""
+          "german": "Wie?",
+          "translation": "どのように？"
         },
         {
-          "german": "",
-          "translation": ""
+          "german": "Warum?",
+          "translation": "なぜ？"
         },
         {
-          "german": "",
-          "translation": ""
+          "german": "Woher?",
+          "translation": "どこから？"
         },
         {
-          "german": "",
-          "translation": ""
+          "german": "Wohin?",
+          "translation": "どこへ？"
         }
       ]
     },
     "wordAnalysis": {
-      "title": "",
+      "title": "単語分析：{{word}}",
       "errors": {
-        "generic": "",
-        "unknown": ""
+        "generic": "分析を読み込めませんでした。",
+        "unknown": "分析するデータがありません。"
       },
       "labels": {
-        "partOfSpeech": "",
-        "grammarReference": "",
-        "baseForm": "",
-        "nativeTranslation": "",
-        "article": "",
-        "plural": "",
-        "infinitive": "",
-        "tense": "",
+        "partOfSpeech": "品詞",
+        "grammarReference": "文法リファレンス",
+        "baseForm": "基本形",
+        "nativeTranslation": "翻訳",
+        "article": "冠詞",
+        "plural": "複数形",
+        "infinitive": "不定詞",
+        "tense": "時制",
         "person": "人称と数",
-        "example": "",
-        "exampleTranslation": "",
-        "cardCreated": ""
+        "example": "使用例",
+        "exampleTranslation": "翻訳：",
+        "cardCreated": "カードが作成されました！"
       },
       "actions": {
-        "createCard": "",
-        "openVerb": "",
-        "openNoun": "",
-        "openAdjective": ""
+        "createCard": "カードを作成",
+        "openVerb": "活用を開く",
+        "openNoun": "語形変化を開く",
+        "openAdjective": "語形変化と比較級を開く"
       }
     },
     "cameraCapture": {
-      "errorTitle": "",
+      "errorTitle": "カメラエラー",
       "errors": {
-        "permission": "",
-        "notFound": "",
-        "generic": ""
+        "permission": "カメラアクセスが拒否されました。",
+        "notFound": "カメラが見つかりません。",
+        "generic": "カメラアクセスエラー。"
       },
       "aria": {
-        "capture": ""
+        "capture": "写真を撮る"
       }
     },
     "phraseList": {
       "search": {
-        "listening": "",
-        "placeholder": ""
+        "listening": "聞き取り中...",
+        "placeholder": "フレーズを検索..."
       },
       "filters": {
-        "all": ""
+        "all": "すべて"
       },
       "summary": {
-        "count": ""
+        "count": "{{count}}枚のカード"
       },
       "actions": {
-        "duplicates": "",
-        "aiImport": ""
+        "duplicates": "重複",
+        "aiImport": "AIインポート"
       },
       "sections": {
-        "new": "",
-        "inProgress": "",
-        "mastered": ""
+        "new": "新しい",
+        "inProgress": "進行中",
+        "mastered": "習得済み"
       }
     }
   },
   "phraseList": {
     "item": {
       "badges": {
-        "new": ""
+        "new": "新規"
       },
       "actions": {
-        "practice": "",
-        "edit": "",
-        "delete": ""
+        "practice": "練習",
+        "edit": "編集",
+        "delete": "削除"
       },
-      "categoryButton": ""
+      "categoryButton": "カテゴリ：{{name}}"
     },
     "search": {
-      "listening": "",
-      "placeholder": ""
+      "listening": "検索クエリを聞き取り中...",
+      "placeholder": "フレーズを検索..."
     },
     "sections": {
-      "new": "",
-      "inProgress": "",
-      "mastered": ""
+      "new": "新しい",
+      "inProgress": "進行中",
+      "mastered": "習得済み"
     },
     "filters": {
-      "all": ""
+      "all": "すべて"
     },
     "summary": {
-      "count": ""
+      "count": "{{count}}枚のカード"
     },
     "actions": {
-      "duplicates": "",
-      "aiImport": ""
+      "duplicates": "重複",
+      "aiImport": "AIインポート"
     }
   },
   "assistant": {
@@ -1056,53 +1056,53 @@
       "createWordCard": "単語カードを作成",
       "createPhraseCard": "フレーズカードを作成",
       "generateSimilar": "類似を生成",
-      "goToList": "リストに移動",
-      "discussTranslation": "翻訳を議論"
+      "goToList": "タスクリストに移動",
+      "discussTranslation": "翻訳について議論"
     },
     "common": {
       "translationError": "翻訳エラー",
-      "translating": "翻訳中",
-      "translate": "翻訳する"
+      "translating": "翻訳中...",
+      "translate": "翻訳"
     },
     "modal": {
-      "title": "",
+      "title": "「{{name}}」のアシスタント",
       "input": {
-        "placeholder": "",
-        "listening": ""
+        "placeholder": "追加する内容を説明...",
+        "listening": "聞き取り中..."
       },
       "quickActions": {
-        "addSimilar": "",
-        "checkConsistency": "",
-        "createDialogue": ""
+        "addSimilar": "類似フレーズを追加",
+        "checkConsistency": "一貫性を確認",
+        "createDialogue": "対話を作成"
       },
       "actions": {
-        "addSelected": "",
-        "goToList": ""
+        "addSelected": "選択したものを追加（{{count}}）",
+        "goToList": "リストに移動"
       },
       "messages": {
-        "error": ""
+        "error": "リクエストを実行できませんでした：{{message}}"
       },
       "success": {
-        "added": ""
+        "added": "{{count}}枚のカードがカテゴリに追加されました。"
       }
     },
     "prompts": {
-      "generateSimilar": "{phrase} の類似フレーズを生成"
+      "generateSimilar": "次のための類似フレーズを生成：{phrase}"
     }
   },
   "phraseCard": {
     "actions": {
-      "learningAssistant": "AIと学習する",
+      "learningAssistant": "AIで学習",
       "sentenceChain": "フレーズチェーン",
       "phraseBuilder": "フレーズビルダー",
-      "chat": "AIと話す",
+      "chat": "AIとチャット",
       "deepDive": "詳細分析",
       "movieExamples": "映画の例"
     },
     "aria": {
       "openSettings": "フレーズを改善",
-      "playTranslation": "翻訳を再生",
-      "moreActions": "その他の操作"
+      "playTranslation": "翻訳を発音",
+      "moreActions": "追加アクション"
     }
   }
 }
