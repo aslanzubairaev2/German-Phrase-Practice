@@ -176,6 +176,11 @@
     "deleteError": "Error al eliminar: {{message}}",
     "moveError": "Error al mover: {{message}}",
     "genericError": "Error: {{message}}",
+    "categories": {
+      "createError": "Error al crear categoría: {{message}}",
+      "saveError": "Error al guardar categoría: {{message}}",
+      "deleteSuccess": "✓ Categoría \"{{name}}\" eliminada."
+    },
     "cards": {
       "moving": "Moviendo {{count}} tarjetas...",
       "moveSuccess": "✓ Tarjetas movidas.",
@@ -190,21 +195,16 @@
       "deletedCount": "✓ {{count}} tarjetas eliminadas.",
       "movedToCategory": "✓ {{count}} tarjetas movidas a \"{{category}}\".",
       "otherCategory": "otra categoría",
-      "bulkAdded": "✓ {{count}} tarjetas agregadas.",
       "bulkAdded_one": "✓ {{count}} tarjeta agregada.",
       "bulkAdded_few": "✓ {{count}} tarjetas agregadas.",
       "bulkAdded_many": "✓ {{count}} tarjetas agregadas.",
       "bulkAdded_other": "✓ {{count}} tarjetas agregadas.",
-      "bulkSkipped": "{{count}} ya existían y fueron omitidas.",
+      "bulkAdded": "✓ {{count}} tarjetas agregadas.",
       "bulkSkipped_one": "{{count}} ya existía y fue omitida.",
       "bulkSkipped_few": "{{count}} ya existían y fueron omitidas.",
       "bulkSkipped_many": "{{count}} ya existían y fueron omitidas.",
-      "bulkSkipped_other": "{{count}} ya existían y fueron omitidas."
-    },
-    "categories": {
-      "createError": "Error al crear categoría: {{message}}",
-      "saveError": "Error al guardar categoría: {{message}}",
-      "deleteSuccess": "✓ Categoría \"{{name}}\" eliminada."
+      "bulkSkipped_other": "{{count}} ya existían y fueron omitidas.",
+      "bulkSkipped": "{{count}} ya existían y fueron omitidas."
     }
   },
   "localization": {
@@ -305,6 +305,11 @@
         "unknownError": "Error desconocido"
       },
       "stats": {
+        "phrasesUsed_zero": "",
+        "phrasesUsed_one": "",
+        "phrasesUsed_few": "",
+        "phrasesUsed_many": "",
+        "phrasesUsed_other": "",
         "phrasesUsed": "{{count}} frase practicada",
         "phrasesUsed_plural": "{{count}} frases practicadas"
       }
@@ -371,163 +376,6 @@
     "toggle": "Agregar frase"
   },
   "modals": {
-    "nounDeclension": {
-      "title": "Declinación: {{noun}}",
-      "errors": {
-        "generic": "Error",
-        "noData": "Sin datos."
-      },
-      "headers": {
-        "case": "Caso",
-        "singular": "Singular",
-        "plural": "Plural"
-      },
-      "cases": {
-        "nominativ": {
-          "name": "Nominativo",
-          "question": "(¿quién? ¿qué?)"
-        },
-        "akkusativ": {
-          "name": "Acusativo",
-          "question": "(¿a quién? ¿qué?)"
-        },
-        "dativ": {
-          "name": "Dativo",
-          "question": "(¿a quién? ¿a qué?)"
-        },
-        "genitiv": {
-          "name": "Genitivo",
-          "question": "(¿de quién? ¿de qué?)"
-        }
-      }
-    },
-    "pronouns": {
-      "title": "Pronombres personales",
-      "headers": {
-        "speak": "Hablar",
-        "german": "Alemán",
-        "russian": "Ruso",
-        "learning": "Idioma de aprendizaje",
-        "native": "Idioma nativo"
-      },
-      "error": "Error al cargar pronombres",
-      "pronouns": [
-        {
-          "german": "ich",
-          "russian": "yo"
-        },
-        {
-          "german": "du",
-          "russian": "tú (informal)"
-        },
-        {
-          "german": "er / sie / es",
-          "russian": "él / ella / ello"
-        },
-        {
-          "german": "wir",
-          "russian": "nosotros"
-        },
-        {
-          "german": "ihr",
-          "russian": "vosotros (plural informal)"
-        },
-        {
-          "german": "sie / Sie",
-          "russian": "ellos / usted (formal)"
-        }
-      ]
-    },
-    "sentenceChain": {
-      "title": "Constructor de frases",
-      "aria": {
-        "goBack": "Volver un paso atrás"
-      },
-      "tooltips": {
-        "clickToRevert": "Haz clic para revertir a esta etapa"
-      },
-      "errors": {
-        "generic": "Error"
-      },
-      "messages": {
-        "noContinuations": "No hay sugerencias para continuar. Intenta volver atrás."
-      },
-      "actions": {
-        "addCustom": "Agregar tu propia opción"
-      }
-    },
-    "smartImport": {
-      "tabs": {
-        "assistant": "Asistente",
-        "speech": "Desde voz",
-        "file": "Desde archivo"
-      },
-      "assistant": {
-        "title": "Asistente de IA",
-        "subtitle": "Ingresa un tema, y la IA generará un conjunto de tarjetas para ti.",
-        "placeholder": "Ej. 'En el aeropuerto' o 'Dedos de la mano'",
-        "aria": {
-          "microphone": "Entrada de voz",
-          "generate": "Generar"
-        }
-      },
-      "speech": {
-        "title": "Importar desde voz o texto",
-        "subtitle": "Graba voz o pega texto para crear tarjetas.",
-        "transcriptPlaceholder": "La transcripción aparecerá aquí...",
-        "aria": {
-          "paste": "Pegar desde portapapeles",
-          "process": "Procesar"
-        },
-        "errors": {
-          "pasteFailed": "Error al pegar texto desde el portapapeles. Puede que no hayas otorgado permiso."
-        }
-      },
-      "file": {
-        "title": "Importar desde archivo"
-      },
-      "processing": {
-        "generatingCards": "La IA está generando tarjetas...",
-        "analyzingTopic": "Analizando tema..."
-      },
-      "suggestion": {
-        "addToExisting": {
-          "title": "¿Agregar a categoría existente?",
-          "body": "Ya tienes una categoría \"{{category}}\". ¿Quieres agregar nuevas tarjetas sobre el tema \"{{topic}}\" a ella?",
-          "yes": "Sí, agregar a \"{{category}}\"",
-          "no": "No, agregar a \"General\""
-        },
-        "createNew": {
-          "title": "¿Crear nueva categoría?",
-          "body": "La IA sugiere crear una categoría con el nombre:",
-          "create": "Crear",
-          "addToGeneral": "Agregar a \"General\""
-        }
-      },
-      "preview": {
-        "title": "Tarjetas sugeridas",
-        "aria": {
-          "back": "Atrás"
-        },
-        "actions": {
-          "selectAll": "Seleccionar todo",
-          "clearAll": "Limpiar todo",
-          "refine": "Refinar",
-          "add": "Agregar",
-          "addWithCount": "Agregar ({{count}})"
-        },
-        "refine": {
-          "placeholder": "Refinamiento, ej. solo verbos",
-          "aria": {
-            "microphone": "Entrada de voz"
-          }
-        }
-      },
-      "categoryNames": {
-        "fromSpeech": "Tarjetas desde voz",
-        "general": "General"
-      }
-    },
     "addContinuation": {
       "placeholders": {
         "text": "Escribe la continuación..."
@@ -792,6 +640,36 @@
       },
       "noExamples": "No se pudieron encontrar ejemplos de películas para esta frase."
     },
+    "nounDeclension": {
+      "title": "Declinación: {{noun}}",
+      "errors": {
+        "generic": "Error",
+        "noData": "Sin datos."
+      },
+      "headers": {
+        "case": "Caso",
+        "singular": "Singular",
+        "plural": "Plural"
+      },
+      "cases": {
+        "nominativ": {
+          "name": "Nominativo",
+          "question": "(¿quién? ¿qué?)"
+        },
+        "akkusativ": {
+          "name": "Acusativo",
+          "question": "(¿a quién? ¿qué?)"
+        },
+        "dativ": {
+          "name": "Dativo",
+          "question": "(¿a quién? ¿a qué?)"
+        },
+        "genitiv": {
+          "name": "Genitivo",
+          "question": "(¿de quién? ¿de qué?)"
+        }
+      }
+    },
     "phraseBuilder": {
       "loading": "Seleccionando palabras...",
       "errors": {
@@ -821,33 +699,132 @@
         "continue": "Continuar"
       }
     },
-    "fileImport": {
-      "cropper": {
-        "cancel": "Cancelar",
-        "confirm": "Confirmar"
+    "pronouns": {
+      "title": "Pronombres personales",
+      "headers": {
+        "speak": "Hablar",
+        "german": "Alemán",
+        "russian": "Ruso",
+        "learning": "Idioma de aprendizaje",
+        "native": "Idioma nativo"
+      },
+      "error": "Error al cargar pronombres",
+      "pronouns": [
+        {
+          "german": "ich",
+          "russian": "yo"
+        },
+        {
+          "german": "du",
+          "russian": "tú (informal)"
+        },
+        {
+          "german": "er / sie / es",
+          "russian": "él / ella / ello"
+        },
+        {
+          "german": "wir",
+          "russian": "nosotros"
+        },
+        {
+          "german": "ihr",
+          "russian": "vosotros (plural informal)"
+        },
+        {
+          "german": "sie / Sie",
+          "russian": "ellos / usted (formal)"
+        }
+      ]
+    },
+    "sentenceChain": {
+      "title": "Constructor de frases",
+      "aria": {
+        "goBack": "Volver un paso atrás"
+      },
+      "tooltips": {
+        "clickToRevert": "Haz clic para revertir a esta etapa"
       },
       "errors": {
-        "unsupportedType": "Tipo de archivo no soportado. Por favor selecciona una imagen.",
-        "tooLarge": "El archivo es demasiado grande. Tamaño máximo es 10MB.",
-        "cropFirst": "Por favor sube y recorta una imagen primero."
+        "generic": "Error"
       },
-      "instructions": "Sube una imagen. La IA reconocerá texto o describirá objetos en la foto, convirtiéndolos en tarjetas.",
-      "dropzone": {
-        "text": "Arrastra y suelta o selecciona un archivo",
-        "subtext": "Imagen (máx. 10MB)"
+      "messages": {
+        "noContinuations": "No hay sugerencias para continuar. Intenta volver atrás."
       },
-      "camera": {
-        "button": "Tomar una foto",
-        "subtext": "Usa tu cámara"
+      "actions": {
+        "addCustom": "Agregar tu propia opción"
+      }
+    },
+    "smartImport": {
+      "tabs": {
+        "assistant": "Asistente",
+        "speech": "Desde voz",
+        "file": "Desde archivo"
+      },
+      "assistant": {
+        "title": "Asistente de IA",
+        "subtitle": "Ingresa un tema, y la IA generará un conjunto de tarjetas para ti.",
+        "placeholder": "Ej. 'En el aeropuerto' o 'Dedos de la mano'",
+        "aria": {
+          "microphone": "Entrada de voz",
+          "generate": "Generar"
+        }
+      },
+      "speech": {
+        "title": "Importar desde voz o texto",
+        "subtitle": "Graba voz o pega texto para crear tarjetas.",
+        "transcriptPlaceholder": "La transcripción aparecerá aquí...",
+        "aria": {
+          "paste": "Pegar desde portapapeles",
+          "process": "Procesar"
+        },
+        "errors": {
+          "pasteFailed": "Error al pegar texto desde el portapapeles. Puede que no hayas otorgado permiso."
+        }
+      },
+      "file": {
+        "title": "Importar desde archivo"
+      },
+      "processing": {
+        "generatingCards": "La IA está generando tarjetas...",
+        "analyzingTopic": "Analizando tema..."
+      },
+      "suggestion": {
+        "addToExisting": {
+          "title": "¿Agregar a categoría existente?",
+          "body": "Ya tienes una categoría \"{{category}}\". ¿Quieres agregar nuevas tarjetas sobre el tema \"{{topic}}\" a ella?",
+          "yes": "Sí, agregar a \"{{category}}\"",
+          "no": "No, agregar a \"General\""
+        },
+        "createNew": {
+          "title": "¿Crear nueva categoría?",
+          "body": "La IA sugiere crear una categoría con el nombre:",
+          "create": "Crear",
+          "addToGeneral": "Agregar a \"General\""
+        }
       },
       "preview": {
-        "alt": "Vista previa de imagen recortada"
+        "title": "Tarjetas sugeridas",
+        "aria": {
+          "back": "Atrás"
+        },
+        "actions": {
+          "selectAll": "Seleccionar todo",
+          "clearAll": "Limpiar todo",
+          "refine": "Refinar",
+          "add": "Agregar",
+          "addWithCount": "Agregar ({{count}})"
+        },
+        "refine": {
+          "placeholder": "Refinamiento, ej. solo verbos",
+          "aria": {
+            "microphone": "Entrada de voz"
+          }
+        }
       },
-      "refinement": {
-        "placeholder": "Agrega un refinamiento (opcional)...",
-        "aria": "Entrada de voz para refinamiento"
-      },
-      "submit": "Crear tarjetas"
+      "categoryNames": {
+        "fromSpeech": "Tarjetas desde voz",
+        "general": "General"
+      }
     },
     "voiceWorkspace": {
       "instructions": "Habla la frase o arrastra palabras aquí",
@@ -880,6 +857,34 @@
       "automation": {
         "nextPhrase": "Siguiente frase"
       }
+    },
+    "fileImport": {
+      "cropper": {
+        "cancel": "Cancelar",
+        "confirm": "Confirmar"
+      },
+      "errors": {
+        "unsupportedType": "Tipo de archivo no soportado. Por favor selecciona una imagen.",
+        "tooLarge": "El archivo es demasiado grande. Tamaño máximo es 10MB.",
+        "cropFirst": "Por favor sube y recorta una imagen primero."
+      },
+      "instructions": "Sube una imagen. La IA reconocerá texto o describirá objetos en la foto, convirtiéndolos en tarjetas.",
+      "dropzone": {
+        "text": "Arrastra y suelta o selecciona un archivo",
+        "subtext": "Imagen (máx. 10MB)"
+      },
+      "camera": {
+        "button": "Tomar una foto",
+        "subtext": "Usa tu cámara"
+      },
+      "preview": {
+        "alt": "Vista previa de imagen recortada"
+      },
+      "refinement": {
+        "placeholder": "Agrega un refinamiento (opcional)...",
+        "aria": "Entrada de voz para refinamiento"
+      },
+      "submit": "Crear tarjetas"
     },
     "verbConjugation": {
       "title": "Conjugación: {{infinitive}}",
@@ -990,6 +995,27 @@
       "aria": {
         "capture": "Tomar foto"
       }
+    },
+    "phraseList": {
+      "search": {
+        "listening": "",
+        "placeholder": ""
+      },
+      "filters": {
+        "all": ""
+      },
+      "summary": {
+        "count": ""
+      },
+      "actions": {
+        "duplicates": "",
+        "aiImport": ""
+      },
+      "sections": {
+        "new": "",
+        "inProgress": "",
+        "mastered": ""
+      }
     }
   },
   "phraseList": {
@@ -1038,9 +1064,6 @@
       "translating": "Übersetze...",
       "translate": "Übersetzen"
     },
-    "prompts": {
-      "generateSimilar": "Ähnliche Phrasen generieren für: {phrase}"
-    },
     "modal": {
       "title": "Asistente para {{name}}",
       "input": {
@@ -1062,6 +1085,9 @@
       "success": {
         "added": "Se agregaron {{count}} tarjetas a la categoría."
       }
+    },
+    "prompts": {
+      "generateSimilar": "Ähnliche Phrasen generieren für: {phrase}"
     }
   },
   "phraseCard": {

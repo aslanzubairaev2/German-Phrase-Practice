@@ -176,6 +176,11 @@
     "deleteError": "Löschfehler: {{message}}",
     "moveError": "Verschiebefehler: {{message}}",
     "genericError": "Fehler: {{message}}",
+    "categories": {
+      "createError": "Fehler beim Erstellen der Kategorie: {{message}}",
+      "saveError": "Fehler beim Speichern der Kategorie: {{message}}",
+      "deleteSuccess": "✓ Kategorie \"{{name}}\" gelöscht."
+    },
     "cards": {
       "moving": "{{count}} Karten werden verschoben...",
       "moveSuccess": "✓ Karten verschoben.",
@@ -190,21 +195,16 @@
       "deletedCount": "✓ {{count}} Karten gelöscht.",
       "movedToCategory": "✓ {{count}} Karten in \"{{category}}\" verschoben.",
       "otherCategory": "andere Kategorie",
-      "bulkAdded": "✓ {{count}} Karten hinzugefügt.",
       "bulkAdded_one": "✓ {{count}} Karte hinzugefügt.",
       "bulkAdded_few": "✓ {{count}} Karten hinzugefügt.",
       "bulkAdded_many": "✓ {{count}} Karten hinzugefügt.",
       "bulkAdded_other": "✓ {{count}} Karten hinzugefügt.",
-      "bulkSkipped": "{{count}} existierten bereits und wurden übersprungen.",
+      "bulkAdded": "✓ {{count}} Karten hinzugefügt.",
       "bulkSkipped_one": "{{count}} existierte bereits und wurde übersprungen.",
       "bulkSkipped_few": "{{count}} existierten bereits und wurden übersprungen.",
       "bulkSkipped_many": "{{count}} existierten bereits und wurden übersprungen.",
-      "bulkSkipped_other": "{{count}} existierten bereits und wurden übersprungen."
-    },
-    "categories": {
-      "createError": "Fehler beim Erstellen der Kategorie: {{message}}",
-      "saveError": "Fehler beim Speichern der Kategorie: {{message}}",
-      "deleteSuccess": "✓ Kategorie \"{{name}}\" gelöscht."
+      "bulkSkipped_other": "{{count}} existierten bereits und wurden übersprungen.",
+      "bulkSkipped": "{{count}} existierten bereits und wurden übersprungen."
     }
   },
   "localization": {
@@ -305,6 +305,11 @@
         "unknownError": "Unbekannter Fehler"
       },
       "stats": {
+        "phrasesUsed_zero": "",
+        "phrasesUsed_one": "",
+        "phrasesUsed_few": "",
+        "phrasesUsed_many": "",
+        "phrasesUsed_other": "",
         "phrasesUsed": "{{count}} geübte Phrase",
         "phrasesUsed_plural": "{{count}} geübte Phrasen"
       }
@@ -371,160 +376,6 @@
     "toggle": "Phrase hinzufügen"
   },
   "modals": {
-    "nounDeclension": {
-      "title": "Deklination: {{noun}}",
-      "errors": {
-        "generic": "Fehler",
-        "noData": "Keine Daten."
-      },
-      "headers": {
-        "case": "Fall",
-        "singular": "Singular",
-        "plural": "Plural"
-      },
-      "cases": {
-        "nominativ": {
-          "name": "Nominativ",
-          "question": "(wer? was?)"
-        },
-        "akkusativ": {
-          "name": "Akkusativ",
-          "question": "(wen? was?)"
-        },
-        "dativ": {
-          "name": "Dativ",
-          "question": "(wem? was?)"
-        },
-        "genitiv": {
-          "name": "Genitiv",
-          "question": "(wessen? wovon?)"
-        }
-      }
-    },
-    "pronouns": {
-      "title": "Persönliche Pronomen",
-      "headers": {
-        "speak": "Sprechen",
-        "german": "Deutsch",
-        "russian": "Russisch"
-      },
-      "pronouns": [
-        {
-          "german": "ich",
-          "russian": "I"
-        },
-        {
-          "german": "du",
-          "russian": "you (informal)"
-        },
-        {
-          "german": "er / sie / es",
-          "russian": "he / she / it"
-        },
-        {
-          "german": "wir",
-          "russian": "we"
-        },
-        {
-          "german": "ihr",
-          "russian": "you (plural informal)"
-        },
-        {
-          "german": "sie / Sie",
-          "russian": "they / you (formal)"
-        }
-      ]
-    },
-    "sentenceChain": {
-      "title": "Satzbaukasten",
-      "aria": {
-        "goBack": "Einen Schritt zurückgehen"
-      },
-      "tooltips": {
-        "clickToRevert": "Klicken, um zu diesem Stadium zurückzukehren"
-      },
-      "errors": {
-        "generic": "Fehler"
-      },
-      "messages": {
-        "noContinuations": "Keine Vorschläge für Fortsetzung. Versuche, zurückzugehen."
-      },
-      "actions": {
-        "addCustom": "Eigene Option hinzufügen"
-      }
-    },
-    "smartImport": {
-      "tabs": {
-        "assistant": "Assistent",
-        "speech": "Aus Sprache",
-        "file": "Aus Datei"
-      },
-      "assistant": {
-        "title": "KI-Assistent",
-        "subtitle": "Gib ein Thema ein, und KI wird einen Satz Karten für dich generieren.",
-        "placeholder": "Z.B. 'Am Flughafen' oder 'Hand Finger'",
-        "aria": {
-          "microphone": "Spracheingabe",
-          "generate": "Generieren"
-        }
-      },
-      "speech": {
-        "title": "Import aus Sprache oder Text",
-        "subtitle": "Nimm Sprache auf oder füge Text ein, um Karten zu erstellen.",
-        "transcriptPlaceholder": "Transkript erscheint hier...",
-        "aria": {
-          "paste": "Aus Zwischenablage einfügen",
-          "process": "Verarbeiten"
-        },
-        "errors": {
-          "pasteFailed": "Text aus Zwischenablage konnte nicht eingefügt werden. Möglicherweise hast du keine Berechtigung erteilt."
-        }
-      },
-      "file": {
-        "title": "Import aus Datei"
-      },
-      "processing": {
-        "generatingCards": "KI generiert Karten...",
-        "analyzingTopic": "Thema wird analysiert..."
-      },
-      "suggestion": {
-        "addToExisting": {
-          "title": "Zu bestehender Kategorie hinzufügen?",
-          "body": "Du hast bereits eine Kategorie \"{{category}}\". Möchtest du neue Karten zum Thema \"{{topic}}\" hinzufügen?",
-          "yes": "Ja, zu \"{{category}}\" hinzufügen",
-          "no": "Nein, zu \"Allgemein\" hinzufügen"
-        },
-        "createNew": {
-          "title": "Neue Kategorie erstellen?",
-          "body": "KI schlägt vor, eine Kategorie mit dem Namen zu erstellen:",
-          "create": "Erstellen",
-          "addToGeneral": "Zu \"Allgemein\" hinzufügen"
-        }
-      },
-      "preview": {
-        "title": "Vorgeschlagene Karten",
-        "aria": {
-          "back": "Zurück"
-        },
-        "actions": {
-          "selectAll": "Alle auswählen",
-          "clearAll": "Alle löschen",
-          "refine": "Verfeinern",
-          "add": "Hinzufügen",
-          "addWithCount": "Hinzufügen ({{count}})"
-        },
-        "refine": {
-          "placeholder": "Verfeinerung, z.B. nur Verben",
-          "aria": {
-            "microphone": "Spracheingabe"
-          }
-        }
-      },
-      "categoryNames": {
-        "fromSpeech": "Karten aus Sprache",
-        "general": "Allgemein"
-      }
-    },
     "addContinuation": {
       "placeholders": {
         "text": "Fortsetzung eingeben..."
@@ -789,6 +640,36 @@
       },
       "noExamples": "Filmbeispiele für diese Phrase konnten nicht gefunden werden."
     },
+    "nounDeclension": {
+      "title": "Deklination: {{noun}}",
+      "errors": {
+        "generic": "Fehler",
+        "noData": "Keine Daten."
+      },
+      "headers": {
+        "case": "Fall",
+        "singular": "Singular",
+        "plural": "Plural"
+      },
+      "cases": {
+        "nominativ": {
+          "name": "Nominativ",
+          "question": "(wer? was?)"
+        },
+        "akkusativ": {
+          "name": "Akkusativ",
+          "question": "(wen? was?)"
+        },
+        "dativ": {
+          "name": "Dativ",
+          "question": "(wem? was?)"
+        },
+        "genitiv": {
+          "name": "Genitiv",
+          "question": "(wessen? wovon?)"
+        }
+      }
+    },
     "phraseBuilder": {
       "loading": "Wörter werden ausgewählt...",
       "errors": {
@@ -818,33 +699,132 @@
         "continue": "Weiter"
       }
     },
-    "fileImport": {
-      "cropper": {
-        "cancel": "Abbrechen",
-        "confirm": "Bestätigen"
+    "pronouns": {
+      "title": "Persönliche Pronomen",
+      "headers": {
+        "speak": "Sprechen",
+        "german": "Deutsch",
+        "russian": "Russisch",
+        "learning": "",
+        "native": ""
+      },
+      "error": "",
+      "pronouns": [
+        {
+          "german": "ich",
+          "russian": "I"
+        },
+        {
+          "german": "du",
+          "russian": "you (informal)"
+        },
+        {
+          "german": "er / sie / es",
+          "russian": "he / she / it"
+        },
+        {
+          "german": "wir",
+          "russian": "we"
+        },
+        {
+          "german": "ihr",
+          "russian": "you (plural informal)"
+        },
+        {
+          "german": "sie / Sie",
+          "russian": "they / you (formal)"
+        }
+      ]
+    },
+    "sentenceChain": {
+      "title": "Satzbaukasten",
+      "aria": {
+        "goBack": "Einen Schritt zurückgehen"
+      },
+      "tooltips": {
+        "clickToRevert": "Klicken, um zu diesem Stadium zurückzukehren"
       },
       "errors": {
-        "unsupportedType": "Nicht unterstützter Dateityp. Bitte wähle ein Bild aus.",
-        "tooLarge": "Datei ist zu groß. Maximale Größe ist 10MB.",
-        "cropFirst": "Bitte lade zuerst ein Bild hoch und schneide es zu."
+        "generic": "Fehler"
       },
-      "instructions": "Lade ein Bild hoch. KI wird Text erkennen oder Objekte im Foto beschreiben und daraus Karten erstellen.",
-      "dropzone": {
-        "text": "Ziehen und ablegen oder Datei auswählen",
-        "subtext": "Bild (max. 10MB)"
+      "messages": {
+        "noContinuations": "Keine Vorschläge für Fortsetzung. Versuche, zurückzugehen."
       },
-      "camera": {
-        "button": "Foto aufnehmen",
-        "subtext": "Kamera verwenden"
+      "actions": {
+        "addCustom": "Eigene Option hinzufügen"
+      }
+    },
+    "smartImport": {
+      "tabs": {
+        "assistant": "Assistent",
+        "speech": "Aus Sprache",
+        "file": "Aus Datei"
+      },
+      "assistant": {
+        "title": "KI-Assistent",
+        "subtitle": "Gib ein Thema ein, und KI wird einen Satz Karten für dich generieren.",
+        "placeholder": "Z.B. 'Am Flughafen' oder 'Hand Finger'",
+        "aria": {
+          "microphone": "Spracheingabe",
+          "generate": "Generieren"
+        }
+      },
+      "speech": {
+        "title": "Import aus Sprache oder Text",
+        "subtitle": "Nimm Sprache auf oder füge Text ein, um Karten zu erstellen.",
+        "transcriptPlaceholder": "Transkript erscheint hier...",
+        "aria": {
+          "paste": "Aus Zwischenablage einfügen",
+          "process": "Verarbeiten"
+        },
+        "errors": {
+          "pasteFailed": "Text aus Zwischenablage konnte nicht eingefügt werden. Möglicherweise hast du keine Berechtigung erteilt."
+        }
+      },
+      "file": {
+        "title": "Import aus Datei"
+      },
+      "processing": {
+        "generatingCards": "KI generiert Karten...",
+        "analyzingTopic": "Thema wird analysiert..."
+      },
+      "suggestion": {
+        "addToExisting": {
+          "title": "Zu bestehender Kategorie hinzufügen?",
+          "body": "Du hast bereits eine Kategorie \"{{category}}\". Möchtest du neue Karten zum Thema \"{{topic}}\" hinzufügen?",
+          "yes": "Ja, zu \"{{category}}\" hinzufügen",
+          "no": "Nein, zu \"Allgemein\" hinzufügen"
+        },
+        "createNew": {
+          "title": "Neue Kategorie erstellen?",
+          "body": "KI schlägt vor, eine Kategorie mit dem Namen zu erstellen:",
+          "create": "Erstellen",
+          "addToGeneral": "Zu \"Allgemein\" hinzufügen"
+        }
       },
       "preview": {
-        "alt": "Vorschau des zugeschnittenen Bildes"
+        "title": "Vorgeschlagene Karten",
+        "aria": {
+          "back": "Zurück"
+        },
+        "actions": {
+          "selectAll": "Alle auswählen",
+          "clearAll": "Alle löschen",
+          "refine": "Verfeinern",
+          "add": "Hinzufügen",
+          "addWithCount": "Hinzufügen ({{count}})"
+        },
+        "refine": {
+          "placeholder": "Verfeinerung, z.B. nur Verben",
+          "aria": {
+            "microphone": "Spracheingabe"
+          }
+        }
       },
-      "refinement": {
-        "placeholder": "Verfeinerung hinzufügen (optional)...",
-        "aria": "Spracheingabe für Verfeinerung"
-      },
-      "submit": "Karten erstellen"
+      "categoryNames": {
+        "fromSpeech": "Karten aus Sprache",
+        "general": "Allgemein"
+      }
     },
     "voiceWorkspace": {
       "instructions": "Sprich die Phrase oder ziehe Wörter hierher",
@@ -877,6 +857,34 @@
       "automation": {
         "nextPhrase": "Nächste Phrase"
       }
+    },
+    "fileImport": {
+      "cropper": {
+        "cancel": "Abbrechen",
+        "confirm": "Bestätigen"
+      },
+      "errors": {
+        "unsupportedType": "Nicht unterstützter Dateityp. Bitte wähle ein Bild aus.",
+        "tooLarge": "Datei ist zu groß. Maximale Größe ist 10MB.",
+        "cropFirst": "Bitte lade zuerst ein Bild hoch und schneide es zu."
+      },
+      "instructions": "Lade ein Bild hoch. KI wird Text erkennen oder Objekte im Foto beschreiben und daraus Karten erstellen.",
+      "dropzone": {
+        "text": "Ziehen und ablegen oder Datei auswählen",
+        "subtext": "Bild (max. 10MB)"
+      },
+      "camera": {
+        "button": "Foto aufnehmen",
+        "subtext": "Kamera verwenden"
+      },
+      "preview": {
+        "alt": "Vorschau des zugeschnittenen Bildes"
+      },
+      "refinement": {
+        "placeholder": "Verfeinerung hinzufügen (optional)...",
+        "aria": "Spracheingabe für Verfeinerung"
+      },
+      "submit": "Karten erstellen"
     },
     "verbConjugation": {
       "title": "Konjugation: {{infinitive}}",
@@ -987,6 +995,27 @@
       "aria": {
         "capture": "Foto aufnehmen"
       }
+    },
+    "phraseList": {
+      "search": {
+        "listening": "",
+        "placeholder": ""
+      },
+      "filters": {
+        "all": ""
+      },
+      "summary": {
+        "count": ""
+      },
+      "actions": {
+        "duplicates": "",
+        "aiImport": ""
+      },
+      "sections": {
+        "new": "",
+        "inProgress": "",
+        "mastered": ""
+      }
     }
   },
   "phraseList": {
@@ -1035,9 +1064,6 @@
       "translating": "Übersetze...",
       "translate": "Übersetzen"
     },
-    "prompts": {
-      "generateSimilar": "Ähnliche Phrasen generieren für: {phrase}"
-    },
     "modal": {
       "title": "Assistent für {{name}}",
       "input": {
@@ -1059,6 +1085,9 @@
       "success": {
         "added": "{{count}} Karten wurden zur Kategorie hinzugefügt."
       }
+    },
+    "prompts": {
+      "generateSimilar": "Ähnliche Phrasen generieren für: {phrase}"
     }
   },
   "phraseCard": {

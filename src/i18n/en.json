@@ -176,6 +176,11 @@
     "deleteError": "Delete error: {{message}}",
     "moveError": "Move error: {{message}}",
     "genericError": "Error: {{message}}",
+    "categories": {
+      "createError": "Failed to create category: {{message}}",
+      "saveError": "Failed to save category: {{message}}",
+      "deleteSuccess": "✓ Category \"{{name}}\" deleted."
+    },
     "cards": {
       "moving": "Moving {{count}} cards...",
       "moveSuccess": "✓ Cards moved.",
@@ -190,21 +195,16 @@
       "deletedCount": "✓ {{count}} cards deleted.",
       "movedToCategory": "✓ {{count}} cards moved to \"{{category}}\".",
       "otherCategory": "another category",
-      "bulkAdded": "✓ {{count}} cards added.",
       "bulkAdded_one": "✓ {{count}} card added.",
       "bulkAdded_few": "✓ {{count}} cards added.",
       "bulkAdded_many": "✓ {{count}} cards added.",
       "bulkAdded_other": "✓ {{count}} cards added.",
-      "bulkSkipped": "{{count}} already existed and were skipped.",
+      "bulkAdded": "✓ {{count}} cards added.",
       "bulkSkipped_one": "{{count}} already existed and was skipped.",
       "bulkSkipped_few": "{{count}} already existed and were skipped.",
       "bulkSkipped_many": "{{count}} already existed and were skipped.",
-      "bulkSkipped_other": "{{count}} already existed and were skipped."
-    },
-    "categories": {
-      "createError": "Failed to create category: {{message}}",
-      "saveError": "Failed to save category: {{message}}",
-      "deleteSuccess": "✓ Category \"{{name}}\" deleted."
+      "bulkSkipped_other": "{{count}} already existed and were skipped.",
+      "bulkSkipped": "{{count}} already existed and were skipped."
     }
   },
   "localization": {
@@ -305,6 +305,11 @@
         "unknownError": "Unknown error"
       },
       "stats": {
+        "phrasesUsed_zero": "",
+        "phrasesUsed_one": "",
+        "phrasesUsed_few": "",
+        "phrasesUsed_many": "",
+        "phrasesUsed_other": "",
         "phrasesUsed": "{{count}} phrase practiced",
         "phrasesUsed_plural": "{{count}} phrases practiced"
       }
@@ -821,34 +826,6 @@
         "general": "General"
       }
     },
-    "fileImport": {
-      "cropper": {
-        "cancel": "Cancel",
-        "confirm": "Confirm"
-      },
-      "errors": {
-        "unsupportedType": "Unsupported file type. Please select an image.",
-        "tooLarge": "File is too large. Maximum size is 10MB.",
-        "cropFirst": "Please upload and crop an image first."
-      },
-      "instructions": "Upload an image. AI will recognize text or describe objects in the photo, turning them into cards.",
-      "dropzone": {
-        "text": "Drag and drop or select a file",
-        "subtext": "Image (max. 10MB)"
-      },
-      "camera": {
-        "button": "Take a photo",
-        "subtext": "Use your camera"
-      },
-      "preview": {
-        "alt": "Cropped image preview"
-      },
-      "refinement": {
-        "placeholder": "Add a refinement (optional)...",
-        "aria": "Voice input for refinement"
-      },
-      "submit": "Create cards"
-    },
     "voiceWorkspace": {
       "instructions": "Speak the phrase or drag words here",
       "loading": "Selecting words...",
@@ -880,6 +857,34 @@
       "automation": {
         "nextPhrase": "Next phrase"
       }
+    },
+    "fileImport": {
+      "cropper": {
+        "cancel": "Cancel",
+        "confirm": "Confirm"
+      },
+      "errors": {
+        "unsupportedType": "Unsupported file type. Please select an image.",
+        "tooLarge": "File is too large. Maximum size is 10MB.",
+        "cropFirst": "Please upload and crop an image first."
+      },
+      "instructions": "Upload an image. AI will recognize text or describe objects in the photo, turning them into cards.",
+      "dropzone": {
+        "text": "Drag and drop or select a file",
+        "subtext": "Image (max. 10MB)"
+      },
+      "camera": {
+        "button": "Take a photo",
+        "subtext": "Use your camera"
+      },
+      "preview": {
+        "alt": "Cropped image preview"
+      },
+      "refinement": {
+        "placeholder": "Add a refinement (optional)...",
+        "aria": "Voice input for refinement"
+      },
+      "submit": "Create cards"
     },
     "verbConjugation": {
       "title": "Conjugation: {{infinitive}}",
@@ -989,6 +994,27 @@
       },
       "aria": {
         "capture": "Take photo"
+      }
+    },
+    "phraseList": {
+      "search": {
+        "listening": "",
+        "placeholder": ""
+      },
+      "filters": {
+        "all": ""
+      },
+      "summary": {
+        "count": ""
+      },
+      "actions": {
+        "duplicates": "",
+        "aiImport": ""
+      },
+      "sections": {
+        "new": "",
+        "inProgress": "",
+        "mastered": ""
       }
     }
   },

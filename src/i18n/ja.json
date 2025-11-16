@@ -176,6 +176,11 @@
     "deleteError": "",
     "moveError": "",
     "genericError": "",
+    "categories": {
+      "createError": "",
+      "saveError": "",
+      "deleteSuccess": ""
+    },
     "cards": {
       "moving": "",
       "moveSuccess": "",
@@ -190,23 +195,16 @@
       "deletedCount": "",
       "movedToCategory": "",
       "otherCategory": "",
-      "bulkAdded": "",
-      "bulkAdded_plural": "",
-      "bulkSkipped": "",
-      "bulkSkipped_plural": "",
       "bulkAdded_one": "✓ {{count}} card added.",
       "bulkAdded_few": "✓ {{count}} cards added.",
       "bulkAdded_many": "✓ {{count}} cards added.",
       "bulkAdded_other": "✓ {{count}} cards added.",
+      "bulkAdded": "",
       "bulkSkipped_one": "{{count}} already existed and was skipped.",
       "bulkSkipped_few": "{{count}} already existed and were skipped.",
       "bulkSkipped_many": "{{count}} already existed and were skipped.",
-      "bulkSkipped_other": "{{count}} already existed and were skipped."
-    },
-    "categories": {
-      "createError": "",
-      "saveError": "",
-      "deleteSuccess": ""
+      "bulkSkipped_other": "{{count}} already existed and were skipped.",
+      "bulkSkipped": ""
     }
   },
   "localization": {
@@ -247,6 +245,16 @@
     }
   },
   "categories": {
+    "detail": {
+      "actions": {
+        "addMore": "",
+        "addPhrase": "",
+        "aiAssistant": ""
+      },
+      "empty": {
+        "title": ""
+      }
+    },
     "manager": {
       "title": "",
       "aria": {
@@ -275,16 +283,6 @@
         "save": ""
       }
     },
-    "detail": {
-      "actions": {
-        "addMore": "",
-        "addPhrase": "",
-        "aiAssistant": ""
-      },
-      "empty": {
-        "title": ""
-      }
-    },
     "filterMenu": {
       "actions": {
         "settings": "",
@@ -307,6 +305,11 @@
         "unknownError": "不明なエラー"
       },
       "stats": {
+        "phrasesUsed_zero": "",
+        "phrasesUsed_one": "",
+        "phrasesUsed_few": "",
+        "phrasesUsed_many": "",
+        "phrasesUsed_other": "",
         "phrasesUsed": "{{count}} 件のフレーズを練習しました",
         "phrasesUsed_plural": "{{count}} 件のフレーズを練習しました"
       }
@@ -373,160 +376,6 @@
     "toggle": ""
   },
   "modals": {
-    "nounDeclension": {
-      "title": "",
-      "errors": {
-        "generic": "",
-        "noData": ""
-      },
-      "headers": {
-        "case": "",
-        "singular": "",
-        "plural": ""
-      },
-      "cases": {
-        "nominativ": {
-          "name": "",
-          "question": ""
-        },
-        "akkusativ": {
-          "name": "",
-          "question": ""
-        },
-        "dativ": {
-          "name": "",
-          "question": ""
-        },
-        "genitiv": {
-          "name": "",
-          "question": ""
-        }
-      }
-    },
-    "pronouns": {
-      "title": "",
-      "headers": {
-        "speak": "",
-        "german": "",
-        "russian": ""
-      },
-      "pronouns": [
-        {
-          "german": "",
-          "russian": ""
-        },
-        {
-          "german": "",
-          "russian": ""
-        },
-        {
-          "german": "",
-          "russian": ""
-        },
-        {
-          "german": "",
-          "russian": ""
-        },
-        {
-          "german": "",
-          "russian": ""
-        },
-        {
-          "german": "",
-          "russian": ""
-        }
-      ]
-    },
-    "sentenceChain": {
-      "title": "",
-      "aria": {
-        "goBack": ""
-      },
-      "tooltips": {
-        "clickToRevert": ""
-      },
-      "errors": {
-        "generic": ""
-      },
-      "messages": {
-        "noContinuations": ""
-      },
-      "actions": {
-        "addCustom": ""
-      }
-    },
-    "smartImport": {
-      "tabs": {
-        "assistant": "",
-        "speech": "",
-        "file": ""
-      },
-      "assistant": {
-        "title": "",
-        "subtitle": "",
-        "placeholder": "",
-        "aria": {
-          "microphone": "",
-          "generate": ""
-        }
-      },
-      "speech": {
-        "title": "",
-        "subtitle": "",
-        "transcriptPlaceholder": "",
-        "aria": {
-          "paste": "",
-          "process": ""
-        },
-        "errors": {
-          "pasteFailed": ""
-        }
-      },
-      "file": {
-        "title": ""
-      },
-      "processing": {
-        "generatingCards": "",
-        "analyzingTopic": ""
-      },
-      "suggestion": {
-        "addToExisting": {
-          "title": "",
-          "body": "",
-          "yes": "",
-          "no": ""
-        },
-        "createNew": {
-          "title": "",
-          "body": "",
-          "create": "",
-          "addToGeneral": ""
-        }
-      },
-      "preview": {
-        "title": "",
-        "aria": {
-          "back": ""
-        },
-        "actions": {
-          "selectAll": "",
-          "clearAll": "",
-          "refine": "",
-          "add": "",
-          "addWithCount": ""
-        },
-        "refine": {
-          "placeholder": "",
-          "aria": {
-            "microphone": ""
-          }
-        }
-      },
-      "categoryNames": {
-        "fromSpeech": "",
-        "general": ""
-      }
-    },
     "addContinuation": {
       "placeholders": {
         "text": ""
@@ -762,10 +611,10 @@
     "learningAssistant": {
       "success": "",
       "placeholder": "",
+      "dontKnow": "I don't know",
       "errors": {
         "generic": ""
-      },
-      "dontKnow": "I don't know"
+      }
     },
     "moveOrSkip": {
       "title": "",
@@ -790,6 +639,36 @@
         "generic": ""
       },
       "noExamples": ""
+    },
+    "nounDeclension": {
+      "title": "",
+      "errors": {
+        "generic": "",
+        "noData": ""
+      },
+      "headers": {
+        "case": "",
+        "singular": "",
+        "plural": ""
+      },
+      "cases": {
+        "nominativ": {
+          "name": "",
+          "question": ""
+        },
+        "akkusativ": {
+          "name": "",
+          "question": ""
+        },
+        "dativ": {
+          "name": "",
+          "question": ""
+        },
+        "genitiv": {
+          "name": "",
+          "question": ""
+        }
+      }
     },
     "phraseBuilder": {
       "loading": "",
@@ -820,33 +699,132 @@
         "continue": ""
       }
     },
-    "fileImport": {
-      "cropper": {
-        "cancel": "",
-        "confirm": ""
+    "pronouns": {
+      "title": "",
+      "headers": {
+        "speak": "",
+        "german": "",
+        "russian": "",
+        "learning": "",
+        "native": ""
+      },
+      "error": "",
+      "pronouns": [
+        {
+          "german": "",
+          "russian": ""
+        },
+        {
+          "german": "",
+          "russian": ""
+        },
+        {
+          "german": "",
+          "russian": ""
+        },
+        {
+          "german": "",
+          "russian": ""
+        },
+        {
+          "german": "",
+          "russian": ""
+        },
+        {
+          "german": "",
+          "russian": ""
+        }
+      ]
+    },
+    "sentenceChain": {
+      "title": "",
+      "aria": {
+        "goBack": ""
+      },
+      "tooltips": {
+        "clickToRevert": ""
       },
       "errors": {
-        "unsupportedType": "",
-        "tooLarge": "",
-        "cropFirst": ""
+        "generic": ""
       },
-      "instructions": "",
-      "dropzone": {
-        "text": "",
-        "subtext": ""
+      "messages": {
+        "noContinuations": ""
       },
-      "camera": {
-        "button": "",
-        "subtext": ""
+      "actions": {
+        "addCustom": ""
+      }
+    },
+    "smartImport": {
+      "tabs": {
+        "assistant": "",
+        "speech": "",
+        "file": ""
+      },
+      "assistant": {
+        "title": "",
+        "subtitle": "",
+        "placeholder": "",
+        "aria": {
+          "microphone": "",
+          "generate": ""
+        }
+      },
+      "speech": {
+        "title": "",
+        "subtitle": "",
+        "transcriptPlaceholder": "",
+        "aria": {
+          "paste": "",
+          "process": ""
+        },
+        "errors": {
+          "pasteFailed": ""
+        }
+      },
+      "file": {
+        "title": ""
+      },
+      "processing": {
+        "generatingCards": "",
+        "analyzingTopic": ""
+      },
+      "suggestion": {
+        "addToExisting": {
+          "title": "",
+          "body": "",
+          "yes": "",
+          "no": ""
+        },
+        "createNew": {
+          "title": "",
+          "body": "",
+          "create": "",
+          "addToGeneral": ""
+        }
       },
       "preview": {
-        "alt": ""
+        "title": "",
+        "aria": {
+          "back": ""
+        },
+        "actions": {
+          "selectAll": "",
+          "clearAll": "",
+          "refine": "",
+          "add": "",
+          "addWithCount": ""
+        },
+        "refine": {
+          "placeholder": "",
+          "aria": {
+            "microphone": ""
+          }
+        }
       },
-      "refinement": {
-        "placeholder": "",
-        "aria": ""
-      },
-      "submit": ""
+      "categoryNames": {
+        "fromSpeech": "",
+        "general": ""
+      }
     },
     "voiceWorkspace": {
       "instructions": "",
@@ -879,6 +857,34 @@
       "automation": {
         "nextPhrase": ""
       }
+    },
+    "fileImport": {
+      "cropper": {
+        "cancel": "",
+        "confirm": ""
+      },
+      "errors": {
+        "unsupportedType": "",
+        "tooLarge": "",
+        "cropFirst": ""
+      },
+      "instructions": "",
+      "dropzone": {
+        "text": "",
+        "subtext": ""
+      },
+      "camera": {
+        "button": "",
+        "subtext": ""
+      },
+      "preview": {
+        "alt": ""
+      },
+      "refinement": {
+        "placeholder": "",
+        "aria": ""
+      },
+      "submit": ""
     },
     "verbConjugation": {
       "title": "",
@@ -989,6 +995,27 @@
       "aria": {
         "capture": ""
       }
+    },
+    "phraseList": {
+      "search": {
+        "listening": "",
+        "placeholder": ""
+      },
+      "filters": {
+        "all": ""
+      },
+      "summary": {
+        "count": ""
+      },
+      "actions": {
+        "duplicates": "",
+        "aiImport": ""
+      },
+      "sections": {
+        "new": "",
+        "inProgress": "",
+        "mastered": ""
+      }
     }
   },
   "phraseList": {
@@ -1023,21 +1050,6 @@
       "aiImport": ""
     }
   },
-  "phraseCard": {
-    "actions": {
-      "learningAssistant": "AIと学習する",
-      "sentenceChain": "フレーズチェーン",
-      "phraseBuilder": "フレーズビルダー",
-      "chat": "AIと話す",
-      "deepDive": "詳細分析",
-      "movieExamples": "映画の例"
-    },
-    "aria": {
-      "openSettings": "フレーズを改善",
-      "playTranslation": "翻訳を再生",
-      "moreActions": "その他の操作"
-    }
-  },
   "assistant": {
     "contextMenu": {
       "wordDetails": "単語の詳細",
@@ -1052,8 +1064,45 @@
       "translating": "翻訳中",
       "translate": "翻訳する"
     },
+    "modal": {
+      "title": "",
+      "input": {
+        "placeholder": "",
+        "listening": ""
+      },
+      "quickActions": {
+        "addSimilar": "",
+        "checkConsistency": "",
+        "createDialogue": ""
+      },
+      "actions": {
+        "addSelected": "",
+        "goToList": ""
+      },
+      "messages": {
+        "error": ""
+      },
+      "success": {
+        "added": ""
+      }
+    },
     "prompts": {
       "generateSimilar": "{phrase} の類似フレーズを生成"
+    }
+  },
+  "phraseCard": {
+    "actions": {
+      "learningAssistant": "AIと学習する",
+      "sentenceChain": "フレーズチェーン",
+      "phraseBuilder": "フレーズビルダー",
+      "chat": "AIと話す",
+      "deepDive": "詳細分析",
+      "movieExamples": "映画の例"
+    },
+    "aria": {
+      "openSettings": "フレーズを改善",
+      "playTranslation": "翻訳を再生",
+      "moreActions": "その他の操作"
     }
   }
 }

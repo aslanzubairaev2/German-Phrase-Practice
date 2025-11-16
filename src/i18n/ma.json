@@ -24,7 +24,7 @@
       "error": ""
     },
     "actions": {
-      "delete": "Excluir"
+      "delete": ""
     }
   },
   "auth": {
@@ -87,8 +87,8 @@
     }
   },
   "account": {
-    "title": "Conta",
-    "email": "E-mail"
+    "title": "",
+    "email": ""
   },
   "settings": {
     "views": {
@@ -96,7 +96,7 @@
       "general": "",
       "automation": "",
       "categories": "",
-      "analytics": "Progress & analytics"
+      "analytics": ""
     },
     "general": {
       "legend": "",
@@ -122,34 +122,34 @@
       "manageButton": ""
     },
     "analytics": {
-      "noData": "—",
+      "noData": "",
       "srs": {
-        "totalCards": "Total Cards",
-        "mastered": "Mastered",
-        "learning": "Learning: {{count}}",
-        "dueToday": "Due Today",
-        "overdue": "Overdue: {{count}}",
-        "accuracy": "Accuracy",
-        "reviews": "{{count}} reviews",
-        "masteryProgress": "{{percent}}% mastered",
-        "streak": "🔥 {{days}} day streak",
-        "streak_plural": "🔥 {{days}} days streak",
-        "accuracyBreakdown": "Accuracy Breakdown",
-        "overall": "Overall",
-        "last7Days": "Last 7 days",
-        "last30Days": "Last 30 days",
-        "levelsDistribution": "SRS Levels Distribution",
-        "level": "L{{level}}",
-        "categories": "Categories",
-        "cards": "cards",
-        "avgLevel": "Avg Level",
-        "recentActivity": "Recent Activity (14 days)",
-        "difficultCards": "Difficult Cards (Leeches)",
-        "lapses": "lapses",
-        "noActivityYet": "No review activity yet",
-        "noDifficultCards": "No difficult cards yet",
-        "emptyState": "No practice data yet",
-        "emptyStateHint": "Start practicing cards to see your progress statistics here."
+        "totalCards": "",
+        "mastered": "",
+        "learning": "",
+        "dueToday": "",
+        "overdue": "",
+        "accuracy": "",
+        "reviews": "",
+        "masteryProgress": "",
+        "streak": "",
+        "streak_plural": "",
+        "accuracyBreakdown": "",
+        "overall": "",
+        "last7Days": "",
+        "last30Days": "",
+        "levelsDistribution": "",
+        "level": "",
+        "categories": "",
+        "cards": "",
+        "avgLevel": "",
+        "recentActivity": "",
+        "difficultCards": "",
+        "lapses": "",
+        "noActivityYet": "",
+        "noDifficultCards": "",
+        "emptyState": "",
+        "emptyStateHint": ""
       }
     }
   },
@@ -195,15 +195,15 @@
       "deletedCount": "",
       "movedToCategory": "",
       "otherCategory": "",
-      "bulkAdded_one": "✓ {{count}} card added.",
-      "bulkAdded_few": "✓ {{count}} cards added.",
-      "bulkAdded_many": "✓ {{count}} cards added.",
-      "bulkAdded_other": "✓ {{count}} cards added.",
+      "bulkAdded_one": "",
+      "bulkAdded_few": "",
+      "bulkAdded_many": "",
+      "bulkAdded_other": "",
       "bulkAdded": "",
-      "bulkSkipped_one": "{{count}} already existed and was skipped.",
-      "bulkSkipped_few": "{{count}} already existed and were skipped.",
-      "bulkSkipped_many": "{{count}} already existed and were skipped.",
-      "bulkSkipped_other": "{{count}} already existed and were skipped.",
+      "bulkSkipped_one": "",
+      "bulkSkipped_few": "",
+      "bulkSkipped_many": "",
+      "bulkSkipped_other": "",
       "bulkSkipped": ""
     }
   },
@@ -296,13 +296,13 @@
       "placeholder": "",
       "listeningPlaceholder": "",
       "actions": {
-        "speak": "Reproduzir"
+        "speak": ""
       },
       "messages": {
-        "revealTranslation": "Clique para mostrar a tradução",
-        "secondaryPrefix": "Dica:",
-        "errorPrefix": "Erro: {{message}}",
-        "unknownError": "Erro desconhecido"
+        "revealTranslation": "",
+        "secondaryPrefix": "",
+        "errorPrefix": "",
+        "unknownError": ""
       },
       "stats": {
         "phrasesUsed_zero": "",
@@ -310,8 +310,8 @@
         "phrasesUsed_few": "",
         "phrasesUsed_many": "",
         "phrasesUsed_other": "",
-        "phrasesUsed": "{{count}} frase praticada",
-        "phrasesUsed_plural": "{{count}} frases praticadas"
+        "phrasesUsed": "",
+        "phrasesUsed_plural": ""
       }
     },
     "actions": {
@@ -341,7 +341,7 @@
     },
     "discuss": {
       "examples": {
-        "intro": "Aqui estão alguns exemplos e dicas para ajudar você a entender melhor esta frase:"
+        "intro": ""
       }
     }
   },
@@ -611,7 +611,7 @@
     "learningAssistant": {
       "success": "",
       "placeholder": "",
-      "dontKnow": "I don't know",
+      "dontKnow": "",
       "errors": {
         "generic": ""
       }
@@ -709,32 +709,7 @@
         "native": ""
       },
       "error": "",
-      "pronouns": [
-        {
-          "german": "",
-          "russian": ""
-        },
-        {
-          "german": "",
-          "russian": ""
-        },
-        {
-          "german": "",
-          "russian": ""
-        },
-        {
-          "german": "",
-          "russian": ""
-        },
-        {
-          "german": "",
-          "russian": ""
-        },
-        {
-          "german": "",
-          "russian": ""
-        }
-      ]
+      "pronouns": ""
     },
     "sentenceChain": {
       "title": "",
@@ -923,40 +898,7 @@
         "german": "",
         "translation": ""
       },
-      "items": [
-        {
-          "german": "",
-          "translation": ""
-        },
-        {
-          "german": "",
-          "translation": ""
-        },
-        {
-          "german": "",
-          "translation": ""
-        },
-        {
-          "german": "",
-          "translation": ""
-        },
-        {
-          "german": "",
-          "translation": ""
-        },
-        {
-          "german": "",
-          "translation": ""
-        },
-        {
-          "german": "",
-          "translation": ""
-        },
-        {
-          "german": "",
-          "translation": ""
-        }
-      ]
+      "items": ""
     },
     "wordAnalysis": {
       "title": "",
@@ -973,7 +915,7 @@
         "plural": "",
         "infinitive": "",
         "tense": "",
-        "person": "Pessoa e número",
+        "person": "",
         "example": "",
         "exampleTranslation": "",
         "cardCreated": ""
@@ -1052,17 +994,17 @@
   },
   "assistant": {
     "contextMenu": {
-      "wordDetails": "Detalhes da palavra",
-      "createWordCard": "Criar cartão de palavra",
-      "createPhraseCard": "Criar cartão de frase",
-      "generateSimilar": "Gerar semelhantes",
-      "goToList": "Ir para a lista",
-      "discussTranslation": "Discutir tradução"
+      "wordDetails": "",
+      "createWordCard": "",
+      "createPhraseCard": "",
+      "generateSimilar": "",
+      "goToList": "",
+      "discussTranslation": ""
     },
     "common": {
-      "translationError": "Erro de tradução",
-      "translating": "Traduzindo",
-      "translate": "Traduzir"
+      "translationError": "",
+      "translating": "",
+      "translate": ""
     },
     "modal": {
       "title": "",
@@ -1087,22 +1029,22 @@
       }
     },
     "prompts": {
-      "generateSimilar": "Gerar frases semelhantes para: {phrase}"
+      "generateSimilar": ""
     }
   },
   "phraseCard": {
     "actions": {
-      "learningAssistant": "Aprender com IA",
-      "sentenceChain": "Cadeia de frases",
-      "phraseBuilder": "Construtor de frases",
-      "chat": "Conversar com IA",
-      "deepDive": "Análise aprofundada",
-      "movieExamples": "Exemplos de filmes"
+      "learningAssistant": "",
+      "sentenceChain": "",
+      "phraseBuilder": "",
+      "chat": "",
+      "deepDive": "",
+      "movieExamples": ""
     },
     "aria": {
-      "openSettings": "Melhorar frase",
-      "playTranslation": "Reproduzir tradução",
-      "moreActions": "Mais ações"
+      "openSettings": "",
+      "playTranslation": "",
+      "moreActions": ""
     }
   }
 }
