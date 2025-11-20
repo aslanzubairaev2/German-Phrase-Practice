@@ -305,11 +305,11 @@
         "unknownError": "Unbekannter Fehler"
       },
       "stats": {
-        "phrasesUsed_zero": "",
-        "phrasesUsed_one": "",
-        "phrasesUsed_few": "",
-        "phrasesUsed_many": "",
-        "phrasesUsed_other": "",
+        "phrasesUsed_zero": "{{count}} phrases practiced",
+        "phrasesUsed_one": "{{count}} phrase practiced",
+        "phrasesUsed_few": "{{count}} phrases practiced",
+        "phrasesUsed_many": "{{count}} phrases practiced",
+        "phrasesUsed_other": "{{count}} phrases practiced",
         "phrasesUsed": "{{count}} geübte Phrase",
         "phrasesUsed_plural": "{{count}} geübte Phrasen"
       }
@@ -705,10 +705,10 @@
         "speak": "Sprechen",
         "german": "Deutsch",
         "russian": "Russisch",
-        "learning": "",
-        "native": ""
+        "learning": "Lernsprache",
+        "native": "Muttersprache"
       },
-      "error": "",
+      "error": "Fehler beim Laden der Pronomen",
       "pronouns": [
         {
           "german": "ich",
@@ -998,23 +998,23 @@
     },
     "phraseList": {
       "search": {
-        "listening": "",
-        "placeholder": ""
+        "listening": "Höre auf Suchanfrage...",
+        "placeholder": "Phrasen suchen..."
       },
       "filters": {
-        "all": ""
+        "all": "Alle"
       },
       "summary": {
-        "count": ""
+        "count": "{{count}} Karten"
       },
       "actions": {
-        "duplicates": "",
-        "aiImport": ""
+        "duplicates": "Duplikate",
+        "aiImport": "KI-Import"
       },
       "sections": {
-        "new": "",
-        "inProgress": "",
-        "mastered": ""
+        "new": "Neu",
+        "inProgress": "In Bearbeitung",
+        "mastered": "Gemeistert"
       }
     }
   },

@@ -305,11 +305,11 @@
         "unknownError": "Unknown error"
       },
       "stats": {
-        "phrasesUsed_zero": "",
-        "phrasesUsed_one": "",
-        "phrasesUsed_few": "",
-        "phrasesUsed_many": "",
-        "phrasesUsed_other": "",
+        "phrasesUsed_zero": "{{count}} phrases practiced",
+        "phrasesUsed_one": "{{count}} phrase practiced",
+        "phrasesUsed_few": "{{count}} phrases practiced",
+        "phrasesUsed_many": "{{count}} phrases practiced",
+        "phrasesUsed_other": "{{count}} phrases practiced",
         "phrasesUsed": "{{count}} phrase practiced",
         "phrasesUsed_plural": "{{count}} phrases practiced"
       }
@@ -998,23 +998,23 @@
     },
     "phraseList": {
       "search": {
-        "listening": "",
-        "placeholder": ""
+        "listening": "Listening for search query...",
+        "placeholder": "Search phrases..."
       },
       "filters": {
-        "all": ""
+        "all": "All"
       },
       "summary": {
-        "count": ""
+        "count": "{{count}} cards"
       },
       "actions": {
-        "duplicates": "",
-        "aiImport": ""
+        "duplicates": "Duplicates",
+        "aiImport": "AI Import"
       },
       "sections": {
-        "new": "",
-        "inProgress": "",
-        "mastered": ""
+        "new": "New",
+        "inProgress": "In Progress",
+        "mastered": "Mastered"
       }
     }
   },

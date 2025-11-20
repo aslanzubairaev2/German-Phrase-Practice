@@ -305,11 +305,11 @@
         "unknownError": "Error desconocido"
       },
       "stats": {
-        "phrasesUsed_zero": "",
-        "phrasesUsed_one": "",
-        "phrasesUsed_few": "",
-        "phrasesUsed_many": "",
-        "phrasesUsed_other": "",
+        "phrasesUsed_zero": "{{count}} phrases practiced",
+        "phrasesUsed_one": "{{count}} phrase practiced",
+        "phrasesUsed_few": "{{count}} phrases practiced",
+        "phrasesUsed_many": "{{count}} phrases practiced",
+        "phrasesUsed_other": "{{count}} phrases practiced",
         "phrasesUsed": "{{count}} frase practicada",
         "phrasesUsed_plural": "{{count}} frases practicadas"
       }
@@ -998,23 +998,23 @@
     },
     "phraseList": {
       "search": {
-        "listening": "",
-        "placeholder": ""
+        "listening": "Escuchando la consulta de búsqueda...",
+        "placeholder": "Buscar frases..."
       },
       "filters": {
-        "all": ""
+        "all": "Todas"
       },
       "summary": {
-        "count": ""
+        "count": "{{count}} tarjetas"
       },
       "actions": {
-        "duplicates": "",
-        "aiImport": ""
+        "duplicates": "Duplicados",
+        "aiImport": "Importación IA"
       },
       "sections": {
-        "new": "",
-        "inProgress": "",
-        "mastered": ""
+        "new": "Nuevas",
+        "inProgress": "En progreso",
+        "mastered": "Dominadas"
       }
     }
   },
